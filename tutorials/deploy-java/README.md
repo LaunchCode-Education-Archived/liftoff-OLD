@@ -7,9 +7,12 @@ In this tutorial, we’ll walk through deploying a Spring Boot application to Pi
 This tutorial assumes you have the following installed
 
 [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 [Gradle](https://gradle.org/install/)
+
 [MAMP](https://www.mamp.info/en/)
-Cloud Foundry CLI (Below)
+
+[Cloud Foundry CLI (Detailed Below)](https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli)
 
 ## Pivotal Web Services Setup
 
@@ -17,19 +20,19 @@ Pivotal Web Services will be the cloud hosting provider for this tutorial. There
 
 Create a [Pivotal Account](https://pivotal.io/platform). You will need to provide a credit card number, and a phone number to verify. Later in this chapter, we’ll cover how to make sure everything is un-deployed so you don’t incur any nasty hosting fees.
 
-Next, create a ‘space’ named “production” for our application to be deployed to. Developers typically use spaces to create segments to their environments, and may have one for production, development, testing, and so on.
+Once an account has been created, you will want to create a space. Developers typically use spaces to create segments to their environments, and may have one for production, development, testing, and so on. You should have an empty dashboard with a card present to '+ Add a Space'. Do so, and create a space named "Production".
 
 ## Cloud Foundry Setup
 
-We’ll be using a tool called Cloud Foundry, widely used in the industry to manage cloud applications and services. It provides tools to package and deploy our code to production with minimal configuration.
+We’ll be using a tool called Cloud Foundry to manage our deployment. Cloud Foundry is widely used in the industry to manage applications and services. It provides tools to package and deploy our code to production with minimal configuration.
 
-Install the [Cloud Foundry CLI](https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli). This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.
+If you haven't already, install the [Cloud Foundry CLI](https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli). This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.
 
 Log into your Pivotal account
 
 `cf login`
 
-You should your email, organization name, and the space you just created on the confirmation message.
+You should see your email, organization name, and the space you just created on the confirmation message.
 
 ## Preparing your project
 
@@ -39,19 +42,19 @@ This tutorial will be based off of the [cheese-mvc](https://github.com/LaunchCod
 `git checkout --track origin/video-one2many-end`
 `git checkout -b develop`
 
-If you haven’t done so, open up your phpMyAdmin page and create a new database user called `cheese-mvc` (and create the corresponding table). You should now be able to start the application using `gradle bootRun`.
+If you haven’t done so, open up your phpMyAdmin page and create a new database user called `cheese-mvc` (and check the box 'Create database with same name and grant all privileges.' to create the corresponding table). You should now be able to start the application using `gradle bootRun`.
 
 ## Recap on Java Deployables
 
 Typically when we’re working on our projects, we’re building and running them locally. We have tools like Gradle and our IDEs that help us. We won’t have those tools in production, so we’ll need to package up our code into an executable JAR file.
 
-Recall that Java is a compiled language, where the `javac` will take our source files and build an executable JAR file. When the JAR is executed, it also needs to be able to find all the dependencies (for instance, Spring) at runtime in order to use them.
+Recall that Java is a compiled language, where the `javac` will take our source files and build an executable JAR file. When the JAR is executed, it also needs to be able to find all the dependencies it needs at runtime (i.e. Spring).
 
-Spring Boot adds a plugin to Gradle that allows us to package up both our source code, alongside any dependencies, creating a “Fat JAR”. This JAR file can then be deployed to our server, and run anywhere that has the JVM installed. Try building a fat JAR yourself by running `gradle assemble`. This created a fat JAR which we can run from the command line with the command `java -jar build/libs/cheese-mvc-0.0.1-SNAPSHOT.jar`
+Spring Boot adds a plugin to Gradle that allows us to package the source code, alongside any dependencies, creating a “Fat JAR”. This JAR file can then be deployed to our server, and run anywhere that has the JVM installed. Try building a fat JAR yourself by running `gradle assemble`. This created a fat JAR which we can run from the command line with the command `java -jar build/libs/cheese-mvc-0.0.1-SNAPSHOT.jar`
 
 ## Creating Your Manifest
 
-In order to deploy an application with Cloud Foundry, you first must define what your application is, and how it should be run. Cloud Foundry uses manifest files to manage this configuration. Create a file at the root of the project named `manifest.yml`. And add the following lines.
+In order to deploy an application with Cloud Foundry, you first must define what your application is, and how it should be run. Cloud Foundry uses a `manifest.yml` file to manage this configuration. Create a file at the root of the project named `manifest.yml`. And add the following lines.
 
 ```
 applications:
@@ -62,9 +65,9 @@ applications:
 
 The `name` will specify the unique name for our application, in this case `cheese-mvc`. The `buildpack` tells Cloud Foundry what type of application this is and how to manage it. The `path` is where to find our executable project, the fat JAR.
 
-Let’s try and deploy our app using `cf push`
+Now try and deploy the app using `cf push`
 
-This will fail, but let’s try our hand with a little debugging.
+The `cf push` command will try to deploy our application. It uploads the deployable JAR, configures the environment, and then tries to start our application. This will fail, but let’s try our hand with a little debugging.
 
 `cf logs cheese-mvc --recent`
 
@@ -72,7 +75,7 @@ Now we can view the recent logs from our app (denoted by the `--recent` flag), s
 
 ## Configure Our App for a Cloud Database
 
-If you had a project without any service dependencies (like a database), this would be all you need to deploy your application. In our case, we want to also deploy a database as well. Luckily, Pivotal provides an easy (and free) way to setup a MySQL database in our cloud environment.
+If you had a project without any service dependencies (like a database), this would be all you need to deploy an application. In our case, we want to also deploy a database as well. Luckily, Pivotal provides an easy (and free) way to setup a MySQL database in our cloud environment.
 
 First, we need to make some changes to our properties to support our changes. Update your `application.properties` so it matches the following.
 
@@ -87,14 +90,13 @@ spring.jpa.hibernate.ddl-auto = none
 spring.datasource.tomcat.max-active = 4
 ```
 
-
 The first property we’ll change to `none`. Previously, we’ve let Hibernate manage our database, but this will be problematic in production. Soon, we’ll use another tool to help manage how our database is configured.
 
-The second property is used to limit our active connections to our database. Typically, Spring Boot sets reasonable defaults to the number of active connections, but Pivotal’s Spark databases only allow four connections at a time.
+The second property is used to limit our active connections to our database. By default, Spring uses an high number of connections (100) but Pivotal’s Spark databases only allow four connections at a time.
 
 ## Flyway Database Migration
 
-Previously we’ve used Hibernate to create and update our database tables. This is great for testing and allows us to add and change database schema on the fly. But, in the real world, we have to be careful to maintain our data in production, and be very intentional in the changes that we make to our database. Flyway is a tool that uses SQL scripts to create, change, and migrate database schemas and data. These SQL scripts will live alongside our project and will provide a way for us to easily recreate the structure of our database, as well as make additional changes in the future. Flyway tracks scripts that have been executed, and detects new scripts and runs them at startup.
+Previously we’ve used Hibernate to create and update our database tables. This is great for testing and allows us to add and change database schema on the fly. But, in the real world we have to be careful to maintain our data in production, and should be very intentional in the changes that we make to our database. Flyway is a tool that uses SQL scripts to create, change, and migrate database schemas and data. These SQL scripts will live alongside our project and will provide a way for us to easily recreate the structure of our database, as well as make additional changes in the future. Flyway tracks scripts that have been executed, and detects new scripts and runs them at startup.
 
 First, add the following dependency to our `build.gradle` `dependencies` section. Spring Boot will detect this dependency, and automatically start using Flyway. We will also need to provide our application with SQL scripts for _how_ Flyway should manage our database.
 
@@ -103,7 +105,6 @@ Create a directory called ‘src/main/resources/db/migration’ and create a fil
 The easiest way to create our initialization script is to export our existing cheese-mvc schema. Open the PhpMyAdmin Screen, select your database, and choose the export tab. Hit OK and copy the generated SQL and add it to our `V1__initialize.sql` file. This will include any test data you have already created, so you may want to clean up any `INSERT` statements if you’d like to start with a fresh slate.
 
 An example `V1__initalize.sql` can be found here:
-
 
 ```
 -- phpMyAdmin SQL Dump
@@ -195,7 +196,7 @@ You should see your newly created service displayed, but no application tied to 
 
 ## Service Binding
 
-Now you need to attach our application to your service. Cloud Foundry calls this ‘service binding’, and provides a connection between the two.
+Now you need to attach our application to your service. Cloud Foundry calls this ‘service binding’, and provides a network connection between the two. This also removes the need for us to manually define and configure our database urls.
 
 `cf bind-service cheese-mvc cheese-mvc-db`
 
@@ -222,7 +223,7 @@ Now that there is a database service, and matching service binding, deploy your 
 
 `cf push`
 
-We should see a message that our “App started”. Open up the Pivotal Control panel https://console.run.pivotal.io/, select your space, and find your application. Click the ‘Route’ Tab to see where your application is available at. In my case, it was `https://cheese-mvc.cfapps.io`, but yours may be something else. Be sure to append /cheese onto the end of the url (i.e. `https://cheese-mvc.cfapps.io/cheese`, and try out your newly deployed app!
+We should see a message that our “App started”. Open up the [Pivotal Control panel](https://console.run.pivotal.io/), select your space, and find your application. Click the ‘Route’ Tab to see where your application is available at. In my case, it was `https://cheese-mvc.cfapps.io`, but yours may be something else. Be sure to append /cheese onto the end of the url (i.e. `https://cheese-mvc.cfapps.io/cheese`, and try out your newly deployed app! Cloud Foundry has handled all of the network routing for us, so we don't have to try and configure this ourselves.
 
 ## Shut It Down
 
@@ -268,7 +269,7 @@ cf push
 ```
 Mac and Linux users should be able to deploy the application via `sh ./deploy.sh`. Windows users, if you have git Bash installed, open a new bash prompt and do the same.
 
-You can also script the destruction of your application as well
+You can also script the destruction of your application as well. These commands will completely delete your application, database, and any associated information.
 
 destroy.sh
 ```
@@ -291,4 +292,4 @@ And run with `sh ./destroy.sh`
 
 ## Further Learning
 
-How do I keep a set of properties for local development to connect to my database? Using spring profiles, and two sets of property files, you can create properties for both local and deployment. https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html#howto-change-configuration-depending-on-the-environment
+**How do I keep a set of properties for local development to connect to my database?** Using spring profiles, and two sets of property files, you can create properties for both local and deployment. More details can be found here:  https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html#howto-change-configuration-depending-on-the-environment
