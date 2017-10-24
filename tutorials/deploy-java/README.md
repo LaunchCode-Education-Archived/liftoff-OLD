@@ -40,7 +40,7 @@ This tutorial will be based off of the [cheese-mvc](https://github.com/LaunchCod
 
 `git clone https://github.com/LaunchCodeEducation/cheese-mvc.git`
 `git checkout --track origin/video-one2many-end`
-`git checkout -b develop`
+`git checkout -b deploy`
 
 If you haven’t done so, open up your phpMyAdmin page and create a new database user called `cheese-mvc` (and check the box 'Create database with same name and grant all privileges.' to create the corresponding table). You should now be able to start the application using `gradle bootRun`.
 
