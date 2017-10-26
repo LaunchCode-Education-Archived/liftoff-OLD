@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Tutorial: Deploying a Java Application :: Unit 4: Liftoff</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/highlight.launchcode.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/main.css">
+        <link rel="stylesheet" href="https://djwbyvgln9kts.cloudfront.net/launch_ed_style/custom.css">
+    </head>
+    <body id='page-tutorial-deploying-a-java-application'>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <ul class="nav navbar-nav">
+
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                        <ul class="dropdown-menu">
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/classes/">
+                                        Classes
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/class-prep/">
+                                        Class Prep
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/studios/">
+                                        Studios
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/tutorials/">
+                                        Tutorials
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/assignments/">
+                                        Assignments
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/objectives/">
+                                        Objectives
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/issues/">
+                                        Issues
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/about/">
+                                        About this Unit
+                                    </a>
+                                </li>
+                                                        <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">Search This Site</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+            </ul>
+
+            <div>
+                <a class="navbar-brand site-title navbar-center" href="http://education.launchcode.org/liftoff/">
+                    <h1>Unit 4: Liftoff</h1>
+                </a>
+            </div>
+
+            <div class="nav navbar-nav navbar-right">
+                <a class="navbar-brand dabomb" href="http://education.launchcode.org/liftoff/"></a>
+            </div>
+
+        </header>
+
+        <!-- Search Modal -->
+        <div id="modalSearch" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">Search Unit 4: Liftoff</h4>
+                </div>
+                <div class="modal-body">
+                    <script>
+                      (function() {
+                        var cx = "014657181352409571810:5yrfckio__c";
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+           </div>
+        </div>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                <section id="content" class="col-sm-offset-2 col-sm-8">
+                                        <h1>Tutorial: Deploying a Java Application</h1>
+                    <p>In this tutorial, we'll walk through deploying a Spring Boot application to Pivotal Web Services using Cloud Foundry. Along the way, we'll address other topics to consider when deploying an application, such as database hosting and migration, password management, and network routing.</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#pivotal-web-services-setup">Pivotal Web Services Setup</a></li>
+<li><a href="#cloud-foundry-setup">Cloud Foundry Setup</a></li>
+<li><a href="#preparing-your-project">Preparing Your Project</a>
+<ul>
+<li><a href="#java-deployables">Java deployables</a></li>
+<li><a href="#creating-your-manifest">Creating your manifest</a></li>
+</ul></li>
+<li><a href="#configure-the-app-for-a-cloud-database">Configure the App for a Cloud Database</a>
+<ul>
+<li><a href="#flyway-database-migration">Flyway database migration</a></li>
+<li><a href="#creating-a-database-service">Creating a database service</a></li>
+<li><a href="#service-binding">Service binding</a></li>
+<li><a href="#adding-a-service-to-the-manifest">Adding a service to the manifest</a></li>
+</ul></li>
+<li><a href="#deploying-with-our-database">Deploying With Our Database</a></li>
+<li><a href="#shut-it-down">Shut It Down</a></li>
+<li><a href="#scripting">Scripting</a></li>
+<li><a href="#further-learning">Further Learning</a></li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>This tutorial assumes you have the following installed:</p>
+<ul>
+<li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java 8</a></li>
+<li><a href="https://gradle.org/install/" target="_blank">Gradle</a></li>
+<li><a href="https://www.mamp.info/en/" target="_blank">MAMP</a></li>
+<li>Cloud Foundry CLI (below)</li>
+</ul>
+<h2 id="pivotal-web-services-setup">Pivotal Web Services Setup</h2>
+<p>Pivotal Web Services will be the cloud hosting provider for this tutorial. There are many cloud hosts available to consider (Amazon, Azure, etc), but we'll be using Pivotal because it has a lot of support for deploying Spring Boot applications and is relatively inexpensive.</p>
+<p>Create a <a href="https://pivotal.io/platform" target="_blank">Pivotal Account</a>. You will need to provide a credit card number, and a phone number to verify. Later in this chapter, we'll cover how to make sure everything is un-deployed so you don't incur any nasty hosting fees.</p>
+<p>Once an account has been created, you will want to create a space. Developers typically use spaces to create segments to their environments, and may have one for production, development, testing, and so on. You should have an empty dashboard with a card present to '+ Add a Space'. Do so, and create a space named &quot;Production&quot;.</p>
+<h2 id="cloud-foundry-setup">Cloud Foundry Setup</h2>
+<p>We’ll be using a tool called Cloud Foundry to manage our deployment. Cloud Foundry is widely used in the industry to manage applications and services. It provides tools to package and deploy our code to production with minimal configuration.</p>
+<p>If you haven't already, install the <a href="https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli" target="_blank">Cloud Foundry CLI</a>. This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.</p>
+<p>In a terminal, log into your Pivotal account:</p>
+<pre><code class="language-nohighlight">$ cf login</code></pre>
+<p>You should see your email, organization name, and the space you just created on the confirmation message.</p>
+<h2 id="preparing-your-project">Preparing Your Project</h2>
+<p>This tutorial will be based off of the <a href="https://github.com/LaunchCodeEducation/cheese-mvc" target="_blank">cheese-mvc</a> project used in the LC101 Java Track. </p>
+<aside class="aside-note">
+<p>While we have to choose a specific project for the purposes of illustration, any Spring Boot project could be deployed using the same steps used in this guide.</p>
+</aside>
+<p>Clone this project and checkout the 'video-one2many-end' branch. Check this out as a new branch called 'deployment'. If you'd like to keep the changes we'll be making, first fork the project to your own repository, and continue based off the new git repository url.</p>
+<p>Here are the Git commands to carry out these steps.</p>
+<pre><code class="language-nohighlight">$ git clone https://github.com/LaunchCodeEducation/cheese-mvc.git
+$ git checkout --track origin/video-one2many-end
+$ git checkout -b develop</code></pre>
+<aside class="aside-pro-tip">
+<p>It's a best practice to create a Git branch solely for the purpose of deploying your application. In this case, we'll use the <code>deploy</code> branch for this purpose. This will allow for separate configurations to be stored for local development and remote deployment.</p>
+<p>Whenever you want to deploy a new version of your application, you'll need to merge changes from your main branch (likely <code>master</code>) into <code>deploy</code> before deploying.</p>
+</aside>
+<p>If you don't have a database user for this project already--you may have created one when going through unit 3--you should create one now. Create a new database user called <code>cheese-mvc</code> (along with the corresponding database). You should now be able to start the application using <code>gradle bootRun</code> at the command line, from the project root.</p>
+<h3 id="java-deployables">Java deployables</h3>
+<p>Typically when we're working on our projects, we're building and running them locally. We have tools like Gradle and our IntelliJ that help us. These tools make compiling and running our application simple. We won't have those tools in production, however, so we'll need to package up our code into an executable JAR file. </p>
+<p>A JAR file is a <em>Java archive</em>, which is essentially a ZIP file containing a bunch of compiled Java classes. We could use the <code>javac</code> command to take our source files and build an executable JAR file. However, when the JAR is executed, it also needs to be able to find all the dependencies (for instance, Spring) at runtime in order to use them. We'll need to build our JAR file using Gradle so that these dependencies are packaged up alongside the compiled Java code that we wrote.</p>
+<p>Spring Boot adds a plugin to Gradle that allows us to package up both our source code, alongside any dependencies, creating a &quot;Fat JAR&quot; that contains compiled versions of our code and all of its dependencies. This JAR file can then be deployed to our server, and run anywhere that has the <a href="https://en.wikipedia.org/wiki/Java_virtual_machine" target="_blank">JVM</a> installed. Try building a fat JAR yourself by running </p>
+<pre><code class="language-nohighlight">$ gradle assemble</code></pre>
+<p>This created a fat JAR which we can run from the command line with the command:</p>
+<pre><code class="language-nohighlight">$ java -jar build/libs/cheese-mvc-0.0.1-SNAPSHOT.jar</code></pre>
+<p>Our application is now ready to be run on a remote machine. Our next step is to prepare Cloud Foundry to host our application.</p>
+<h3 id="creating-your-manifest">Creating your manifest</h3>
+<p>In order to deploy an application with Cloud Foundry, you first must define what your application is, and how it should be run. Cloud Foundry uses a <code>manifest.yml</code> file to manage this configuration. Create a file at the root of the project named <code>manifest.yml</code>. And add the following lines.</p>
+<pre><code class="language-yaml">applications:
+- name: cheese-mvc
+  buildpack: java_buildpack
+  path: build/libs/cheese-mvc-0.0.1-SNAPSHOT.jar</code></pre>
+<p>The <code>name</code> will specify the unique name for our application, in this case <code>cheese-mvc</code>. The <code>buildpack</code> tells Cloud Foundry what type of application this is and how to manage it. The <code>path</code> is where to find our executable project, the fat JAR. If you're following along with another project, check <code>build/libs/</code> to find the name of the JAR you just built.</p>
+<p>Let's try and deploy our app using:</p>
+<pre><code class="language-nohighlight">$ cf push</code></pre>
+<p>This will fail. To find out why, let's try our hand with a little debugging.</p>
+<pre><code class="language-nohighlight">$ cf logs cheese-mvc --recent</code></pre>
+<p>Now we can view the recent logs from our app (denoted by the <code>--recent</code> flag). Does anything here look familiar? You'll see that our app can't connect to the database, which makes sense, since we haven't set up a remote database for our app.</p>
+<h2 id="configure-the-app-for-a-cloud-database">Configure the App for a Cloud Database</h2>
+<p>If you had a project without any service dependencies (like a database), the above steps would be all you need to deploy your application. In our case, we want to also deploy a database. Luckily, Pivotal provides an easy (and free) way to setup a MySQL database in our cloud environment.</p>
+<p>First, we need to make some changes to our properties to support our changes. Update your <code>application.properties</code> so it matches the following.</p>
+<pre><code class="language-nohighlight"># Hibernate ddl auto (create, create-drop, update, none)
+# In this case, we'll want the default behavior to do nothing
+spring.jpa.hibernate.ddl-auto = none
+
+# Limit the number of active database connections
+# Cloud Foundry's Spark databases can only provide up to four connections
+spring.datasource.tomcat.max-active = 4</code></pre>
+<p>The first property is <code>spring.jpa.hibernate.ddl-auto</code>, which we'll change to <code>none</code>. Previously, we let Hibernate manage our database--create and update tables as our model classes change. This is great for testing, as it allows us to add and change our database schema on the fly. But, in the real world, we have to be careful to maintain our data in production, and be very intentional in the changes that we make to our database. Allowing tools like Hibernate to automatically modify a databased schema is dangerous. To manage our remote database more manually, we'll use another tool in a moment to help manage how our database is configured.</p>
+<p>The second property, <code>spring.datasource.tomcat.max-active</code>, is used to limit our active connections to our database. Typically, Spring Boot sets reasonable defaults to the number of active connections, but the database service we will use (Pivotal's Spark) only allows four connections at a time.</p>
+<h3 id="flyway-database-migration">Flyway database migration</h3>
+<p>Flyway is a tool that uses SQL scripts to create, change, and migrate database schemas and data. These SQL scripts will live alongside our project and will provide a way for us to easily recreate the structure of our database, as well as make additional changes in the future. Flyway tracks scripts that have been executed, and detects new scripts and runs them at startup.</p>
+<p>First, we add the following dependency to our <code>build.gradle</code> file, in the <code>dependencies</code> section. </p>
+<pre><code class="language-nohighlight">compile('org.flywaydb:flyway-core')</code></pre>
+<p>Spring Boot will detect this dependency, and automatically start using Flyway. We will also need to provide our application with SQL scripts that specify <em>how</em> Flyway should manage our database.</p>
+<p>Create a directory in your projectcalled <code>src/main/resources/db/migration</code> and create a file named in this direcotry named <code>V1__initialize.sql</code>. Note that this file name:</p>
+<ul>
+<li>Starts with a capital V followed by the migration #. Your second migration would start with V2.</li>
+<li>Has two underscores between the version and the rest of the file name.</li>
+<li>Has a descriptive &quot;tail&quot; that makes it easy to tell what this migration includes. For example, you might name your second migration something like <code>V2__add_user_profile.sql</code></li>
+</ul>
+<p>Flyway will load these alphabetically and apply our changes. Since Flyway keeps track of which migrations it hss performed previously, it is important to not change this file once deployed. Instead, to make a change to your database, create a new file using the naming conventions above (e.g. <code>V2__my_new_change.sql</code>).</p>
+<p>The easiest way to create our initialization script is to export our existing <code>cheese-mvc</code> schema. To do this, open PhpMyAdmin, select your database, and choose the export tab. We then hit <strong>OK</strong> and copy the generated SQL and add it to our <code>V1__initialize.sql</code> file. This will include any test data you have already created, so you may want to clean up any <code>INSERT</code> statements if you'd like to start with a clean slate.</p>
+<p>An example <code>V1__initalize.sql</code> might look like:</p>
+<pre><code class="language-sql">-- phpMyAdmin SQL Dump
+-- version 4.6.5.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:8889
+-- Generation Time: Oct 16, 2017 at 10:54 PM
+-- Server version: 5.6.35
+-- PHP Version: 7.0.15
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `cheese-mvc`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `category`
+--
+
+CREATE TABLE `category` (
+  `id` int(11) NOT NULL,
+  `name` varchar(15) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cheese`
+--
+
+CREATE TABLE `cheese` (
+  `id` int(11) NOT NULL,
+  `description` varchar(255) NOT NULL,
+  `name` varchar(15) NOT NULL,
+  `category_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Indexes for table `category`
+--
+ALTER TABLE `category`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `cheese`
+--
+ALTER TABLE `cheese`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `FK8tkjj8elvx1xu75dpuci756h8` (`category_id`);
+
+--
+-- AUTO_INCREMENT for table `category`
+--
+ALTER TABLE `category`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `cheese`
+--
+ALTER TABLE `cheese`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Constraints for table `cheese`
+--
+ALTER TABLE `cheese`
+  ADD CONSTRAINT `FK8tkjj8elvx1xu75dpuci756h8` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`);</code></pre>
+<h3 id="creating-a-database-service">Creating a database service</h3>
+<p>Next, let's configure a <strong>service</strong> inside Cloud Foundry for our database. Cloud Foundry considers anything that isn't an application to be a service, and can provide pre-configured services to help speed up deployment. In this case, we want to create a MySQL database service for our application. Pivotal has a database called <code>cleardb</code>, a flavor of MySQL designed for cloud hosting. The 'spark' instance size is free, and will be fine for almost all student projects. Creating a service in Cloud Foundry will also manage passwords and inject them into the application. This means that we do not need to check in our database credentials into version control (because we shouldn't!).</p>
+<p>Create a new service:</p>
+<pre><code class="language-nohighlight">$ cf create-service cleardb spark cheese-mvc-db</code></pre>
+<p>Check running services:</p>
+<pre><code class="language-nohighlight">$ cf services</code></pre>
+<p>You should see your newly created service displayed, but no application tied to it.</p>
+<h3 id="service-binding">Service binding</h3>
+<p>Now you need to attach our application to your service. Cloud Foundry calls this &quot;service binding&quot;, and provides a network connection between the application and the service. This also removes the need for us to manually define and configure our database URLs.</p>
+<pre><code class="language-nohighlight">$ cf bind-service cheese-mvc cheese-mvc-db</code></pre>
+<p>We can confirm this has been configured by running <code>cf services</code> again, and we should see our app name has been added.</p>
+<p>Once this has been established, it does not need to be re-bound when we redeploy.</p>
+<h3 id="adding-a-service-to-the-manifest">Adding a service to the manifest</h3>
+<p>Above, we manually configured our service binding for our application. Alternatively, the <code>manifest.yml</code> can bind services as well. Update your <code>manifest.yml</code> to the following:</p>
+<pre><code>applications:
+- name: cheese-mvc
+  buildpack: java_buildpack
+  path: build/libs/cheese-mvc-0.0.1-SNAPSHOT.jar
+  services:
+    - cheese-mvc-db</code></pre>
+<h2 id="deploying-with-our-database">Deploying With Our Database</h2>
+<p>Now that there is a database service, and matching service binding, deploy your app again:</p>
+<pre><code class="language-nohighlight">$ cf push</code></pre>
+<p>We should see a message that our application has started. Open up the <a href="https://console.run.pivotal.io/" target="_blank">Pivotal Control panel</a>, select your space, and find your application. Click the <em>Route</em> Tab to see find the public URL of your application. In my case, it was <code>https://cheese-mvc.cfapps.io</code>, but yours may be something else, since these must be unique and are generated for you. Be sure to append <code>/cheese</code> onto the end of the url (i.e. <code>https://cheese-mvc.cfapps.io/cheese</code>, and try out your newly deployed app! Cloud Foundry has handled all of the network routing for us, so we don't have to configure this ourselves.</p>
+<h2 id="shut-it-down">Shut It Down</h2>
+<p>All good things must come to an end. Or, at the very least, will be billed hourly. When you're not showing off your new application, it's economical to undeploy your application.</p>
+<p>To stop an application:</p>
+<pre><code class="language-nohighlight">$ cf stop cheese-mvc</code></pre>
+<p>And when you're ready to use it again</p>
+<pre><code class="language-nohighlight">$ cf start cheese-mvc</code></pre>
+<p>Since the Spark instance of our database is free, we can leave it running. This way we can always have some test data in our application to demo. However, if you like, you can remove the database service as well.</p>
+<p>To do so, first remove the service binding, which ties the database to the application:</p>
+<pre><code class="language-nohighlight">$ cf unbind-service cheese-mvc cheese-mvc-db</code></pre>
+<p>Then, remove the database service: </p>
+<pre><code class="language-nohighlight">$ cf delete-service cheese-mvc-db</code></pre>
+<p>And then, you can delete your application entirely</p>
+<pre><code class="language-nohighlight">$ cf delete cheese-mvc</code></pre>
+<h2 id="scripting">Scripting</h2>
+<p>Once you start making changes to your own applications you are going to want to be able to easily deploy your application. It may be helpful to build some helper scripts, so that you don't have to remember all the right commands. Here is an example of a deployment script you can use:</p>
+<p><code>deploy.sh</code>:</p>
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+# Clean up any old artifacts, and rebuild the jar
+gradle clean assemble
+
+# Create the database (will give a warning if already exists)
+cf create-service cleardb spark cheese-mvc-db
+
+# Deploy to cf
+cf push</code></pre>
+<p>Mac and Linux users should be able to deploy the application via <code>sh ./deploy.sh</code>. Windows users, if you have Git Bash installed, open a new Bash prompt and do the same.</p>
+<p>Alternatively, you can make the script executable using <code>chmod +x deploy.sh</code>. Then it will be directly executable via <code>./deploy.sh</code>.</p>
+<p>You can script the destruction of your application as well. These commands will completely delete your application, database, and any associated information, so be carefule with them!</p>
+<p><code>destroy.sh</code>:</p>
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+# Stops the running app
+cf stop cheese-mvc
+
+# Removes the binding between services
+cf unbind-service cheese-mvc cheese-mvc-db
+
+# Removes the db service
+cf delete-service cheese-mvc-db -f
+
+# Deletes the app entirely
+cf delete cheese-mvc -f</code></pre>
+<h2 id="further-learning">Further Learning</h2>
+<p><strong>How can we keep a set of properties for local development to connect to my database?</strong> Using spring profiles, and two sets of property files, you can create properties for both local and deployment. <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html#howto-change-configuration-depending-on-the-environment" target="_blank">Read more about profiles in Spring</a>.</p>
+                                    </section>
+
+            </div>
+        </main>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="http://education.launchcode.org/liftoff/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://education.launchcode.org/liftoff/js/highlight.pack.js"></script>
+        <script type="text/javascript" src="http://education.launchcode.org/liftoff/js/libgif.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+
+                // Syntax highlighting
+                hljs.configure({ displayLabels: true });
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', "UA-78748330-10", 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+    </body>
+</html>

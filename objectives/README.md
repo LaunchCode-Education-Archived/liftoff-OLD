@@ -1,4 +1,0 @@
----
-title: 'Objectives'
-currentMenu: objectives
----
