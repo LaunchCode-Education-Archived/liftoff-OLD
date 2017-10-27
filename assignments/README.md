@@ -7,6 +7,8 @@ currentMenu: assignments
 
 [Project Outline](project-outline/)
 
+[Attend a Meetup](meetup/)
+
 ## Week 2
 
 ## Week 3

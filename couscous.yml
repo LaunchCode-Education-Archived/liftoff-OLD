@@ -27,12 +27,6 @@ menu:
         classes:
             text: Classes
             relativeUrl: classes/
-        class-prep:
-            text: Class Prep
-            relativeUrl: class-prep/
-        studios:
-            text: Studios
-            relativeUrl: studios/
         articles:
             text: Articles
             relativeUrl: articles/
