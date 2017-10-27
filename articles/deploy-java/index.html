@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Tutorial: Deploying a Java Application :: Unit 4: Liftoff</title>
+        <title>Deploying a Java Application :: Unit 4: Liftoff</title>
 
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/highlight.launchcode.css">
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/main.css">
         <link rel="stylesheet" href="https://djwbyvgln9kts.cloudfront.net/launch_ed_style/custom.css">
     </head>
-    <body id='page-tutorial-deploying-a-java-application'>
+    <body id='page-deploying-a-java-application'>
 
         <header class="navbar navbar-default navbar-fixed-top">
 
@@ -26,19 +26,9 @@
                                         Classes
                                     </a>
                                 </li>
-                                                            <li class=" lc-button">
-                                    <a href="http://education.launchcode.org/liftoff/class-prep/">
-                                        Class Prep
-                                    </a>
-                                </li>
-                                                            <li class=" lc-button">
-                                    <a href="http://education.launchcode.org/liftoff/studios/">
-                                        Studios
-                                    </a>
-                                </li>
-                                                            <li class=" lc-button">
-                                    <a href="http://education.launchcode.org/liftoff/tutorials/">
-                                        Tutorials
+                                                            <li class="active lc-button">
+                                    <a href="http://education.launchcode.org/liftoff/articles/">
+                                        Articles
                                     </a>
                                 </li>
                                                             <li class=" lc-button">
@@ -119,8 +109,8 @@
             <div class="row">
 
                 <section id="content" class="col-sm-offset-2 col-sm-8">
-                                        <h1>Tutorial: Deploying a Java Application</h1>
-                    <p>In this tutorial, we'll walk through deploying a Spring Boot application to Pivotal Web Services using Cloud Foundry. Along the way, we'll address other topics to consider when deploying an application, such as database hosting and migration, password management, and network routing.</p>
+                                        <h1>Deploying a Java Application</h1>
+                    <p>In this article, we'll walk through deploying a Spring Boot application to Pivotal Web Services using Cloud Foundry. Along the way, we'll address other topics to consider when deploying an application, such as database hosting and migration, password management, and network routing.</p>
 <h2 id="contents">Contents</h2>
 <ul>
 <li><a href="#requirements">Requirements</a></li>
@@ -144,7 +134,7 @@
 <li><a href="#further-learning">Further Learning</a></li>
 </ul>
 <h2 id="requirements">Requirements</h2>
-<p>This tutorial assumes you have the following installed:</p>
+<p>This article assumes you have the following installed:</p>
 <ul>
 <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java 8</a></li>
 <li><a href="https://gradle.org/install/" target="_blank">Gradle</a></li>
@@ -152,17 +142,17 @@
 <li>Cloud Foundry CLI (below)</li>
 </ul>
 <h2 id="pivotal-web-services-setup">Pivotal Web Services Setup</h2>
-<p>Pivotal Web Services will be the cloud hosting provider for this tutorial. There are many cloud hosts available to consider (Amazon, Azure, etc), but we'll be using Pivotal because it has a lot of support for deploying Spring Boot applications and is relatively inexpensive.</p>
+<p>Pivotal Web Services will be the cloud hosting provider for this article. There are many cloud hosts available to consider (Amazon, Azure, etc), but we'll be using Pivotal because it has a lot of support for deploying Spring Boot applications and is relatively inexpensive.</p>
 <p>Create a <a href="https://pivotal.io/platform" target="_blank">Pivotal Account</a>. You will need to provide a credit card number, and a phone number to verify. Later in this chapter, we'll cover how to make sure everything is un-deployed so you don't incur any nasty hosting fees.</p>
 <p>Once an account has been created, you will want to create a space. Developers typically use spaces to create segments to their environments, and may have one for production, development, testing, and so on. You should have an empty dashboard with a card present to '+ Add a Space'. Do so, and create a space named &quot;Production&quot;.</p>
 <h2 id="cloud-foundry-setup">Cloud Foundry Setup</h2>
 <p>We’ll be using a tool called Cloud Foundry to manage our deployment. Cloud Foundry is widely used in the industry to manage applications and services. It provides tools to package and deploy our code to production with minimal configuration.</p>
-<p>If you haven't already, install the <a href="https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli" target="_blank">Cloud Foundry CLI</a>. This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.</p>
+<p>If you haven't already, install the <a href="https://pivotal.io/platform/pcf-articles/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli" target="_blank">Cloud Foundry CLI</a>. This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.</p>
 <p>In a terminal, log into your Pivotal account:</p>
 <pre><code class="language-nohighlight">$ cf login</code></pre>
 <p>You should see your email, organization name, and the space you just created on the confirmation message.</p>
 <h2 id="preparing-your-project">Preparing Your Project</h2>
-<p>This tutorial will be based off of the <a href="https://github.com/LaunchCodeEducation/cheese-mvc" target="_blank">cheese-mvc</a> project used in the LC101 Java Track. </p>
+<p>This article will be based off of the <a href="https://github.com/LaunchCodeEducation/cheese-mvc" target="_blank">cheese-mvc</a> project used in the LC101 Java Track. </p>
 <aside class="aside-note">
 <p>While we have to choose a specific project for the purposes of illustration, any Spring Boot project could be deployed using the same steps used in this guide.</p>
 </aside>
