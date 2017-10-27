@@ -1,5 +1,6 @@
 ---
 title: Articles
+currentMenu: articles
 ---
 
 [Capstone Project Overview](capstone-overview/)

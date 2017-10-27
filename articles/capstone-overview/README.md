@@ -1,5 +1,6 @@
 ---
 title: Capstone Project Overview
+currentMenu: articles
 ---
 
 The capstone project is one of the most important pieces of landing the perfect LaunchCode apprenticeship. Your project is one of the primary ways that the LaunchCode and potential employers will verify that you are job-ready, and it should be something that you're proud to show off. So don't skimp on the time, energy, and thought that you put into this!

@@ -1,5 +1,6 @@
 ---
 title: "Deploying a Java Application"
+currentMenu: articles
 ---
 
 In this article, we'll walk through deploying a Spring Boot application to Pivotal Web Services using Cloud Foundry. Along the way, we'll address other topics to consider when deploying an application, such as database hosting and migration, password management, and network routing.
