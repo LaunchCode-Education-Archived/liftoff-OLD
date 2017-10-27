@@ -1,5 +1,5 @@
 ---
-title: Tutorials
+title: Articles
 ---
 
 [Deploying a Java Application](deploy-java/)

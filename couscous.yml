@@ -33,9 +33,9 @@ menu:
         studios:
             text: Studios
             relativeUrl: studios/
-        tutorials:
-            text: Tutorials
-            relativeUrl: tutorials/
+        articles:
+            text: Articles
+            relativeUrl: articles/
         assignments:
             text: Assignments
             relativeUrl: assignments/

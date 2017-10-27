@@ -1,8 +1,8 @@
 ---
-title: "Tutorial: Deploying a Java Application"
+title: "Deploying a Java Application"
 ---
 
-In this tutorial, we'll walk through deploying a Spring Boot application to Pivotal Web Services using Cloud Foundry. Along the way, we'll address other topics to consider when deploying an application, such as database hosting and migration, password management, and network routing.
+In this article, we'll walk through deploying a Spring Boot application to Pivotal Web Services using Cloud Foundry. Along the way, we'll address other topics to consider when deploying an application, such as database hosting and migration, password management, and network routing.
 
 ## Contents
 
@@ -25,7 +25,7 @@ In this tutorial, we'll walk through deploying a Spring Boot application to Pivo
 
 ## Requirements
 
-This tutorial assumes you have the following installed:
+This article assumes you have the following installed:
 
 - [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Gradle](https://gradle.org/install/)
@@ -34,7 +34,7 @@ This tutorial assumes you have the following installed:
 
 ## Pivotal Web Services Setup
 
-Pivotal Web Services will be the cloud hosting provider for this tutorial. There are many cloud hosts available to consider (Amazon, Azure, etc), but we'll be using Pivotal because it has a lot of support for deploying Spring Boot applications and is relatively inexpensive.
+Pivotal Web Services will be the cloud hosting provider for this article. There are many cloud hosts available to consider (Amazon, Azure, etc), but we'll be using Pivotal because it has a lot of support for deploying Spring Boot applications and is relatively inexpensive.
 
 Create a [Pivotal Account](https://pivotal.io/platform). You will need to provide a credit card number, and a phone number to verify. Later in this chapter, we'll cover how to make sure everything is un-deployed so you don't incur any nasty hosting fees.
 
@@ -44,7 +44,7 @@ Once an account has been created, you will want to create a space. Developers ty
 
 We’ll be using a tool called Cloud Foundry to manage our deployment. Cloud Foundry is widely used in the industry to manage applications and services. It provides tools to package and deploy our code to production with minimal configuration.
 
-If you haven't already, install the [Cloud Foundry CLI](https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli). This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.
+If you haven't already, install the [Cloud Foundry CLI](https://pivotal.io/platform/pcf-articles/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli). This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.
 
 In a terminal, log into your Pivotal account:
 
@@ -56,7 +56,7 @@ You should see your email, organization name, and the space you just created on 
 
 ## Preparing Your Project
 
-This tutorial will be based off of the [cheese-mvc](https://github.com/LaunchCodeEducation/cheese-mvc) project used in the LC101 Java Track. 
+This article will be based off of the [cheese-mvc](https://github.com/LaunchCodeEducation/cheese-mvc) project used in the LC101 Java Track. 
 
 <aside class="aside-note" markdown="1">
 While we have to choose a specific project for the purposes of illustration, any Spring Boot project could be deployed using the same steps used in this guide.
