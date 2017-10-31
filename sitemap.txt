@@ -6,6 +6,7 @@ http://education.launchcode.org/liftoff/articles/index.html
 http://education.launchcode.org/liftoff/assignments/index.html
 http://education.launchcode.org/liftoff/assignments/meetup/index.html
 http://education.launchcode.org/liftoff/assignments/project-outline/index.html
+http://education.launchcode.org/liftoff/assignments/setup/index.html
 http://education.launchcode.org/liftoff/class-prep/1/index.html
 http://education.launchcode.org/liftoff/class-prep/2/index.html
 http://education.launchcode.org/liftoff/class-prep/3/index.html
