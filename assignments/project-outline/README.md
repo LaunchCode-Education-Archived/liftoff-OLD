@@ -27,4 +27,4 @@ Within your `liftoff-assigments` repository, open up `project_01/README.md`. You
 
 ## Submitting Your Outline
 
-Once you have finished your project outline, commit and push your changes to your repository. 
+Once you have finished your project outline, commit and push your changes to your repository, and submit the assignment on Canvas by submitting the URL to your outline. Your mentor will provide feedback after the assignment deadline.
