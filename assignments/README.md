@@ -5,6 +5,8 @@ currentMenu: assignments
 
 ## Week 1
 
+[Assignments Repository Setup](setup/)
+
 [Project Outline](project-outline/)
 
 [Attend a Meetup](meetup/)
