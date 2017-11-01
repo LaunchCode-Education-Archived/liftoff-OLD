@@ -4,10 +4,10 @@ currentMenu: class-prep
 ---
 ## Sections:
 
-- [Project Module](#user-stories)
-- [Career Module](#continued-education)
+- [Project Module: User Stories](#user-stories)
+- [Career Module: Continued Education](#continued-education)
 
-## User Stories
+## Project Module: User Stories
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
@@ -16,7 +16,7 @@ Read | Article | [What Is A User Story?](https://www.leadingagile.com/2012/07/us
 Read | Article | [10 Tips for Writing Good User Stories](http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/) | Read about writing great user stories for your project
 Read | Article | [Capstone Overview](../../articles/capstone-overview/) | Get an overview of what LaunchCode expects to see in a good capstone project, and how you should go about coming up with a killer project idea.
 
-## Continued Education
+## Career Module: Continued Education
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|

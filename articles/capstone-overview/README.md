@@ -17,4 +17,4 @@ You will put your project up in GitHub. This will make it accessible for others 
 
 Regardless of the project you tackle, you should:
 * Build an application entirely yourself, or nearly so. If you use “starter code", you need to go well beyond what was provided or worked on by others. You should be able to clearly articulate what you built yourself versus what was built by others.
-* Include 3-5 killer features. Look through our archive of [example projects](../example-projects/) to get an idea of what constitutes a solid feature. Adding a new button to your web project? Probably not significant enough. Adding user authentication? Yep, that's great!
+* Include 3-5 killer features. Each feature should add a signficant new component to your project, but also should be so big as to take you weeks to implement. Adding a new button to your web project? Probably not significant enough. Creating a discussion forum? That's too big. Adding user authentication? Yep, that's great! 
