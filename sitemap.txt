@@ -4,7 +4,10 @@ http://education.launchcode.org/liftoff/articles/deploy-java/index.html
 http://education.launchcode.org/liftoff/articles/example-projects/index.html
 http://education.launchcode.org/liftoff/articles/index.html
 http://education.launchcode.org/liftoff/assignments/index.html
+http://education.launchcode.org/liftoff/assignments/live-coding/index.html
 http://education.launchcode.org/liftoff/assignments/meetup/index.html
+http://education.launchcode.org/liftoff/assignments/mock-interview/index.html
+http://education.launchcode.org/liftoff/assignments/online-profiles/index.html
 http://education.launchcode.org/liftoff/assignments/project-outline/index.html
 http://education.launchcode.org/liftoff/assignments/setup/index.html
 http://education.launchcode.org/liftoff/class-prep/1/index.html
