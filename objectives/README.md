@@ -31,7 +31,7 @@ Listed below are the competencies you should demonstrate by the time you've comp
 
 #### Career Module
 - Know what an interviewer is looking for from a live coding session
-- Explain and demonstrate the steps the steps necessary for a successul live coding session
+- Explain and demonstrate the steps necessary for a successul live coding session
 
 
 ### Class 3
@@ -44,21 +44,37 @@ Listed below are the competencies you should demonstrate by the time you've comp
 - Properly explain and use the git commands `fetch`, `pull`, `merge`, `stash`, `pop`
 
 #### Career Module
+- Know what makes a good technical resume
+- Understanding of online profiles
+- Utilize LinkedIn to network with other programming professionals
+- Know how to use their Github account to showcase projects
 
 ### Class 4
 
 #### Project Module
 
 #### Career Module
+- Know where to find additional live coding practice problems
+- Know how to work through the steps of a live coding session
+- Can work with other beginners to continuing building live coding experiences
 
 ### Class 5
 
 #### Project Module
 
 #### Career Module
+- Understand the parts of an interview: Behavioral and Technical
+- Understand what major categories interviewers are looking for with Behavioral questions
+- Answer behavioral questions using the claim evidence model
+- Identify good, and bad interview answers
 
 ### Class 6
 
 #### Project Module
 
 #### Career Module
+- Understand the parts of an interview: Behavioral and Technical
+- Understand what they may encounter in a technical interview
+- Can prepare, and practice answering technical questions
+- Can respond correctly when asked a technical question they don't know how to answer
+- Can incorporate their project experiences, and class experiences into technical questions

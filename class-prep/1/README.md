@@ -4,8 +4,8 @@ currentMenu: class-prep
 ---
 ## Sections:
 
-- [Project Module: User Stories](#user-stories)
-- [Career Module: Continued Education](#continued-education)
+- [Project Module: User Stories](#project-module-user-stories)
+- [Career Module: Continued Education](#career-module-continued-education)
 
 ## Project Module: User Stories
 
