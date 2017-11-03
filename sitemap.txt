@@ -1,6 +1,5 @@
 http://education.launchcode.org/liftoff/about/index.html
 http://education.launchcode.org/liftoff/articles/capstone-overview/index.html
-http://education.launchcode.org/liftoff/articles/continuing-ed-resources/index.html
 http://education.launchcode.org/liftoff/articles/deploy-java/index.html
 http://education.launchcode.org/liftoff/articles/example-projects/index.html
 http://education.launchcode.org/liftoff/articles/index.html
@@ -28,4 +27,6 @@ http://education.launchcode.org/liftoff/classes/index.html
 http://education.launchcode.org/liftoff/index.html
 http://education.launchcode.org/liftoff/issues/index.html
 http://education.launchcode.org/liftoff/objectives/index.html
+http://education.launchcode.org/liftoff/videos/index.html
+http://education.launchcode.org/liftoff/videos/live-coding/index.html
 http://education.launchcode.org/liftoff/sitemap.html
