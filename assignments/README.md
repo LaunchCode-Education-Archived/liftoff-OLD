@@ -13,6 +13,10 @@ currentMenu: assignments
 
 ## Week 2
 
+[Project Planning](planning/)
+
+[Live Coding](live-coding/)
+
 ## Week 3
 
 ## Week 4
