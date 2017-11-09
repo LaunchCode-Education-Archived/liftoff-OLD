@@ -1,4 +1,0 @@
----
-title: 'Studios'
-currentMenu: studios
----
