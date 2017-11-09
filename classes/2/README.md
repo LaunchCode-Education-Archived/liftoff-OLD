@@ -10,6 +10,8 @@ currentMenu: classes
 
 
 ### Career Module: Live Coding One
-For today's in class assignment you will be paired with a fellow classmate and given 2 live coding problems.
+Today's career module in class activity has two parts.
 
-One of you will act as the interviewer, and will give the problem, while the other acts as the interviewee and follows the steps to solve the problem. You will then switch roles and work on the second problem.
+1. Your group will walk through a live coding problem together under the supervision of your mentor. You will need to go through all the steps, and find a solution to the problem. This is a chance for you to ask questions, and learn from your fellow classmates.
+
+2. You will be paried with someone in a different group that worked on a different problem. In your pair you will take turns practicing a live coding session. One of you will act as the interviewer, and one of you will attempt to solve the problem as the interviewee. After working through the problem you will switch roles.
