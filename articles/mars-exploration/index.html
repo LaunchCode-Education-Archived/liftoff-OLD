@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Class 4 :: Unit 4: Liftoff</title>
+        <title>Mars Exploration - Solution :: Unit 4: Liftoff</title>
 
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/highlight.launchcode.css">
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/main.css">
         <link rel="stylesheet" href="https://djwbyvgln9kts.cloudfront.net/launch_ed_style/custom.css">
     </head>
-    <body id='page-class-4'>
+    <body id='page-mars-exploration---solution'>
 
         <header class="navbar navbar-default navbar-fixed-top">
 
@@ -21,12 +21,12 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
                         <ul class="dropdown-menu">
-                                                            <li class="active lc-button">
+                                                            <li class=" lc-button">
                                     <a href="http://education.launchcode.org/liftoff/classes/">
                                         Classes
                                     </a>
                                 </li>
-                                                            <li class=" lc-button">
+                                                            <li class="active lc-button">
                                     <a href="http://education.launchcode.org/liftoff/articles/">
                                         Articles
                                     </a>
@@ -114,18 +114,24 @@
             <div class="row">
 
                 <section id="content" class="col-sm-offset-2 col-sm-8">
-                                        <h1>Class 4</h1>
-                    <h3 id="career-module-live-coding-two">Career Module: Live Coding Two</h3>
-<p>Live Coding Overview:</p>
-<ol>
-<li>Gather Requirements/Clarify the Problem</li>
-<li>Break Complex Problems into Smaller Simple Problems</li>
-<li>Psuedocode, Talk Through the Logic</li>
-<li>Code</li>
-<li>Test &amp; Make Changes</li>
-</ol>
-<p>Today for live coding, we are going to split into pairs. Again you will be taking the role of interviewer, and interviewee. Continue practicing live coding with one another, going over the steps, communciating effectively, and working towards a solution to the problem.</p>
-<p>This time can also be used to complete the Live Coding Assignement. If you have scheduled a time with your mentor, or LaunchCode staff member we can give you a chance to complete the assignement.</p>
+                                        <h1>Mars Exploration - Solution</h1>
+                    <p>For the remaining two problems we will share with you a solution we created that solves the problem, but you will be responsbile for following the steps.</p>
+<p>If you want more practice on following all the steps, talk it over with your fellow classmates, or your mentor!</p>
+<h2 id="python3-solution">Python3 Solution</h2>
+<pre><code class="language-python">string_mistakes = 0
+where_are_we = 1
+for i in range(len(s)):
+    if where_are_we == 1 or where_are_we == 3:
+        if s[i] != "S":
+            string_mistakes += 1
+    elif where_are_we == 2:
+        if s[i] != "O":
+            string_mistakes += 1
+    if where_are_we == 3:
+        where_are_we = 1
+    else:
+        where_are_we += 1
+print(string_mistakes)</code></pre>
                                     </section>
 
             </div>

@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Class 4 :: Unit 4: Liftoff</title>
+        <title>camelCase - Solution :: Unit 4: Liftoff</title>
 
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/highlight.launchcode.css">
         <link rel="stylesheet" href="http://education.launchcode.org/liftoff/css/main.css">
         <link rel="stylesheet" href="https://djwbyvgln9kts.cloudfront.net/launch_ed_style/custom.css">
     </head>
-    <body id='page-class-4'>
+    <body id='page-camelcase---solution'>
 
         <header class="navbar navbar-default navbar-fixed-top">
 
@@ -21,12 +21,12 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
                         <ul class="dropdown-menu">
-                                                            <li class="active lc-button">
+                                                            <li class=" lc-button">
                                     <a href="http://education.launchcode.org/liftoff/classes/">
                                         Classes
                                     </a>
                                 </li>
-                                                            <li class=" lc-button">
+                                                            <li class="active lc-button">
                                     <a href="http://education.launchcode.org/liftoff/articles/">
                                         Articles
                                     </a>
@@ -114,18 +114,89 @@
             <div class="row">
 
                 <section id="content" class="col-sm-offset-2 col-sm-8">
-                                        <h1>Class 4</h1>
-                    <h3 id="career-module-live-coding-two">Career Module: Live Coding Two</h3>
-<p>Live Coding Overview:</p>
-<ol>
-<li>Gather Requirements/Clarify the Problem</li>
-<li>Break Complex Problems into Smaller Simple Problems</li>
-<li>Psuedocode, Talk Through the Logic</li>
-<li>Code</li>
-<li>Test &amp; Make Changes</li>
-</ol>
-<p>Today for live coding, we are going to split into pairs. Again you will be taking the role of interviewer, and interviewee. Continue practicing live coding with one another, going over the steps, communciating effectively, and working towards a solution to the problem.</p>
-<p>This time can also be used to complete the Live Coding Assignement. If you have scheduled a time with your mentor, or LaunchCode staff member we can give you a chance to complete the assignement.</p>
+                                        <h1>camelCase - Solution</h1>
+                    <h2 id="gather-requirementsclarify-problem">Gather Requirements/Clarify Problem</h2>
+<p>We are given a string without any spaces in it.</p>
+<p>The string follows camel case convention. In which the first word is not capitalized, however every following word's first letter is capitalized.</p>
+<p>For example:</p>
+<pre><code class="language-nohighlight">the_string = 'thisIsAnExample'</code></pre>
+<p>Our goal is to determine how many words are in the string, and then print that number out.</p>
+<p>For example:</p>
+<pre><code class="language-nohighlight">input = 'thisIsAnExample'
+output = 4</code></pre>
+<p>There are four words in the given string.</p>
+<h2 id="break-down-complex-pieces-into-smaller-pieces">Break Down Complex Pieces into Smaller Pieces</h2>
+<p>I want to hold my phrase in a list of the individual words. So I can first create an empty list.</p>
+<p>I will then need to create an empty string that will serve as a temporary container.</p>
+<p>We should be able to loop through the string by each individual character. We can check if the character is upper or lower case. If it's lower case add it to our temporary string. If it's upper case, add the temporary string to the list of words AND reset the temporary string to be the new uppercase character.</p>
+<p>Finally we sould be able to return the length of the list, which will represent th enumber of words in the original string.</p>
+<h2 id="psuedocode">Psuedocode</h2>
+<pre><code class="language-nohighlight">variable the_words = []
+variable temp_word = ""
+for loop -&gt; loop through each letter in the string
+    if letter is lowercase
+        add the letter to the variable temp_word
+    else
+        add temp_word to the_words
+        clear out temp_word and set it to the letter
+
+print(len(the_words))</code></pre>
+<h2 id="code">Code</h2>
+<pre><code class="language-python">the_words = []
+temp_word = ""
+for letter in s:
+    if letter.islower():
+        temp_word += letter
+    else:
+        phrase.append(temp_word)
+        temp_word = letter
+print(len(phrase))</code></pre>
+<h2 id="testing">Testing</h2>
+<p>Let's test it out.</p>
+<h5 id="variables-s--quotthisisanexamplequot">Variables (s = &quot;thisIsAnExample&quot;)</h5>
+<p>We can see in this string the first four letters are all lower case (&quot;t&quot;, &quot;h&quot;, &quot;i&quot;, &quot;s&quot;), they will satisfy the if condition, and will be added to temp_word.</p>
+<p>On the fifth letter (&quot;I&quot;) the if statement is not true, so the else statement is executed. This adds the temp_word (&quot;this&quot;) to the_words. It then overwrites temp_word to be just the current letter (&quot;I&quot;).</p>
+<pre><code class="language-nohighlight">Current Variables:
+the_words = ["this"]
+temp_word = "I"</code></pre>
+<p>The next letter is lowercase (&quot;s&quot;), and is therefore added to temp_word.</p>
+<p>The next letter is uppercase (&quot;A&quot;), and temp_word is added to the_words, and temp_word is set to the current letter (&quot;A&quot;).</p>
+<pre><code class="language-nohighlight">Current Variables:
+the_words = ["this", "Is"]
+temp_word = "A"</code></pre>
+<p>The next letter is lowercase (&quot;n&quot;), and is added to temp_word.</p>
+<p>The next letter is uppercase (&quot;E&quot;), and temp_word is added to the_words, and temp_word is set to the current letter (&quot;E&quot;).</p>
+<pre><code class="language-nohighlight">Current Variables:
+the_words = ["this", "Is", "An"]
+temp_word = "E"</code></pre>
+<p>The remaining letters are all lowercase and are added to temp_word.</p>
+<pre><code class="language-nohighlight">the_words = ["this", "Is", "An"]
+temp_word = "Example"</code></pre>
+<p>Finally, the last line runs, printing out the length of the_words.</p>
+<pre><code class="language-nohighlight">Output: 3</code></pre>
+<h2 id="changes">Changes</h2>
+<p>Oops! We made a small mistake. We forgot to add the last word to the_words, and so calling len(the_words) results in the incorrect answer. We can fix this by adding temp_word to the_words after the for loop.</p>
+<pre><code class="language-python">the_words = []
+temp_word = ""
+for letter in s:
+    if letter.islower():
+        temp_word += letter
+    else:
+        phrase.append(temp_word)
+        temp_word = letter
+the_words.append(temp_word)
+print(len(phrase))</code></pre>
+<p>This will change our list the_words, and allow the length function to return the correct value:</p>
+<pre><code class="language-nohighlight">the_words = ["this", "Is", "An", "Example"]
+temp_word = "Example"</code></pre>
+<p>Resulting in this:</p>
+<pre><code class="language-nohighlight">Output: 4</code></pre>
+<p>Another Successful Live Coding session in which we employed all the steps, and came up with a solution to the problem!</p>
+<aside class="aside-hint">
+<p>There might be a better way of doing this problem!</p>
+<p>We aren't asked to do anything with the words that we have stored in our list the_words. It might be more appropriate to just keep track of an integer, and add to the integer everytime we encounter an uppercase letter.</p>
+<p>Many of you may have done this on your attempt with this problem. That's great! If you didn't, and are looking for another challenge try it this way.</p>
+</aside>
                                     </section>
 
             </div>
