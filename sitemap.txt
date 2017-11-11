@@ -7,6 +7,7 @@ http://education.launchcode.org/liftoff/articles/example-projects/index.html
 http://education.launchcode.org/liftoff/articles/grading-students/index.html
 http://education.launchcode.org/liftoff/articles/index.html
 http://education.launchcode.org/liftoff/articles/live-coding/index.html
+http://education.launchcode.org/liftoff/articles/logging-java/index.html
 http://education.launchcode.org/liftoff/articles/mars-exploration/index.html
 http://education.launchcode.org/liftoff/articles/staircase/index.html
 http://education.launchcode.org/liftoff/articles/ux-resources/index.html
