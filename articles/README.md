@@ -19,6 +19,8 @@ Blogs, newsletters, books, and twitter accounts to help you get started in the w
 
 Learn the steps you should take in a live coding sesssion.
 
+[Logging in Java Applications](logging-java/)
+
 [Deploying a Java Application](deploy-java/)
 
 Learn how to deploy a Spring Boot application to Pivotal Cloud Foundry.
