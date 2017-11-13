@@ -6,10 +6,14 @@ currentMenu: classes
 - [Project Module: Project Process and Tools](#project-module-project-process)
 - [Career Module: Live Coding One](#career-module-live-coding-one)
 
-### Project Module: Project Process and Tools
+## Project Module: Project Process and Tools
 
+We will continue with planning work for the [attendance app](../1/) introduced in class 1.
 
-### Career Module: Live Coding One
+The instructor will present some user stories, and you will use these to generate some wireframes within your groups.
+
+## Career Module: Live Coding One
+
 Today's career module in class activity has two parts.
 
 1. Your group will walk through a live coding problem together under the supervision of your mentor. You will need to go through all the steps, and find a solution to the problem. This is a chance for you to ask questions, and learn from your fellow classmates.
