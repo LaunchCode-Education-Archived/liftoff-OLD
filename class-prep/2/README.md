@@ -18,7 +18,7 @@ This isn't a design class, and most developers work with designers to create the
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
-Watch | Video | [Wireframing for UX](https://www.youtube.com/watch?v=8-vTd7GRk-w) | Get on overview of wireframes
+Watch | Video | [Wireframing for UX](https://www.youtube.com/watch?v=8-vTd7GRk-w) | Get an overview of wireframes
 Read | Article | [Getting Started With Wireframes](https://www.codementor.io/nicolesaidy/getting-started-with-wireframes-du107vuh7) | Now that you have a high-level idea of what wireframes are, dig a bit deeper and learn how and why they are useful
 Read | Article | [UX Resources](../../articles/ux-resources/) | Review this list of great UX resources, which is also linked from the [Articles page](../../articles/)
 
