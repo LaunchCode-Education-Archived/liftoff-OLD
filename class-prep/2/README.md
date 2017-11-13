@@ -3,7 +3,7 @@ title: 'Class 2 Prep'
 currentMenu: class-prep
 ---
 ## Sections
-- [Project Module: Project Process and Tools](#project-module-project-process)
+- [Project Module: Project Process and Tools](#project-module-project-process-and-tools)
 - [Career Module: Live Coding One](#career-module-live-coding-one)
 
 ## Project Module: Project Process and Tools
