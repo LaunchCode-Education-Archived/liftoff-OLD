@@ -3,7 +3,7 @@ title: Live Coding
 currentMenu: assignments
 ---
 
-For this assignment you will be required to successfully complete a live coding session with your mentor or LaunchCode staff member. The mentor or staff member will be grading you on your ability to work through the steps, communicate effectively, and work towards solving the problem.
+For this assignment, you will be required to successfully complete a live coding session with your mentor or LaunchCode staff member. The mentor or staff member will be grading you on your ability to work through the steps, communicate effectively, and work towards solving the problem.
 
 ## Scheduling Time
 
