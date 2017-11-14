@@ -2,7 +2,9 @@
 title: 'Class 2'
 currentMenu: classes
 ---
+
 ## Sections
+
 - [Project Module: Project Process and Tools](#project-module-project-process)
 - [Career Module: Live Coding One](#career-module-live-coding-one)
 
