@@ -5,6 +5,7 @@ http://education.launchcode.org/liftoff/articles/continuing-ed-resources/index.h
 http://education.launchcode.org/liftoff/articles/deploy-java/index.html
 http://education.launchcode.org/liftoff/articles/example-projects/index.html
 http://education.launchcode.org/liftoff/articles/github-profile/index.html
+http://education.launchcode.org/liftoff/articles/github-readme/index.html
 http://education.launchcode.org/liftoff/articles/grading-students/index.html
 http://education.launchcode.org/liftoff/articles/index.html
 http://education.launchcode.org/liftoff/articles/linkedin-profile/index.html
