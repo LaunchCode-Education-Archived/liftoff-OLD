@@ -39,7 +39,7 @@ This week's career module focuses on the profiles companies will view before and
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
-Read | Article | [Technical Resume](../../articles/technical-resume) | Read this article, and take note of how the resume is formatted, and the information it includes.
-Read | Article | [GitHub Profile](../../articles/github-profile) | Read this article which outlines how you can use your Github profile professionally.
-Read | Article | [LinkedIn Profile](../../articles/linkedin-profile) | Read this article which talks about the importance of LinkedIn.
+Read | Article | [Technical Resume](../../articles/technical-resume/) | Read this article, and take note of how the resume is formatted, and the information it includes.
+Read | Article | [GitHub Profile](../../articles/github-profile/) | Read this article which outlines how you can use your Github profile professionally.
+Read | Article | [LinkedIn Profile](../../articles/linkedin-profile/) | Read this article which talks about the importance of LinkedIn.
 Read | Article | [10 Examples of Highly Impactful LinkedIn Profiles](https://komarketing.com/blog/10-examples-highly-impactful-linkedin-profiles/) | Read this article that goes into greater detail on how you can use LinkedIn.
