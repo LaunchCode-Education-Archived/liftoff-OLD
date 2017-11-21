@@ -19,6 +19,10 @@ Blogs, newsletters, books, and twitter accounts to help you get started in the w
 
 Learn the steps you should take in a live coding sesssion.
 
+[Agile Ceremonies](agile-ceremonies/)
+
+Apply common agile ceremonies to your project work.
+
 [Logging in Java Applications](logging-java/)
 
 [Deploying a Java Application](deploy-java/)

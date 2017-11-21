@@ -7,7 +7,8 @@ currentMenu: classes
 
 - [Project Module: Github Best Practices](#project-module-github-best-practices)
 - [Career Module: Online Profiles](#career-module-online-profiles)
-- [Work Time: Project Setup](#project-setup)
+- [Project Module: Sprint Kickoff](#project-module-sprint-kickoff)
+- [Work Time: Project Setup](#project-module-project-setup)
 
 ## Project Module: GitHub Best Practices
 
@@ -21,7 +22,11 @@ In our small groups we will create a README.md file for our project. If you have
 
 You will then use the remaining class time to work on your project, or review any of the coursework so far.
 
-## Project Setup
+## Project Module: Sprint Kickoff
+
+We will complete your first [sprint kickoff](../../articles/agile-ceremonies/#sprint-kickoff) by planning and estimating work for the next two weeks.
+
+## Project Module: Project Setup
 
 You will have time within class to work on setting up your project's repository and adding your first commits. Get started by working through the [Project Setup](../../assignments/project-setup/) assignment, which includes directions for submission even if you've already started a project.
 
