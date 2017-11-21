@@ -17,7 +17,7 @@ We'll discuss using Git and GitHub at a more advanced level than you're used to,
 
 Today's career module in class activity will consist of a discussion around Online Profiles: Resume, Github, and LinkedIn.
 
-In our small groups we will create a README.md file for our project. If you have never added a README.md file to a Github please follow [this guide](../../articles/github-readme).
+In our small groups we will create a README.md file for our project. If you have never added a README.md file to a Github please follow [this guide](../../articles/github-readme/).
 
 You will then use the remaining class time to work on your project, or review any of the coursework so far.
 

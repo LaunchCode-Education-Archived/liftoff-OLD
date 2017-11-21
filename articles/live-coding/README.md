@@ -23,7 +23,7 @@ If you have not signed up for a HackerRank profile yet you will need to do so in
 
 ### Test Problem Solutions
 
-1. [Staircase](../../articles/staircase)
-2. [camelCase](../../articles/camelcase)
-3. [Grading Students](../../articles/grading-students)
-4. [Mars Exploration](../../articles/mars-exploration)
+1. [Staircase](../../articles/staircase/)
+2. [camelCase](../../articles/camelcase/)
+3. [Grading Students](../../articles/grading-students/)
+4. [Mars Exploration](../../articles/mars-exploration/)
