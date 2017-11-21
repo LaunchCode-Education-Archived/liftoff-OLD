@@ -3,16 +3,8 @@ title: Online Profiles
 currentMenu: assignments
 ---
 
-Brief Description
+This assignment requires you to provide us with your resume, Github, and LinkedIn profiles.
 
 
-## More Detailed Information
-
-
-
-## Requirements
-1. **First Requirement**: Description here
-
-2. **Second Requirement**: Description Here
-
-## Submitting your Assignment
+## GitHub
+Within your `liftoff-assignments` repository, open up `career_03/READEME.md`. You will need to add a .PDF of your resume, and links to your GitHub profile, and LinkedIn profile. Your Mentor will then be able to provide you with feedback via GitHub issues.

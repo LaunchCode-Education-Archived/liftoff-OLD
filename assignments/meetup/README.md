@@ -11,7 +11,7 @@ Within your `liftoff-assigments` repository, open up `career_01/README.md`. You'
 
 1. **Name, Date, Time, and Topic**: List the name, date, time, and topic of the Meetup you decided to attend.
 
-2. **Brief description of pre-limenary research**: In 2-3 sentences write out the prelimenary research you completed about the topic at hand.
+2. **Brief description of topic**: In 2-3 sentences write out a brief description of the Meetup topic you completed about the topic at hand.
 
 3. **Questions for Meetup**: List out any questions you may have after doing your research.
 

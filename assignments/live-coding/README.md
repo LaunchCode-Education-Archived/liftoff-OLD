@@ -7,7 +7,7 @@ For this assignment, you will be required to successfully complete a live coding
 
 ## Scheduling Time
 
-You will need to finish this assignment before the Liftoff program ends, and you can make multiple attempts if necessary. Your mentor should be able to schedule a 15-minute time with you, and once you are successful the mentor will mark this assignment as complete.
+Time will be allocated in class 4, however you are more than welcome to attempt this assignment multiple times. If you want ot take a second, or third, etc attempt please talk to your Mentor who can find a time, or can connect you with a volunteer.
 
 ## Practice Makes Perfect
 
@@ -17,3 +17,6 @@ We recommend practicing live coding before attempting this assignment. We will w
 - https://leetcode.com/
 - http://exercism.io/
 - https://checkio.org/
+
+## Check your grade!
+Your Mentor will mark you as complete in Canvas when you complete the exercise. But it is still your responsiblity to double check beofre the class ends.
