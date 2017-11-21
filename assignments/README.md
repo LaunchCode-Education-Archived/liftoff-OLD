@@ -19,6 +19,10 @@ currentMenu: assignments
 
 ## Week 3
 
+[Project Setup](project-setup/)
+
+[Online Profiles](online-profiles)
+
 ## Week 4
 
 ## Week 5

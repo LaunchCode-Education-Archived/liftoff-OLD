@@ -5,7 +5,7 @@ currentMenu: assignments
 
 For this assignment, you'll create some initial plans for your project.
 
-## 
+## Getting Started
 
 Within your `liftoff-assigments` repository, open up `project_02/README.md`. You'll see a couple of section headings in place for you. Flesh out your project plan by creating:
 
