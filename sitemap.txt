@@ -1,4 +1,5 @@
 http://education.launchcode.org/liftoff/about/index.html
+http://education.launchcode.org/liftoff/articles/agile-ceremonies/index.html
 http://education.launchcode.org/liftoff/articles/camelcase/index.html
 http://education.launchcode.org/liftoff/articles/capstone-overview/index.html
 http://education.launchcode.org/liftoff/articles/continuing-ed-resources/index.html
