@@ -14,6 +14,8 @@ currentMenu: classes
 
 We'll discuss using Git and GitHub at a more advanced level than you're used to, including branches, remotes, undoing changes, and "Git hygiene".
 
+asdf
+
 ## Career Module: Online Profiles
 
 Today's career module in class activity will consist of a discussion around Online Profiles: Resume, Github, and LinkedIn.
