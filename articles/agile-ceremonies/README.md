@@ -54,7 +54,33 @@ The amount of points you complete in a given sprint contributes to your **veloci
 
 ## Standup
 
-**Coming soon...**
+A **standup** is a short status meeting conducted regularly (usually every morning) by agile teams. In it's most common format, standups take place by having the entire team stand up near their work area and take turns answering the following questions:
+
+- What did I complete yesterday?
+- What will I work on today?
+- Am I blocked by anything?
+
+By "blocked" it is meant that you are prevented from working on or completing task due to a circumstance outside of your direct control. You could be waiting for another team member or an external party to deliver something necessary for you to proceed.
+
+Standups have a few purposes.
+
+**Provide a quick, regular structure for communication**
+
+When teams need to move quickly, regular and adaptive communication is essential. You shouldn't have to wait for a weekly team meeting, or some other time, to understand what your fellow developers are working on. Maybe you can provide insight on something they're working on, or maybe you're blocking them from moving forward and weren't aware.
+
+**Encourage collaborative accountability**
+
+When everyone has to report on what they worked on yesterday, nobody wants to be the person that didn't make any progress. Sure, some days will be more productive than others, but it's important that each team member put their best effort forward to enable the most postive outcome for the team overall.
+
+**Brevity and participation**
+
+This is why we stand up! Keeping the meeting quick and informal is paramount for optimal efficiency. When teams sit down in a conference room, the tendency is for long, drawn-out meetings where not everyone is equally engaged to take place.
+
+In the context of Liftoff, you will conduct regular standups within your team. While you aren't all working on the same project, you should cover each of the three items above. Here's an adapted rubric to use when it's your turn to report:
+
+- What did I complete last week?
+- What will I work on next week?
+- Am I blocked by anything? In other words, is there anythign a mentor or fellow learner could help me understand to move forward more quickly?
 
 ## Retrospective
 
