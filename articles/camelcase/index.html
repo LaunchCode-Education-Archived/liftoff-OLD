@@ -117,7 +117,7 @@
                                         <h1>camelCase - Solution</h1>
                     <h2 id="gather-requirementsclarify-problem">Gather Requirements/Clarify Problem</h2>
 <p>We are given a string without any spaces in it.</p>
-<p>The string follows camel case convention. In which the first word is not capitalized, however every following word's first letter is capitalized.</p>
+<p>The string follows camel case convention. This means the first word is not capitalized; however, every following word's first letter is capitalized.</p>
 <p>For example:</p>
 <pre><code class="language-nohighlight">the_string = 'thisIsAnExample'</code></pre>
 <p>Our goal is to determine how many words are in the string, and then print that number out.</p>
@@ -126,10 +126,10 @@
 output = 4</code></pre>
 <p>There are four words in the given string.</p>
 <h2 id="break-down-complex-pieces-into-smaller-pieces">Break Down Complex Pieces into Smaller Pieces</h2>
-<p>I want to hold my phrase in a list of the individual words. So I can first create an empty list.</p>
+<p>I want to hold my phrase in a list of the individual words. First, I will create an empty list.</p>
 <p>I will then need to create an empty string that will serve as a temporary container.</p>
-<p>We should be able to loop through the string by each individual character. We can check if the character is upper or lower case. If it's lower case add it to our temporary string. If it's upper case, add the temporary string to the list of words AND reset the temporary string to be the new uppercase character.</p>
-<p>Finally we sould be able to return the length of the list, which will represent th enumber of words in the original string.</p>
+<p>I should be able to loop through the string by each individual character. I can check if the character is upper or lower case. If it's lower case, add it to the temporary string. If it's upper case, add the temporary string to the list of words AND reset the temporary string to be the new uppercase character.</p>
+<p>Finally I should be able to return the length of the list. This will represent the number of words in the original string.</p>
 <h2 id="psuedocode">Psuedocode</h2>
 <pre><code class="language-nohighlight">variable the_words = []
 variable temp_word = ""
@@ -159,13 +159,13 @@ print(len(phrase))</code></pre>
 <pre><code class="language-nohighlight">Current Variables:
 the_words = ["this"]
 temp_word = "I"</code></pre>
-<p>The next letter is lowercase (&quot;s&quot;), and is therefore added to temp_word.</p>
-<p>The next letter is uppercase (&quot;A&quot;), and temp_word is added to the_words, and temp_word is set to the current letter (&quot;A&quot;).</p>
+<p>The next letter is lowercase (&quot;s&quot;) and is therefore added to temp_word.</p>
+<p>The next letter is uppercase (&quot;A&quot;), thus temp_word is added to the_words, and temp_word is set to the current letter (&quot;A&quot;).</p>
 <pre><code class="language-nohighlight">Current Variables:
 the_words = ["this", "Is"]
 temp_word = "A"</code></pre>
-<p>The next letter is lowercase (&quot;n&quot;), and is added to temp_word.</p>
-<p>The next letter is uppercase (&quot;E&quot;), and temp_word is added to the_words, and temp_word is set to the current letter (&quot;E&quot;).</p>
+<p>The next letter is lowercase (&quot;n&quot;) and is added to temp_word.</p>
+<p>The next letter is uppercase (&quot;E&quot;), thus temp_word is added to the_words, and temp_word is set to the current letter (&quot;E&quot;).</p>
 <pre><code class="language-nohighlight">Current Variables:
 the_words = ["this", "Is", "An"]
 temp_word = "E"</code></pre>
@@ -175,7 +175,7 @@ temp_word = "Example"</code></pre>
 <p>Finally, the last line runs, printing out the length of the_words.</p>
 <pre><code class="language-nohighlight">Output: 3</code></pre>
 <h2 id="changes">Changes</h2>
-<p>Oops! We made a small mistake. We forgot to add the last word to the_words, and so calling len(the_words) results in the incorrect answer. We can fix this by adding temp_word to the_words after the for loop.</p>
+<p>Oops! I made a small mistake. I forgot to add the last word to the_words, and so calling len(the_words) results in the incorrect answer. I can fix this by adding temp_word to the_words after the for loop.</p>
 <pre><code class="language-python">the_words = []
 temp_word = ""
 for letter in s:
@@ -186,16 +186,16 @@ for letter in s:
         temp_word = letter
 the_words.append(temp_word)
 print(len(phrase))</code></pre>
-<p>This will change our list the_words, and allow the length function to return the correct value:</p>
+<p>This will change our list the_words and allow the length function to return the correct value:</p>
 <pre><code class="language-nohighlight">the_words = ["this", "Is", "An", "Example"]
 temp_word = "Example"</code></pre>
 <p>Resulting in this:</p>
 <pre><code class="language-nohighlight">Output: 4</code></pre>
-<p>Another Successful Live Coding session in which we employed all the steps, and came up with a solution to the problem!</p>
+<p>Another Successful Live Coding session! We employed all the steps and came up with a solution to the problem!</p>
 <aside class="aside-hint">
 <p>There might be a better way of doing this problem!</p>
 <p>We aren't asked to do anything with the words that we have stored in our list the_words. It might be more appropriate to just keep track of an integer, and add to the integer everytime we encounter an uppercase letter.</p>
-<p>Many of you may have done this on your attempt with this problem. That's great! If you didn't, and are looking for another challenge try it this way.</p>
+<p>Many of you may have done this on your attempt with this problem. That's great! If you didn't and are looking for another challenge try it this way.</p>
 </aside>
                                     </section>
 

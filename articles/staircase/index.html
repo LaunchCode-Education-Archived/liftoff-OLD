@@ -119,7 +119,7 @@
 <p>We are given an integer as input(n).</p>
 <p>n represents the height, and width of our desired output.</p>
 <p>Our desired output is a staircase drawn with the pound symbol (#). If a pound symbol is not represented it will be replaced by a space (&quot; &quot;).</p>
-<p>So this means there will be n number of elements in each print statment, and they will be some combination of spaces, and pounds.</p>
+<p>So this means there will be n number of elements in each print statment, and there will be some combination of spaces and pounds.</p>
 <p>Test case:</p>
 <pre><code class="language-nohighlight">input: n = 4
 output:    #
@@ -128,10 +128,10 @@ output:    #
         ####</code></pre>
 <h2 id="break-down-complex-pieces-into-smaller-pieces">Break Down Complex Pieces into Smaller Pieces</h2>
 <p>I know we will have to print n number of new lines. I can do this with a for loop.</p>
-<p>Within that for loop I can create a blank string, and concatenate either spaces, or pound symbols, depending on where we are in the original loop.</p>
+<p>Within that for loop I can create a blank string, and concatenate either spaces or pound symbols, depending on where we are in the original loop.</p>
 <p>I can then print the new string before the original loop iterates.</p>
 <h2 id="psuedocode">Psuedocode</h2>
-<p>I will need a for loop and within that loop I will need to nest 2 additional for loops. My plan is to create a blank string that will have spaces added to it first, then pound signs added second, the loops for spaces, and pounds will depend on where we are in the original loop.</p>
+<p>I will need a for loop, and within that loop I will need to nest 2 additional for loops. My plan is to create a blank string that will have spaces added to it first, then pound signs added second. The loops for spaces and pounds will depend on where we are in the original loop.</p>
 <pre><code class="language-nohighlight">for loop -&gt; goes from 0 to n
     variable print_string = ''
     for loop -&gt; adds the number of spaces to print_string
@@ -242,10 +242,10 @@ Output for 3rd Iteration:
 "   #"
 "  ##"
 " ###"</code></pre>
-<p>At this point in time the original for loop has completed, and this would be final output.</p>
-<p>Our output doesn't quite match up with our expected output, it looks like we are off by one! A common error, let's make a small changes and see how it changes our output.</p>
+<p>At this point, the original for loop has completed, and this would be final output.</p>
+<p>Our output doesn't quite match up with our expected output, it looks like we are off by one! A common error, let's make small changes and see how these change our output.</p>
 <h2 id="changes">Changes</h2>
-<p>It is printing a blank line first, and the incorrect number of spaces, and pounds because the first for loop is going from 0-3. We need it to go from 1-4 and it should be fine. So let's change the first for loop.</p>
+<p>A blank line is printed first along with the incorrect number of spaces and pounds because the first for loop is going from 0-3. We need it to go from 1-4 and it should be fine. So let's change the first for loop.</p>
 <pre><code class="language-python">for i in range(1,n+1):
     print_str = ""
     for j in range((n - i)):
@@ -349,7 +349,7 @@ Output for 3rd Iteration:
 "  ##"
 " ###"
 "####"</code></pre>
-<p>Alright! We did it. Our actual output, matches the desired output.</p>
+<p>Alright! We did it. Our actual output matches the desired output.</p>
 <p>We successfully followed all of the steps and created a solution that solves the problem!</p>
                                     </section>
 
