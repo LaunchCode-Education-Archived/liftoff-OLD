@@ -54,13 +54,13 @@ The amount of points you complete in a given sprint contributes to your **veloci
 
 ## Standup
 
-A **standup** is a short status meeting conducted regularly (usually every morning) by agile teams. In it's most common format, standups take place by having the entire team stand up near their work area and take turns answering the following questions:
+A **standup** is a short status meeting conducted regularly (usually every morning) by agile teams. In its most common format, standups take place by having the entire team stand up near their work area and take turns answering the following questions:
 
 - What did I complete yesterday?
 - What will I work on today?
 - Am I blocked by anything?
 
-By "blocked" it is meant that you are prevented from working on or completing task due to a circumstance outside of your direct control. You could be waiting for another team member or an external party to deliver something necessary for you to proceed.
+By "blocked" it is meant that you are prevented from working on or completing a task due to a circumstance outside of your direct control. You could be waiting for another team member or an external party to deliver something necessary for you to proceed.
 
 Standups have a few purposes.
 
