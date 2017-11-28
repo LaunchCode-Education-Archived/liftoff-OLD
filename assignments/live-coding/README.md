@@ -7,7 +7,7 @@ For this assignment, you will be required to successfully complete a live coding
 
 ## Scheduling Time
 
-Time will be allocated in class 4, however you are more than welcome to attempt this assignment multiple times. If you want ot take a second, or third, etc attempt please talk to your Mentor who can find a time, or can connect you with a volunteer.
+Time will be allocated in class 4, however you are more than welcome to attempt this assignment multiple times. If you want to take a second, or third, etc attempt please talk to your Mentor who can find a time, or can connect you with a volunteer.
 
 ## Practice Makes Perfect
 

@@ -6,7 +6,7 @@ currentMenu: 'articles'
 ## Gather Requirements/Clarify Problem
 We are given a string without any spaces in it.
 
-The string follows camel case convention. In which the first word is not capitalized, however every following word's first letter is capitalized.
+The string follows camel case convention. This means the first word is not capitalized; however, every following word's first letter is capitalized.
 
 For example:
 ```nohighlight
@@ -23,13 +23,13 @@ output = 4
 There are four words in the given string.
 
 ## Break Down Complex Pieces into Smaller Pieces
-I want to hold my phrase in a list of the individual words. So I can first create an empty list.
+I want to hold my phrase in a list of the individual words. First, I will create an empty list.
 
 I will then need to create an empty string that will serve as a temporary container.
 
-We should be able to loop through the string by each individual character. We can check if the character is upper or lower case. If it's lower case add it to our temporary string. If it's upper case, add the temporary string to the list of words AND reset the temporary string to be the new uppercase character.
+I should be able to loop through the string by each individual character. I can check if the character is upper or lower case. If it's lower case, add it to the temporary string. If it's upper case, add the temporary string to the list of words AND reset the temporary string to be the new uppercase character.
 
-Finally we sould be able to return the length of the list, which will represent th enumber of words in the original string.
+Finally I should be able to return the length of the list. This will represent the number of words in the original string.
 
 ## Psuedocode
 ```nohighlight
@@ -74,9 +74,9 @@ the_words = ["this"]
 temp_word = "I"
 ```
 
-The next letter is lowercase ("s"), and is therefore added to temp_word.
+The next letter is lowercase ("s") and is therefore added to temp_word.
 
-The next letter is uppercase ("A"), and temp_word is added to the_words, and temp_word is set to the current letter ("A").
+The next letter is uppercase ("A"), thus temp_word is added to the_words, and temp_word is set to the current letter ("A").
 
 ```nohighlight
 Current Variables:
@@ -84,9 +84,9 @@ the_words = ["this", "Is"]
 temp_word = "A"
 ```
 
-The next letter is lowercase ("n"), and is added to temp_word.
+The next letter is lowercase ("n") and is added to temp_word.
 
-The next letter is uppercase ("E"), and temp_word is added to the_words, and temp_word is set to the current letter ("E").
+The next letter is uppercase ("E"), thus temp_word is added to the_words, and temp_word is set to the current letter ("E").
 
 ```nohighlight
 Current Variables:
@@ -108,7 +108,7 @@ Output: 3
 ```
 ## Changes
 
-Oops! We made a small mistake. We forgot to add the last word to the_words, and so calling len(the_words) results in the incorrect answer. We can fix this by adding temp_word to the_words after the for loop.
+Oops! I made a small mistake. I forgot to add the last word to the_words, and so calling len(the_words) results in the incorrect answer. I can fix this by adding temp_word to the_words after the for loop.
 
 ```python
 the_words = []
@@ -123,7 +123,7 @@ the_words.append(temp_word)
 print(len(phrase))
 ```
 
-This will change our list the_words, and allow the length function to return the correct value:
+This will change our list the_words and allow the length function to return the correct value:
 
 ```nohighlight
 the_words = ["this", "Is", "An", "Example"]
@@ -135,12 +135,12 @@ Resulting in this:
 Output: 4
 ```
 
-Another Successful Live Coding session in which we employed all the steps, and came up with a solution to the problem!
+Another Successful Live Coding session! We employed all the steps and came up with a solution to the problem!
 
 <aside class="aside-hint" markdown="1">
 There might be a better way of doing this problem!
 
 We aren't asked to do anything with the words that we have stored in our list the_words. It might be more appropriate to just keep track of an integer, and add to the integer everytime we encounter an uppercase letter.
 
-Many of you may have done this on your attempt with this problem. That's great! If you didn't, and are looking for another challenge try it this way.
+Many of you may have done this on your attempt with this problem. That's great! If you didn't and are looking for another challenge try it this way.
 </aside>
