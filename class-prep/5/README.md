@@ -13,3 +13,14 @@ Task | Resource Type | Link
 |----|---------------|------|
 Read | Article | [How To Be A Good Mentee](https://thegirlpowercode.com/2017/05/02/how-to-be-a-good-mentee/)
 Read | Article | [How I Learned To Code In My 30s](https://medium.com/udacity/how-i-learned-to-code-in-my-30s-61ad21180208)
+
+## Career Module
+
+Interviewing is crucial to actually land a job as a developer. In class we will discuss the differnt aspects of the interview process, and how to prepare for each part of the interview.
+
+For prep-work you simply need to start thinking about interviews you've had in the past. And read the following articles.
+
+Task | Resource Type | Link
+|----|---------------|------|
+Read | Article | [How to Prepare for (and Ace) the Technical Interview](https://www.cio.com/article/2383000/careers-staffing/careers-staffing-how-to-prepare-for-and-ace-the-technical-interview.html)
+Read | Article | [10 Tech Interview Errors](https://www.monster.com/career-advice/article/ten-tech-it-interview-errors)

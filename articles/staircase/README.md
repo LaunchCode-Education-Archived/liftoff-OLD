@@ -10,7 +10,7 @@ n represents the height, and width of our desired output.
 
 Our desired output is a staircase drawn with the pound symbol (#). If a pound symbol is not represented it will be replaced by a space (" ").
 
-So this means there will be n number of elements in each print statment, and they will be some combination of spaces, and pounds.
+So this means there will be n number of elements in each print statment, and there will be some combination of spaces and pounds.
 
 Test case:
 ```nohighlight
@@ -24,13 +24,13 @@ output:    #
 ## Break Down Complex Pieces into Smaller Pieces
 I know we will have to print n number of new lines. I can do this with a for loop.
 
-Within that for loop I can create a blank string, and concatenate either spaces, or pound symbols, depending on where we are in the original loop.
+Within that for loop I can create a blank string, and concatenate either spaces or pound symbols, depending on where we are in the original loop.
 
 I can then print the new string before the original loop iterates.
 
 ## Psuedocode
 
-I will need a for loop and within that loop I will need to nest 2 additional for loops. My plan is to create a blank string that will have spaces added to it first, then pound signs added second, the loops for spaces, and pounds will depend on where we are in the original loop.
+I will need a for loop, and within that loop I will need to nest 2 additional for loops. My plan is to create a blank string that will have spaces added to it first, then pound signs added second. The loops for spaces and pounds will depend on where we are in the original loop.
 
 ```nohighlight
 for loop -> goes from 0 to n
@@ -180,12 +180,12 @@ Output for 3rd Iteration:
 " ###"
 ```
 
-At this point in time the original for loop has completed, and this would be final output.
+At this point, the original for loop has completed, and this would be final output.
 
-Our output doesn't quite match up with our expected output, it looks like we are off by one! A common error, let's make a small changes and see how it changes our output.
+Our output doesn't quite match up with our expected output, it looks like we are off by one! A common error, let's make small changes and see how these change our output.
 
 ## Changes
-It is printing a blank line first, and the incorrect number of spaces, and pounds because the first for loop is going from 0-3. We need it to go from 1-4 and it should be fine. So let's change the first for loop.
+A blank line is printed first along with the incorrect number of spaces and pounds because the first for loop is going from 0-3. We need it to go from 1-4 and it should be fine. So let's change the first for loop.
 
 ```python
 for i in range(1,n+1):
@@ -324,6 +324,6 @@ Output for 3rd Iteration:
 "####"
 ```
 
-Alright! We did it. Our actual output, matches the desired output.
+Alright! We did it. Our actual output matches the desired output.
 
 We successfully followed all of the steps and created a solution that solves the problem!
