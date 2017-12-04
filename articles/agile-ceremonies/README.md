@@ -9,7 +9,7 @@ currentMenu: 'articles'
     - [Prioritization](#prioritization)
     - [Estimation](#estimation)
 - [Standup](#standup)
-- [Retrospective](#retrospective)
+- [Retrospective and Sprint Review](#retrospective-and-sprint-review)
 
 ## Sprint Kickoff
 
@@ -52,6 +52,12 @@ After you have estimated the most important stories, move those that you want to
 
 The amount of points you complete in a given sprint contributes to your **velocity**. Loosely speaking, velocity is the average number points that you are able to complete during a sprint, averaged over some number of past sprints. Knowing your velocity can also help you estimate work going forward.
 
+<aside class="aside-pro-tip" markdown="1">
+It can be a useful and fun exercises to start your ceremonies with a [warm-up game](http://www.teamfirstdevelopment.com/warm-ups/). These stimulate strong communication and engagement by all members of the team, and also help get creative juices flowing.
+
+Your instructor may have you start your ceremonies with one of the games from the resource linked above.
+</aside>
+
 ## Standup
 
 A **standup** is a short status meeting conducted regularly (usually every morning) by agile teams. In its most common format, standups take place by having the entire team stand up near their work area and take turns answering the following questions:
@@ -82,6 +88,27 @@ In the context of Liftoff, you will conduct regular standups within your team. W
 - What will I work on next week?
 - Am I blocked by anything? In other words, is there anythign a mentor or fellow learner could help me understand to move forward more quickly?
 
-## Retrospective
+## Retrospective and Sprint Review
 
-**Coming soon...**
+Retrospectives and sprint reviews are often carried out as independent activities. However, we'll combine aspects of both in a single activity.
+
+A **sprint review** looks back at the work accomplished during the last sprint. It often includes activities such as demos of new features for the team and product owner (only fully-completed work is demonstrated). Additionally, sprint reviews can function as a celebation of team accomplishments.
+
+A **retrospective** is an activity designed to reflect on what worked well and what didn't. It is often carried out at the end of a sprint, though it isn't always a part of _every_ sprint, the way a sprint review is. In a team environment, a retrospective is often facilitated by somebody that is not on the development team, in order to provide a more neutral structure. Teams discuss big-picture thoughts, process and communication issues, and anything else related to how they can improve and grow as a team.
+
+For Liftoff, you will cap off your sprint by participating in an acitvity that combines elements of both sprint reviews and retrospectives.
+
+As a team, you will go through the following items. Your mentor will facilitate this discussion.
+
+1. What stories were you able to complete during the last sprint? 
+1. Which stories, if any, did you commit to during the last sprint that you were unable to complete? will these carry over to the next sprint?
+1. What can you do to improve workflow for the next sprint? You might discuss topics such as:
+    - Improved estimation and prioritization
+    - Time management
+    - Planning (user stories, wireframes, etc)
+
+### Facilitation Notes for Mentors
+
+There are different ways to facilitate this discussion. We recommend going through the first items in a standup fashion. That is, each person reports the completed and uncompleted stories in turn.
+
+For the final portion, it can be useful to have a more open-ended discussion that learners can contribute to. Try to stimulate constructive participation by all learners, and focus on helping them come to their own conclusions. Be sure that the discussion includes concrete steps that learners can take to improve workflow during the next sprint.
