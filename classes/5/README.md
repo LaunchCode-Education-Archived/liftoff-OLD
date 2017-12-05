@@ -20,4 +20,4 @@ During class, you'll spend 15-20 minutes with your mentor reviewing your project
 - What stories have you been working on recently?
 - What code design decisions did you make, and why? For example, how did you design your model classes and controllers?
 - What has been the most challenging aspect of your project so far? How did you overcome it?
-- What are you working on next? Your mentor will provide some tips for your next set up stories.
+- What are you working on next? Your mentor will provide some tips for your next set of stories.
