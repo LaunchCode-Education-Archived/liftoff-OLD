@@ -23,6 +23,7 @@ https://education.launchcode.org/liftoff/assignments/mock-interview/index.html
 https://education.launchcode.org/liftoff/assignments/online-profiles/index.html
 https://education.launchcode.org/liftoff/assignments/planning/index.html
 https://education.launchcode.org/liftoff/assignments/project-outline/index.html
+https://education.launchcode.org/liftoff/assignments/project-review/index.html
 https://education.launchcode.org/liftoff/assignments/project-setup/index.html
 https://education.launchcode.org/liftoff/assignments/setup/index.html
 https://education.launchcode.org/liftoff/class-prep/1/index.html
