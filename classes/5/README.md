@@ -16,3 +16,13 @@ To get started on your next sprint, go through the [sprint kickoff](../../articl
 ### Project Review
 
 During class, you'll coplete the [Project Review assignment](../../assignments/project-review/) by discussing your project status with your mentor.
+
+## Career Module
+
+### Interview Presentation
+
+We will be learning about the techincal interview today, and have a presentation that covers many topics.
+
+### Interview Groupwork
+
+For todays group work we will be breaking into pairs and taking turns asking each other [interview questions](../../articles/interview-questions/). 
