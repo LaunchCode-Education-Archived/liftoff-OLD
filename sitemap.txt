@@ -9,6 +9,7 @@ https://education.launchcode.org/liftoff/articles/github-profile/index.html
 https://education.launchcode.org/liftoff/articles/github-readme/index.html
 https://education.launchcode.org/liftoff/articles/grading-students/index.html
 https://education.launchcode.org/liftoff/articles/index.html
+https://education.launchcode.org/liftoff/articles/interview-questions/index.html
 https://education.launchcode.org/liftoff/articles/linkedin-profile/index.html
 https://education.launchcode.org/liftoff/articles/live-coding/index.html
 https://education.launchcode.org/liftoff/articles/logging-java/index.html
@@ -23,7 +24,6 @@ https://education.launchcode.org/liftoff/assignments/mock-interview/index.html
 https://education.launchcode.org/liftoff/assignments/online-profiles/index.html
 https://education.launchcode.org/liftoff/assignments/planning/index.html
 https://education.launchcode.org/liftoff/assignments/project-outline/index.html
-https://education.launchcode.org/liftoff/assignments/project-review/index.html
 https://education.launchcode.org/liftoff/assignments/project-setup/index.html
 https://education.launchcode.org/liftoff/assignments/setup/index.html
 https://education.launchcode.org/liftoff/class-prep/1/index.html
