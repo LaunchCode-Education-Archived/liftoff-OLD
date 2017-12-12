@@ -16,7 +16,7 @@ You will be creating a slide deck based on the same template used for the [Capst
 
 You may start with the template in one of the following formats:
 - [Google Slides](https://docs.google.com/presentation/d/1Iuol2AdtEnVFTreOW9fBF71ZJbXvA--zI2mrxQzdP7o/edit#slide=id.p)
-- [Powerpoint](./capstone-presentation-template.pptx)
+- [Powerpoint](https://www.dropbox.com/s/tvdipbfilwmtf8v/capstone-presentation-template.pptx?dl=0)
 
 If you use Google Slides, you will need to first copy the document in order to make a version that you can edit.
 
