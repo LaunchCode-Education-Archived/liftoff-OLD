@@ -25,6 +25,14 @@ currentMenu: assignments
 
 ## Week 4
 
+[Live Coding](live-coding/)
+
 ## Week 5
 
+[Project Review](project-review/)
+
 ## Week 6
+
+[Mock Interview](mock-interview/)
+
+[Project Presentation](project-presesntation/)

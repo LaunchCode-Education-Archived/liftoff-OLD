@@ -381,3 +381,5 @@ cf delete cheese-mvc -f
 ## Further Learning
 
 **How can we keep a set of properties for local development to connect to my database?** Using spring profiles, and two sets of property files, you can create properties for both local and deployment. [Read more about profiles in Spring](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-properties-and-configuration.html#howto-change-configuration-depending-on-the-environment).
+
+**How can I work with logs for my deployed Java application?** Logging gives valuable info about your running application, including the potential sources of errors. [Read morea about logging in Java](../logging-java/).
