@@ -40,7 +40,7 @@ title: 'Mentor Playbook: Week 2'
         * Work with them to create better stories.
     * They are struggling to find time to work on their projects.
         * Have them plan out specific times this week they will work on their project.
-    * They aren't not strong enough with languages or technologies they are using.
+    * They aren't skilled enough with languages or technologies they are using.
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
         *
