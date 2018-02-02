@@ -52,6 +52,7 @@ https://education.launchcode.org/liftoff/playbooks/CEM-playbook/index.html
 https://education.launchcode.org/liftoff/playbooks/index.html
 https://education.launchcode.org/liftoff/playbooks/instructor-playbook/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/index.html
+https://education.launchcode.org/liftoff/playbooks/mentor-playbook/overview/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-1/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-2/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-3/index.html
