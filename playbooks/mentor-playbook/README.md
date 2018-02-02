@@ -4,7 +4,7 @@ title: 'Mentor Playbook'
 
 Welcome to the Mentor Playbook.
 
-- Overview
+- [Overview](../mentor-playbook/overview/)
 - [Week 1](../mentor-playbook/week-1/)
 - [Week 2](../mentor-playbook/week-2/)
 - [Week 3](../mentor-playbook/week-3/)
