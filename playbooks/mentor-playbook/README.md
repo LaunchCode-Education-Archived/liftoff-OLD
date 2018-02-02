@@ -9,7 +9,7 @@ Welcome to the Mentor Playbook.
 - [Week 2](../mentor-playbook/week-2/)
 - [Week 3](../mentor-playbook/week-3/)
 - [Week 4](../mentor-playbook/week-4/)
-- Week 5
-- Week 6
+- [Week 5](../mentor-playbook/week-5/)
+- [Week 6](../mentor-playbook/week-6/)
 - Week 7
 - Week 8

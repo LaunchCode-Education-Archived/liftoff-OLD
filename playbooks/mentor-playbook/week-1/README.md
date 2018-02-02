@@ -24,7 +24,7 @@ title: 'Mentor Playbook: Week 1'
 ## Student Assignments
 * Project Outline
     * [Description](../../assignments/project-outline)
-    * Grading Rubric found on Canvas under the Rubric section
+    * Grading Rubric found on Canvas under the Pages section
         * See the CEM if you can't find it
     * *This assignment needs to be graded before week 2!*
 * Assignment Repository Setup

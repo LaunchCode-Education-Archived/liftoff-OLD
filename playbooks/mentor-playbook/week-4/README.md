@@ -40,7 +40,7 @@ title: 'Mentor Playbook: Week 4'
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
         * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code, or debugging with them.
-* Students will inevitably fail the Live Coding Assignment.
+* Students might fail the Live Coding Assignment.
     * Students sometimes forget it's all about practice
         * Remind them they can attempt the assignment again, and to keep practicing. Give them lots of positive feedback.
     * Students are overly anxious. Sometimes they will completely blank on programming.
