@@ -24,3 +24,4 @@ Task | Resource Type | Link
 |----|---------------|------|
 Read | Article | [How to Prepare for (and Ace) the Technical Interview](https://www.cio.com/article/2383000/careers-staffing/careers-staffing-how-to-prepare-for-and-ace-the-technical-interview.html)
 Read | Article | [10 Tech Interview Errors](https://www.monster.com/career-advice/article/ten-tech-it-interview-errors)
+Read | Article | [LaunchCode's Framework for Answering Interview Questions](../../articles/answering-interview-questions/)
