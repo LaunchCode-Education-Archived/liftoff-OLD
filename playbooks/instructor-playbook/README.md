@@ -5,7 +5,7 @@ title: 'Instructor Playbook'
 Welcome to the Instructor Playbook.
 
 - Overview
-- Week 1
+- [Week 1](../instructor-playbook/week-1/)
 - Week 2
 - Week 3
 - Week 4
