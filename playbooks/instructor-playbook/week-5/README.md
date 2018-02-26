@@ -1,5 +1,5 @@
 ---
-title: 'Mentor Playbook: Week 5'
+title: 'Instructor Playbook: Week 5'
 ---
 
 ## Topics
@@ -11,15 +11,15 @@ title: 'Mentor Playbook: Week 5'
 
 
 ## Your Responsiblities
-* Take attendance in Canvas
-    * All students should be marked present (check mark), not present (x), or excused (EX)
-    * Report any unexcused absences to the CEM!
-* Run a Sprint Retro
-* Go through a Project Review with each of your students.
-    * Project reviews are meant to be your chance to see their project in action, to look through the code, and generally note their progress on their project.
-* Answer student questions about *your* experiences with interviewing.
-* Monitor students during their in class interview activity.
-* Run a Sprint Kickoff
+* Allow time for Group Retros
+* Presentation on Technical Interviews.
+    * Cover how to answer behavioral questions, with examples.
+    * Cover the types of technical assessments.
+    * Encourage students to continue learning as a way to prepare for technical interviews.
+* Setup Technical Interview Activity.
+    * Break students into pairs, and have them ask each other questions.
+* Allocate time for the project review assignment.
+* Allocate time for a Sprint Kickoff -- can be combined with the project review.
 
 ## Student Assignments
 * Project Review One
