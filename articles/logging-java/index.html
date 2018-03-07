@@ -115,7 +115,7 @@
 
                 <section id="content" class="col-sm-offset-2 col-sm-8">
                                         <h1>Logging in Java Applications</h1>
-                    <p>In this tutorial we'll discuss why logging is important, how to control your logging output, how to write your own logging statements, and how to view your logs in production.</p>
+                    <p>In this tutorial, we'll discuss why logging is important, how to control your logging output, how to write your own logging statements, and how to view your logs in production.</p>
 <ul>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#setup">Setup</a></li>
@@ -204,19 +204,13 @@ logging.level.org.apache.http = debug</code></pre>
 </aside>
 <h2 id="adding-a-logger">Adding a Logger</h2>
 <p>As you start to build more complex applications and host them in a live environment, you'll want to start adding your own logging messages.</p>
-<p>To do so, you'll need to instantiate (create) a logger inside the class we want to do some logging in. This is done by adding the following to the top of your class,  inside of your class declaration.</p>
-<pre><code class="language-java">private static final Logger logger = LoggerFactory.getLogger(CheeseController.class);```
-
-Here, we're adding a logger to our `CheeseController`, but if you're working on your own project, be sure to use the appropriate class name.
-
-This gives us access to a logging instance, which we can start using to create log messages.
-
-## Creating a log statement
-
-Consider a situation where you might want to log why a user failed validation. This way, if the user contacts us confused as to why they can't create a new cheese, register, or otherwise use our application, we'll have a record of what was the root problem. Add the following line inside one of our validation blocks, like so:
-
-```java
-if (errors.hasErrors()) {
+<p>To do so, you'll need to instantiate (create) a logger inside the class we want to do some logging in. This is done by adding the following to the top of your class, inside of your class declaration.</p>
+<pre><code class="language-java">private static final Logger logger = LoggerFactory.getLogger(CheeseController.class);</code></pre>
+<p>Here, we're adding a logger to our <code>CheeseController</code>, but if you're working on your own project, be sure to use the appropriate class name.</p>
+<p>This gives us access to a logging instance, which we can start using to create log messages.</p>
+<h2 id="creating-a-log-statement">Creating a log statement</h2>
+<p>Consider a situation where you might want to log why a user failed validation. This way, if the user contacts us confused as to why they can't create a new cheese, register, or otherwise use our application, we'll have a record of what was the root problem. Add the following line inside one of our validation blocks, like so:</p>
+<pre><code class="language-java">if (errors.hasErrors()) {
     logger.info("Error during cheese registration: " + errors.getAllErrors().toString());
     model.addAttribute("title", "Add Cheese");
     return "cheese/add";
