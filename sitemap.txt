@@ -58,6 +58,7 @@ https://education.launchcode.org/liftoff/playbooks/instructor-playbook/week-3/in
 https://education.launchcode.org/liftoff/playbooks/instructor-playbook/week-4/index.html
 https://education.launchcode.org/liftoff/playbooks/instructor-playbook/week-5/index.html
 https://education.launchcode.org/liftoff/playbooks/instructor-playbook/week-6/index.html
+https://education.launchcode.org/liftoff/playbooks/instructor-playbook/week-7/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/overview/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-1/index.html
