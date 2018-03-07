@@ -31,7 +31,7 @@ I should be able to loop through the string by each individual character. I can 
 
 Finally I should be able to return the length of the list. This will represent the number of words in the original string.
 
-## Psuedocode
+## Pseudocode
 ```nohighlight
 variable the_words = []
 variable temp_word = ""
