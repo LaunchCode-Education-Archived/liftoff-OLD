@@ -6,7 +6,7 @@ title: 'Instructor Playbook: Week 6'
 * Agile Standup
 * Technical Interviews
 
-## Your Responsiblities
+## Your Responsibilities
 * Allocate time for Group Standup
 * Brief Reminder on answering Behavioral Interview Questions.
 * Allocate time for Mentors to give Mock Interviews.
@@ -26,7 +26,7 @@ title: 'Instructor Playbook: Week 6'
 ## Possible Class Outline
 * Agile Standup
 * Mock Interviews
-* Free time to work on projects, or assignments
+* Free Time to Work on Projects or Assignments
 
 ## Student Struggles
 * Some students will not pass their mock interview.
@@ -34,11 +34,11 @@ title: 'Instructor Playbook: Week 6'
     * Write down where they need improvement ie More examples from their experiences, staying on topic, answering questions completely, lack of confidence, etc.
     * Let them know they will have as many chances as necessary to pass this assignment, and that they can continue to work with the CEM.
 * Students might not make much progress towards their user stories.
-    * Either their stories were not good (too large, not specific enough).
+    * Either their stories were too large or not specific enough
         * Work with them to create better stories.
     * They are struggling to find time to work on their projects.
         * Have them plan out specific times this week they will work on their project.
     * They aren't skilled enough with languages or technologies they are using.
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
-        * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code, or debugging with them.
+        * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code or debugging with them.

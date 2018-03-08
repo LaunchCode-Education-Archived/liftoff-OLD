@@ -7,10 +7,10 @@ title: 'Instructor Playbook: Week 2'
 * Agile: Sprint Standup
 * Refreshers on User Stories, Wireframes, Pivotal, and Agile
 
-## Your Responsibilties
+## Your Responsibilities
 * Lecture
-    * Agile Refresher, what a Standup is and why we are using it.
-    * Live Coding - what it is, how you can practice, what the process covered in the prep work is.
+    * Agile Refresher, what a Standup is and why we are using it
+    * Live Coding - what it is, how you can practice, what the process covered in the prep work is
 * Group Activities
     * Live Coding in small groups
     * Live Coding in pairs
@@ -19,7 +19,7 @@ title: 'Instructor Playbook: Week 2'
 * Project Planning
     * [Description](../../assignments/project-planning/)
     * Grading Rubric found on Canvas under the Pages section
-    * Remind Students this assignment is due before next class, and remind Mentors to grade the assignments as they come in.
+    * Remind Students this assignment is due before next class, and remind Mentors to grade the assignments as they come in
 
 ## Possible Class Outline
 * Live Coding Presentation
@@ -38,11 +38,10 @@ title: 'Instructor Playbook: Week 2'
     * They aren't skilled enough with languages or technologies they are using.
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
-        *
-        * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code, or debugging with them.
+        * If they are blocked, you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code or debugging with them.
 * Students will be anxious about live coding.
     * Encourage them to talk out loud, ask questions, and follow the steps.
-    * Encourage them to continue practicing on their own, and with others outside of class.
+    * Encourage them to continue practicing on their own and with others outside of class.
 * Students won't talk much during live coding.
     * Encourage them to ask questions.
     * Have them talk through their logic, or why they decided to do something.

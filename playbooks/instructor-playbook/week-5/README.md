@@ -9,8 +9,7 @@ title: 'Instructor Playbook: Week 5'
 * Agile Sprint Retro
 * Agile Sprint Kickoff
 
-
-## Your Responsiblities
+## Your Responsibilities
 * Allow time for Group Retros
 * Presentation on Technical Interviews.
     * Cover how to answer behavioral questions, with examples.
@@ -26,7 +25,7 @@ title: 'Instructor Playbook: Week 5'
     * [Description](../../../assignments/project-review)
     * Grading Rubric found on Canvas under the Pages section
     * *This assignment needs to be graded by the end of class*
-    * Students shouldn't fail this assignment unless they have absoultely nothing to show. It's hard to have a review if they haven't done any work. If they fail report them to the CEM.
+    * Students shouldn't fail this assignment unless they have absolutely nothing to show. It's hard to have a review if they haven't done any work. If they fail, report them to the CEM.
 
 ## Possible Class Outline
 * Agile Sprint Retro
@@ -36,17 +35,17 @@ title: 'Instructor Playbook: Week 5'
 * Agile Sprint Kickoff
 
 ## Student Struggles
-* Students won't do well during the Techncial Interview Presentation.
+* Students won't do well during the Technical Interview Presentation.
     * Students might not pair up with another student.
         * Find another student for them to work with or make the odd group of 3 students.
     * Students won't answer questions fully.
-        * This activity is meant to practice the Claim Evidence model. Remind students to give examples from their life that back up their answers.
+        * This activity is meant to practice the Claim-Evidence model. Remind students to give examples from their life that back up their answers.
 * Students won't do well during the Project Review.
-    * Student doesn't know what to expect.
+    * Students don't know what to expect.
         * Most students won't know what to expect from a project review. Guide them through it. Ask them to see their project, see their code, ask them about the biggest challenge, their favorite part of their project, and what they have had to learn.
     * Students won't have made much progress on their projects.
         * Remind them everyone works at a different speed. They should have made some progress by now, if they have user stories but aren't making progress towards the stories, help them identify why they aren't making progress.
-    * Students haven't made any progress towards their projects.
+    * Students might not have made any progress towards their projects.
         * If students haven't completed project assignments to this point in the class, and don't have anything in their project to show, fail them and report them to the CEM who can work with them more one on one.
     * Students are afraid they haven't made enough progress.
         * Some students will make good progress, but think it's not enough. Remind them everyone works at different speeds, and help them take pride in what they have accomplished so far.

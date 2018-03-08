@@ -26,7 +26,7 @@ title: 'Instructor Playbook: Week 3'
     * Show them some examples, your own, or the ones from the prep work. Point out what is good, and what LaunchCode requires.
     * Answer their questions.
 * Setup Online Profiles Activity
-* Facilliate time for an Agile Retro, and an Agile Sprint Kickoff.
+* Facilitate time for an Agile Retro, and an Agile Sprint Kickoff.
 
 ## Student Assignments
 * Online Profiles
@@ -40,7 +40,7 @@ title: 'Instructor Playbook: Week 3'
 * Online Profiles Activity
 * Agile Retro
 * Agile Kickoff
-* Free time for projects
+* Free Time for Projects
 * Instructor/Mentors Standup
 
 ## Student Struggles
@@ -62,4 +62,4 @@ title: 'Instructor Playbook: Week 3'
 * Students will have poor resumes.
     * Give specific feedback.
 * Students will have questions about Licenses.
-    * Answer their questions to the best of your abilities, if you don't know pass them to the instructor.
+    * Answer their questions to the best of your abilities; if you don't know how, pass them to the instructor.
