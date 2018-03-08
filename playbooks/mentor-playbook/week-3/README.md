@@ -16,7 +16,7 @@ title: 'Mentor Playbook: Week 3'
 * Agile Sprint Retro
 * Agile Sprint Kickoff
 
-## Your Responsiblities
+## Your Responsibilities
 * Take attendance in Canvas
     * All students should be marked present (check mark), not present (x), or excused (EX)
     * Report any unexcused absences to the CEM!
@@ -34,7 +34,7 @@ title: 'Mentor Playbook: Week 3'
     * Grading Rubrics found on Canvas under the Pages section
         * See the CEM if you can't find it
     * *This assignment needs to be graded before week 4!*
-    * You will have to grade their LinkedIn, Resume, and GitHub profiles and they all have to be successful for them to pass this assignment.
+    * You will have to grade their LinkedIn, Resume, and GitHub profiles, and they all have to be successful for them to pass this assignment.
 
 ## Possible Class Outline
 * Git Presentation and Questions
@@ -55,14 +55,14 @@ title: 'Mentor Playbook: Week 3'
     * They aren't skilled enough with languages or technologies they are using.
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
-        * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code, or debugging with them.
+        * If they are blocked, you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code or debugging with them.
 * Students will gripe and complain about Resumes, LinkedIn, or GitHub.
     * Gently remind them it's part of the required work to find a job especially through LaunchCode.
 * Students will not know how to change things on GitHub.
-    * Help them out, or point them in the right direction. GitHub has tons of tutorials.
+    * Help them out or point them in the right direction; GitHub has tons of tutorials.
 * Students will not have LinkedIn profiles.
     * Help them set one up, or point them in the right direction.
 * Students will have poor resumes.
     * Give specific feedback.
 * Students will have questions about Licenses.
-    * Answer their questions to the best of your abilities, if you don't know pass them to the instructor.
+    * Answer their questions to the best of your abilities; if you don't know how, pass them to the instructor.

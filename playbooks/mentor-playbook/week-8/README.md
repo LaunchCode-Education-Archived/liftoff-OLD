@@ -6,7 +6,7 @@ title: 'Mentor Playbook: Week 8'
 * Continued Education
 * Agile Standup
 
-## Your Responsiblities
+## Your Responsibilities
 * Take attendance in Canvas
     * All students should be marked present (check mark), not present (x), or excused (EX)
     * Report any unexcused absences to the CEM!
@@ -17,7 +17,7 @@ title: 'Mentor Playbook: Week 8'
 * There are no assignments for this class, just double check your students are caught up!
 
 ## Possible Class Outline
-* Lecture, or activity about Continued Education
+* Lecture or activity about Continued Education
 * Lots of free time for project work, live coding, and mock interviews.
 
 ## Student Struggles
