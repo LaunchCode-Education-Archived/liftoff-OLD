@@ -16,7 +16,7 @@ Let's get some practice writing user stories and creating wireframes so that you
 
 In this fictional scenario, your team has been contracted to build a new app for LaunchCode. As part of the planning process, you will write the first set up user stories and wireframes. These will guide your team's work, and will serve to communicate to developers what the project's requirements are in a way that aligns with the business requirements.
 
-The project is to build a system that allows LaunchCode course staff to easily take attendance during classes. The current system involves a less-than-desireable work-around in Canvas, and LaunchCode wants a better tool.
+The project is to build a system that allows LaunchCode course staff to easily take attendance during classes. The current system involves a less-than-desirable work-around in Canvas, and LaunchCode wants a better tool.
 
 #### Gathering Requirements
 
@@ -33,8 +33,8 @@ Now that you've gotten input from the client, write 5 user stories that you woul
 
 Once you write user stories, you should clarify all stories with the client. 
 
-- As you were writing them, did any questions arise that you didn't consider when initially gathering requirements? 
-- Do the stories that you drafted align with the client's actual desired features? 
+- As you were writing them, did any questions arise that you didn't consider when initially gathering requirements?
+- Do the stories that you drafted align with the client's actual desired features?
 - Are your user stories too big? Are they "epics" that need to be broken down into smaller stories?
 
 As you talk through these with the client, adjust and improve user stories and wireframes based on feedback.
