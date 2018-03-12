@@ -46,6 +46,9 @@ https://education.launchcode.org/liftoff/classes/4/index.html
 https://education.launchcode.org/liftoff/classes/5/index.html
 https://education.launchcode.org/liftoff/classes/6/index.html
 https://education.launchcode.org/liftoff/classes/index.html
+https://education.launchcode.org/liftoff/demo-projects/event-log/reamde.html
+https://education.launchcode.org/liftoff/demo-projects/expense-tracker/reamde.html
+https://education.launchcode.org/liftoff/demo-projects/index.html
 https://education.launchcode.org/liftoff/index.html
 https://education.launchcode.org/liftoff/issues/index.html
 https://education.launchcode.org/liftoff/objectives/index.html
