@@ -35,4 +35,4 @@ currentMenu: assignments
 
 [Mock Interview](mock-interview/)
 
-[Project Presentation](project-presesntation/)
+[Project Presentation](project-presentation/)

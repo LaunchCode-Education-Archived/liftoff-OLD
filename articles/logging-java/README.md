@@ -3,7 +3,7 @@ title: Logging in Java Applications
 currentMenu: articles
 ---
 
-In this tutorial we'll discuss why logging is important, how to control your logging output, how to write your own logging statements, and how to view your logs in production.
+In this tutorial, we'll discuss why logging is important, how to control your logging output, how to write your own logging statements, and how to view your logs in production.
 
 - [Introduction](#introduction)
 - [Setup](#setup)
@@ -128,10 +128,11 @@ Some loggers also provide a `FATAL` level, but logback treats this the same as a
 
 As you start to build more complex applications and host them in a live environment, you'll want to start adding your own logging messages.
 
-To do so, you'll need to instantiate (create) a logger inside the class we want to do some logging in. This is done by adding the following to the top of your class,  inside of your class declaration.
+To do so, you'll need to instantiate (create) a logger inside the class we want to do some logging in. This is done by adding the following to the top of your class, inside of your class declaration.
 
 ```java
-private static final Logger logger = LoggerFactory.getLogger(CheeseController.class);```
+private static final Logger logger = LoggerFactory.getLogger(CheeseController.class);
+```
 
 Here, we're adding a logger to our `CheeseController`, but if you're working on your own project, be sure to use the appropriate class name.
 

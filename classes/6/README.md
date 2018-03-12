@@ -15,5 +15,4 @@ You will also have access to your mentor, other students, and the staff instruct
 
 Finally, you'll participate in a [mock interview](../../assignments/mock-interview/) that is also an assignment. You must successfully complete the mock interview in order to pass the class.
 
-This is an assignment, and you will be marked as pass or fail. If you fail the assignment you will need to make up the mock interview with a LaunchCode staff member in one of the final classes.
-
+This is an assignment, and you will be marked as pass or fail. If you fail the assignment, you will need to make up the mock interview with a LaunchCode staff member in one of the final classes.

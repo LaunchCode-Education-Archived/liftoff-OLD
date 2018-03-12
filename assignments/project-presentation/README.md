@@ -7,8 +7,8 @@ Odds are you aren't done with your project. That's okay. In fact, we encourage y
 
 That said, we want to you to create a set of presentation slides summarizing your project. This serves multiple purposes:
 1. It shows us what you've accomplished to-date.
-1. It forces you to go through the process of outlining your project work at a high level, which is a useful exercise to prepare you to talk about it in interviews. It also makes it easy for you to give an actual presentation on your app in the future.
-1. Some of you will be asked to create a [demo video](https://www.youtube.com/watch?v=_8LRJHkTqsg&list=PLs5n5nYB22fIdV_HMkekxx7Yt06lXUptT) that can help other learners with planning their projects.
+2. It forces you to go through the process of outlining your project work at a high level, which is a useful exercise to prepare you to talk about it in interviews. It also makes it easy for you to give an actual presentation on your app in the future.
+3. Some of you will be asked to create a [demo video](https://www.youtube.com/watch?v=_8LRJHkTqsg&list=PLs5n5nYB22fIdV_HMkekxx7Yt06lXUptT) that can help other learners with planning their projects.
 
 ## Your Presentation
 
@@ -23,7 +23,7 @@ If you use Google Slides, you will need to first copy the document in order to m
 In addition to the videos linked above, you may refer to a [demo version](./presentation-demo.pdf) of the presentation.
 
 <aside class="aside-pro-tip" markdown="1">
-If you deployed your application, add the URL of where your app is hosted to one of your presentation slides (the main slide, or the Demo slide work well for this).
+If you deployed your application, add the URL of where your app is hosted to one of your presentation slides (the main slide or the Demo slide work well for this).
 </aside>
 
 When you're done, create a PDF version of the presentation and add it to your `liftoff-assignments` GitHub repository in the `project_06` folder. Then stage, commit, and push the changes. Submit the link to your `liftoff-assignments` repository via Canvas.

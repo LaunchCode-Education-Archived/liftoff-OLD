@@ -1,5 +1,5 @@
 ---
-title: Project Reivew
+title: Project Review
 currentMenu: assignments
 ---
 

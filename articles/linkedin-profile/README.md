@@ -6,7 +6,7 @@ currentMenu: 'articles'
 ### LinkedIn
 You can think of your LinkedIn profile as your digital resume. It should contain your professional experience, skills, and education.
 
-Your GitHub profile is a great demostration of your technical skills, but it is only very beneficial to a technical individual. Your LinkedIn profile should be geared towards the HR department, giving you a chance to further explain things about yourself.
+Your GitHub profile is a great demonstration of your technical skills, but it is only very beneficial to a technical individual. Your LinkedIn profile should be geared towards the HR department, giving you a chance to further explain things about yourself.
 
 Much like your GitHub profile, you want to associate a professional email address with your LinkedIn account as well as have a nice looking headshot to include as a picture.
 
