@@ -13,4 +13,4 @@ For his Liftoff project, Paul has decided to create a web application that will 
 
 ## Project Outline
 
-The [project outline](https://github.com/pdmxdd/liftoff-assignments/P2-Project_Outline) for Expense Tracker gives an overview of the desired functionality.
+The [project outline](https://github.com/pdmxdd/liftoff-assignments/tree/master/P2-Project_Outline) for Expense Tracker gives an overview of the desired functionality.
