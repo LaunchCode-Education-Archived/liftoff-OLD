@@ -3,9 +3,9 @@ title: 'Demo Project: Expense Tracker'
 currentMenu: Demo Projects
 ---
 
-[Assignment Repository for Event Log](https://github.com/pdmxdd/liftoff-assignments)
+[Assignment Repository for Expense Tracker](https://github.com/pdmxdd/liftoff-assignments)
 
-[`event-log` GitHub Repository](https://github.com/pdmxdd/expense_tracker)
+[`expense-tracker` GitHub Repository](https://github.com/pdmxdd/expense_tracker)
 
 ## Overview
 
