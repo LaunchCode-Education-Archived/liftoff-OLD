@@ -25,7 +25,7 @@ Finally, we discussed the things that we expect to have to learn along the way, 
 
 ### Assignment: Project Outline
 
-The [project outline](https://github.com/chrisbay/liftoff-assignments/tree/master/P2-Project_Outline) for Event Log gives an overview of the desired functionality.
+The [project outline](https://github.com/chrisbay/liftoff-assignments/blob/master/P2-Project_Outline/) for Event Log gives an overview of the desired functionality.
 
 ## Week 2
 
@@ -37,7 +37,9 @@ We also discussed some of the research that we have done around the new skills w
 
 ### Assignment: Project Planning
 
-The [Project Planning](https://github.com/chrisbay/liftoff-assignments/blob/master/P3-Project_Planning/README.md) includes 3 initial wireframes for the Event Log app, along with a link to the Pivotal Tracker project that has been populated with some user stories. 
+The [Project Planning](https://github.com/chrisbay/liftoff-assignments/blob/master/P3-Project_Planning/) includes 3 initial wireframes for the Event Log app, along with a link to the Pivotal Tracker project that has been populated with some user stories.
+
+![Sprint 1 Stories](images/sprint_1_stories.png)
 
 ## Week 3
 
