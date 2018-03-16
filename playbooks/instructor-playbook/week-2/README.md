@@ -17,7 +17,7 @@ title: 'Instructor Playbook: Week 2'
 
 ## Student Assignments
 * Project Planning
-    * [Description](../../assignments/planning/)
+    * [Description](../../../assignments/planning/)
     * Grading Rubric found on Canvas under the Pages section
     * Remind Students this assignment is due before next class, and remind Mentors to grade the assignments as they come in
 
