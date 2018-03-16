@@ -52,6 +52,7 @@ Listed below are the competencies you should demonstrate by the time you've comp
 ### Class 4
 
 #### Project Module
+- No new concepts
 
 #### Career Module
 - Know where to find additional live coding practice problems
@@ -61,6 +62,7 @@ Listed below are the competencies you should demonstrate by the time you've comp
 ### Class 5
 
 #### Project Module
+- No new concepts
 
 #### Career Module
 - Understand the parts of an interview: Behavioral and Technical
@@ -71,6 +73,7 @@ Listed below are the competencies you should demonstrate by the time you've comp
 ### Class 6
 
 #### Project Module
+- No new concepts
 
 #### Career Module
 - Understand the parts of an interview: Behavioral and Technical
@@ -85,7 +88,7 @@ Listed below are the competencies you should demonstrate by the time you've comp
 - Understand how to talk about your project in a presentation
 
 #### Career Module
-
+- No new concepts
 
 ### Class 8
 
