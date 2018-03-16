@@ -78,3 +78,19 @@ Listed below are the competencies you should demonstrate by the time you've comp
 - Can prepare for and practice answering technical questions
 - Can respond correctly when asked a technical question they don't know how to answer
 - Can incorporate their project experiences and class experiences into technical questions
+
+### Class 7
+
+#### Project Module
+- Understand how to talk about your project in a presentation
+
+#### Career Module
+
+
+### Class 8
+
+#### Project Module
+- Understand deployment process
+
+#### Career Module
+- Understand how to continue learning on your own

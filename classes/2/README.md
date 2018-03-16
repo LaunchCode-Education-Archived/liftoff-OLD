@@ -14,6 +14,8 @@ We will continue with planning work for the [attendance app](../1/) introduced i
 
 The instructor will present some user stories, and you will use these to generate some wireframes within your groups.
 
+Additionally, you will conduct a [Sprint standup meeting](../../articles/agile-ceremonies/#standup) this will give everyone to discuss what they were able to accomplish in the first half of their sprint, and what they aim to complete in the remainder of the sprint.
+
 ## Career Module: Live Coding One
 
 Today's career module in class activity has two parts.
