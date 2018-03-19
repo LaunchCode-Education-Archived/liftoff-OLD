@@ -17,7 +17,7 @@ Blogs, newsletters, books, and twitter accounts to help you get started in the w
 
 [Live Coding](live-coding/)
 
-Learn the steps you should take in a live coding sesssion.
+Learn the steps you should take in a live coding session.
 
 [Agile Ceremonies](agile-ceremonies/)
 
@@ -28,5 +28,3 @@ Apply common agile ceremonies to your project work.
 [Deploying a Java Application](deploy-java/)
 
 Learn how to deploy a Spring Boot application to Pivotal Cloud Foundry.
-
-
