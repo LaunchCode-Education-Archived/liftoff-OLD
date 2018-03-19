@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Logging in Java Applications</title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/highlight.dark.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body id='page-logging-in-java-applications'>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="/">
+                Logging in Java Applications
+                <small class="hidden-xs hidden-sm">
+                    This is the default subtitle!
+                </small>
+            </a>
+
+            
+        </header>
+
+        <main class="container">
+            <div class="row">
+
+                
+                <section id="content" class="col-sm-12">
+                    <p>In this tutorial, we'll discuss why logging is important, how to control your logging output, how to write your own logging statements, and how to view your logs in production.</p>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#reading-log-messages">Reading Log Messages</a></li>
+<li><a href="#controlling-logging-output">Controlling Logging Output</a></li>
+<li><a href="#adding-a-logger">Adding a Logger</a></li>
+<li><a href="#passing-objects">Passing Objects</a></li>
+<li><a href="#reading-logs-in-cloud-foundry">Reading Logs in Cloud Foundry</a></li>
+<li><a href="#reading-logs-in-pivotal-web-services">Reading Logs in Pivotal Web Services</a></li>
+<li><a href="#additional-resources">Additional Resources</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<h3 id="requirements">Requirements</h3>
+<p>This tutorial assumes you have the following installed:</p>
+<ul>
+<li><a href="http://projects.spring.io/spring-boot/" target="_blank">Spring Boot</a></li>
+<li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java 8</a></li>
+<li><a href="https://gradle.org/install/" target="_blank">Gradle</a></li>
+</ul>
+<h3 id="why-logging-matters">Why Logging Matters</h3>
+<ul>
+<li>Logging provides observability of your app in a live environment. What went wrong? What does the stack trace of an error experienced in production look like?</li>
+<li>Logging allows you to debug errors.</li>
+<li>Using a logging framework provides a consistent, informative, timestamped output, and handles the formatting and display of stack traces. If you've used <code>System.out.println</code> to output information, you've noticed that these messages lack that extra context that the other messages have.</li>
+</ul>
+<h3 id="considerations">Considerations</h3>
+<ul>
+<li>Don't log sensitive information, such as passwords, PII (personally identifiable information), or credit card numbers.</li>
+<li>Too much logging is hard to sort through. Too little logging won't provide insight into critical issues. We'll talk about a few techniques to manage the &quot;signal to noise&quot; ratio inherent in getting this right.</li>
+</ul>
+<h2 id="setup">Setup</h2>
+<p>Spring Boot by default ships with all the necessary libraries to add additional logging to your application. You will be interacting with <a href="https://www.slf4j.org/" target="_blank">SLF4J</a>, a logging abstraction which simplifies logger use. Under the hood, the logging implementation is provided by <a href="https://logback.qos.ch/" target="_blank">Logback</a>.</p>
+<p>This tutorial will be based off of the <a href="https://github.com/LaunchCodeEducation/cheese-mvc/tree/video-validation-end" target="_blank">cheese-mvc</a> project. Clone this project and check out the 'video-validation-end' branch as a new branch called <code>logging</code> (<code>git checkout -b logging</code> from the <code>video-validation-end</code> branch). If you'd like to keep the changes we'll be making, first fork the project to your own GitHub account.</p>
+<p>Feel free to use your own project for this tutorial, just make sure you update class and package names where relevant.</p>
+<h2 id="reading-log-messages">Reading Log Messages</h2>
+<p>You likely already have some experience reading log messages, but let's examine a typical event logged by Spring.</p>
+<p>Here's the first log message that displays immediately under the Spring Boot banner on startup:</p>
+<p><code>2017-11-05 13:33:58.594  INFO 73394 --- [  restartedMain] org.launchcode.CheeseMvcApplication      : Starting CheeseMvcApplication on LaunchCodeComputer with PID 73394 (/Users/launchcoder/workspace/cheese-mvc/build/classes/main started by launchcoder in /Users/launchcoder/workspace/cheese-mvc)</code></p>
+<p>Here's what's displayed by default:</p>
+<ul>
+<li>Date and Timestamp</li>
+<li>Log Level — ERROR, WARN, INFO, DEBUG or TRACE (discussed next)</li>
+<li>Process ID</li>
+<li>Thread name — Enclosed in square brackets (may be truncated for console output).</li>
+<li>Logger name — This is usually the source class name (often abbreviated).</li>
+<li>The log message - Here Spring is telling us what process ID our application started on, where it was started from, and by whom.</li>
+</ul>
+<h2 id="controlling-logging-output">Controlling Logging Output</h2>
+<p>Loggers typically support five different log levels, or degrees of severity, ranging from most severe (<code>ERROR</code>) to least severe (<code>TRACE</code>). As a developer, this provides context for the message (How serious is the issue?), and enables control over which messages are displayed during runtime.</p>
+<p>The five standard log levels, in order of increasing severity, are:</p>
+<ul>
+<li><code>TRACE</code></li>
+<li><code>DEBUG</code></li>
+<li><code>INFO</code></li>
+<li><code>WARN</code></li>
+<li><code>ERROR</code></li>
+</ul>
+<p>Each message that is potentially logged by an application has a level, and a running application has a level configured as well. The application log level controls which messages are actually logged, with all messages at the applications log level or higher being logged. For example, if the application level is set to <code>INFO</code>, then <code>INFO</code>, <code>WARN</code>, and <code>ERROR</code> messages are displayed. If the application level is <code>ERROR</code>, then only messages with that level are displayed. If the application level is <code>TRACE</code>, then all messages are displayed in the logs.</p>
+<p>Logging levels allow you to control what information an application logs. You may want to only log <code>INFO</code> and above when your application is working normally, but you may want to enable <code>DEBUG</code>-level logs in order to troubleshoot a problem without redeploying your code. Logging frameworks allow you to control the log level via configuration files and properties.</p>
+<p>In Spring Boot projects, you can use the <code>application.properties</code> file to control log levels. Spring allows log levels to be set not just for the application as a whole, but also separately for individual packages. This allows different packages to have different levels. This feature can help you focus in on only the most important messages. For example, if you are debugging a problem and know precisely which package the issue lies in, you can reduce the number of messages that you have to wade through by enabling more verbose logging for just that package.</p>
+<p>Within <code>application.properties</code>, all properties are prepended with <code>logging.level</code>, followed by the package name and a log level. Spring scans the file for such properties on application startup.</p>
+<p>For example, if you want to log every event at a specific level use:</p>
+<pre><code class="language-nohighlight">logging.level.root=DEBUG</code></pre>
+<p>If you want to log everything that Spring is doing, you'll set:</p>
+<pre><code class="language-nohighlight">logging.level.org.springframework=TRACE</code></pre>
+<p>Notice that we're setting the log level here only for the package <code>org.springframework</code>. Any <code>DEBUG</code> message emitted by a class at or below this package/directory will be displayed.</p>
+<p>Say you want to log everything in your app, but ignore informational messages from Spring. You would set the following properties:</p>
+<pre><code class="language-nohighlight">logging.level.org.springframework=WARN
+logging.level.org.launchcode=TRACE</code></pre>
+<p>Here are some more common packages that may be useful to log during debugging:</p>
+<pre><code class="language-nohighlight"># For debugging security
+logging.level.org.springframework.security=DEBUG
+
+# General debugging of web applications without getting ALL of Spring's logs
+logging.level.org.springframework.web=DEBUG
+
+# Database/ORM logging. Best used in conjunction:
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type=TRACE
+
+# Consuming REST apis via RestTemplate:
+logging.level.org.springframework.web.client.RestTemplate = debug
+logging.level.org.apache.http = debug</code></pre>
+<aside class="aside-note">
+<p>Some loggers also provide a <code>FATAL</code> level, but logback treats this the same as an <code>ERROR</code>.</p>
+</aside>
+<h2 id="adding-a-logger">Adding a Logger</h2>
+<p>As you start to build more complex applications and host them in a live environment, you'll want to start adding your own logging messages.</p>
+<p>To do so, you'll need to instantiate (create) a logger inside the class we want to do some logging in. This is done by adding the following to the top of your class, inside of your class declaration.</p>
+<pre><code class="language-java">private static final Logger logger = LoggerFactory.getLogger(CheeseController.class);</code></pre>
+<p>Here, we're adding a logger to our <code>CheeseController</code>, but if you're working on your own project, be sure to use the appropriate class name.</p>
+<p>This gives us access to a logging instance, which we can start using to create log messages.</p>
+<h2 id="creating-a-log-statement">Creating a log statement</h2>
+<p>Consider a situation where you might want to log why a user failed validation. This way, if the user contacts us confused as to why they can't create a new cheese, register, or otherwise use our application, we'll have a record of what was the root problem. Add the following line inside one of our validation blocks, like so:</p>
+<pre><code class="language-java">if (errors.hasErrors()) {
+    logger.info("Error during cheese registration: " + errors.getAllErrors().toString());
+    model.addAttribute("title", "Add Cheese");
+    return "cheese/add";
+}</code></pre>
+<p>In the event that a user has provided incorrect information when adding a cheese, we will log that there was an error, as well as the errors themselves, which should give us insight into what was the root of the problem.</p>
+<h2 id="passing-objects">Passing Objects</h2>
+<p>Here we are just logging a string which we concatenate with the <code>+</code> symbol. Each logger provides many overloaded methods allowing you to pass in additional parameters, such as an object or an exception. Any objects that are passed in will be logged via their <code>toString</code> method. If it's an object you've created, make sure you've overridden the default <code>toString</code> and you aren't logging any sensitive information stored in your object.</p>
+<h2 id="reading-logs-in-cloud-foundry">Reading Logs in Cloud Foundry</h2>
+<p>If you've deployed your app via Cloud Foundry, you can view your logs by using the <code>cf logs</code> command. For example, if your app was named <code>cheese-mvc</code> you'd type <code>cf logs cheese-mvc</code>. This will display your logs in real time. If you want to view recent logs, add the <code>--recent</code> flag like so <code>cf logs cheese-mvc --recent</code> and the most recent logs will be displayed.</p>
+<h2 id="reading-logs-in-pivotal-web-services">Reading Logs in Pivotal Web Services</h2>
+<p>If you've hosted your app using Pivotal Web Services, you can also view your logs by logging into your <a href="console.run.pivotal.io/">PWS console</a>. Navigate to your space, then your application, and there should be a tab for &quot;Logs&quot;. From there, you can view old logs, as well as monitor them in real time.</p>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html" target="_blank">Spring Boot Docs - Logging Features</a></li>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/html/howto-logging.html" target="_blank">Spring Boot Docs - Logging How To</a></li>
+<li><a href="https://docs.cloudfoundry.org/devguide/deploy-apps/streaming-logs.html" target="_blank">Cloud Foundry Logging</a></li>
+</ul>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>

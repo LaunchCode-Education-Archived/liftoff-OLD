@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Articles</title>
+        <title>Grading Students - Solution</title>
 
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/font-awesome.min.css">
         <link rel="stylesheet" href="/css/highlight.dark.css">
         <link rel="stylesheet" href="/css/main.css">
     </head>
-    <body id='page-articles'>
+    <body id='page-grading-students---solution'>
 
         <header class="navbar navbar-default navbar-fixed-top">
 
             <a class="navbar-brand" href="/">
-                Articles
+                Grading Students - Solution
                 <small class="hidden-xs hidden-sm">
                     This is the default subtitle!
                 </small>
@@ -30,19 +30,21 @@
 
                 
                 <section id="content" class="col-sm-12">
-                    <p><a href="capstone-overview/">Capstone Project Overview</a></p>
-<p>What makes a good capstone project? Why do you need to create one? We've got all of your answers right here.</p>
-<p><a href="continuing-ed-resources/">Great Programming Blogs, Podcasts, and More</a></p>
-<p>Blogs, podcasts, and other resources to help you stay engaged with trends and topics on programming.</p>
-<p><a href="ux-resources/">UX Resources</a></p>
-<p>Blogs, newsletters, books, and twitter accounts to help you get started in the world of UX.</p>
-<p><a href="live-coding/">Live Coding</a></p>
-<p>Learn the steps you should take in a live coding session.</p>
-<p><a href="agile-ceremonies/">Agile Ceremonies</a></p>
-<p>Apply common agile ceremonies to your project work.</p>
-<p><a href="logging-java/">Logging in Java Applications</a></p>
-<p><a href="deploy-java/">Deploying a Java Application</a></p>
-<p>Learn how to deploy a Spring Boot application to Pivotal Cloud Foundry.</p>
+                    <p>For the remaining two problems we will share with you a solution we created that solves the problem, but you will be responsible for following the steps.</p>
+<p>If you want more practice on following all the steps, talk it over with your fellow classmates or mentor!</p>
+<h2 id="python3-solution">Python3 Solution</h2>
+<pre><code class="language-python">new_grades = []
+for grade in grades:
+    if grade &lt; 38:
+        print(grade)
+        new_grades.append(grade)
+    elif (grade % 5) &gt; 2:
+        grade = grade + (5 - (grade % 5))
+        print(grade)
+        new_grades.append(grade)
+    else:
+        print(grade)
+        new_grades.append(grade)</code></pre>
                 </section>
 
             </div>
