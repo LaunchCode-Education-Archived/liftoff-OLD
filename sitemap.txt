@@ -74,6 +74,7 @@ https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-5/index.
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-6/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-7/index.html
 https://education.launchcode.org/liftoff/playbooks/mentor-playbook/week-8/index.html
+https://education.launchcode.org/liftoff/student-agreements/index.html
 https://education.launchcode.org/liftoff/videos/index.html
 https://education.launchcode.org/liftoff/videos/live-coding/index.html
 https://education.launchcode.org/liftoff/sitemap.html
