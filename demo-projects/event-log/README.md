@@ -32,9 +32,13 @@ The [project outline](https://github.com/chrisbay/liftoff-assignments/blob/maste
 
 ### Sprint 1 Standup
 
-During our sprint 1 standup, we discussed our completed project outlines. We also talked about working on wireframes and writing user stories in the coming week, which seem like very doable and clearly-defined tasks now that we have outlines of our projects.
+During our sprint 1 standup, we discussed our completed project outlines and upcoming work. Here are Chris' items.
 
-We also discussed some of the research that we have done around the new skills we'll be learning for our projects. Chris did some resarch on using Spring Security, and will be using that to handle login functionality. Paul has done some general reading about the Rocket framework so he is more familiar with it when he starts coding.
+**What was accomplished:** The Event Log project outline was completed, with a few features laid out. Some questions were raised about how to approach different things (e.g. user login) that we'll have to be figured out along the way.
+
+**What is planned next:** Next, wireframes and initial user stories will be developed.
+
+**Blockers:** There aren't any significant blockers, though there are some unknowns that were made clear as part of this early planning. In particular, Chris has done some research around using Spring Security framework to handle user authentication, though that seems like a potential challenge.
 
 ### Assignment: Project Planning
 
@@ -78,7 +82,27 @@ If he completes all of these, there are more stories ready to estimate and begin
 
 ## Week 4
 
+Since there wasn't a Project Module assignment for week 4, the focus was on completing user stories and gaining momentum.
+
 ### Sprint 2 Standup
+
+**What was accomplished:** All of the user registration and login stories are complete! (See associated commits and screenshots below.) Chris didn't expect to get as much done, but he was able to get all of the desired features implemented, including the associated tests (recall that he's using the test-driven develpment practice).
+
+![Sprint 2 Commits](images/sprint_2_commits.png)
+
+[View the codebase](https://github.com/chrisbay/event-log/tree/189caaa1e1e8e8cae0f4a57bec71f41911d486ee) for `event-log` as of the end of sprint 2.
+
+**Screenshots:**
+- [Event Log Registration](images/event-log-register.png)
+- [Event Log Login](images/event-log-login.png)
+- [Event Log Welcome](images/event-log-welcome.png)
+- [Event Log Logout](images/event-log-logout.png)
+
+**What is planned next:** Next, Chris will work on building out the event model classes, along with associated controllers and views. He has estimated a few stories and moved them into the **Current Iteration** column (see Pivotal Tracker screenshot below). Right now, they seem like a lot of work to complete with only one week left in the sprint, but he's going to get as much done as he can.
+
+![More Sprint 2 Stories](images/sprint_2_stories_2.png)
+
+**Blockers:** At this point, there are no blockers. The tasks ahead are much like the tasks to create `Cheese` objects used in `CheeseMVC`, so there are no obvious rough spots ahead for the current tasks.
 
 ## Week 5
 
