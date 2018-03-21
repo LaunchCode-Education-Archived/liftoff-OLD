@@ -35,6 +35,6 @@ Revisit [lesson videos](http://education.launchcode.org/skills-back-end-csharp/v
 
 ## Submitting Your Work
 
-Within your `liftoff-assignments` repository, open up `project_03/README.md`. Using Markdown formatting, add a link to your project repository. Then stage, commit, and push your changes.
+Within your `liftoff-assignments` repository, open up `P4-Project_Setup/README.md`. Using Markdown formatting, add a link to your project repository. Then stage, commit, and push your changes.
 
 Once you have finished both wireframe and user story components, commit and push your changes to your `liftoff-assignments` repository, and submit the assignment on Canvas by submitting the URL to your outline. Your mentor will provide feedback after the assignment deadline.

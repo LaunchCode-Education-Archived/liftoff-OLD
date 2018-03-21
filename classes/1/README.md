@@ -38,3 +38,7 @@ Once you write user stories, you should clarify all stories with the client.
 - Are your user stories too big? Are they "epics" that need to be broken down into smaller stories?
 
 As you talk through these with the client, adjust and improve user stories and wireframes based on feedback.
+
+#### Sprint Kickoff
+
+Now that we have an understanding of User Stories, and the upcoming assignments we need to have a [Sprint Kickoff](../../articles/agile-ceremonies/#sprint-kickoff) to determine what we will be doing in our sprint. Take some time to consider what you will need to do in order to complete the Project Outline assignment, and the work you may need to complete for your project next week. You will then go around the group and everyone will state what they will be working on.

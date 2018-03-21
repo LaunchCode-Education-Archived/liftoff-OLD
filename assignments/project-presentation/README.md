@@ -26,4 +26,4 @@ In addition to the videos linked above, you may refer to a [demo version](./pres
 If you deployed your application, add the URL of where your app is hosted to one of your presentation slides (the main slide or the Demo slide work well for this).
 </aside>
 
-When you're done, create a PDF version of the presentation and add it to your `liftoff-assignments` GitHub repository in the `project_06` folder. Then stage, commit, and push the changes. Submit the link to your `liftoff-assignments` repository via Canvas.
+When you're done, create a PDF version of the presentation and add it to your `liftoff-assignments` GitHub repository in the `P6-Project_Presentation` folder. Then stage, commit, and push the changes. Submit the link to your `liftoff-assignments` repository via Canvas.
