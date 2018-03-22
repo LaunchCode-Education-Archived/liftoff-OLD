@@ -120,12 +120,55 @@
 
                 <section id="content" class="col-sm-offset-2 col-sm-8">
                                         <h1>Demo Project: Expense Tracker</h1>
-                    <p><a href="https://github.com/pdmxdd/liftoff-assignments" target="_blank">Assignment Repository for Expense Tracker</a></p>
-<p><a href="https://github.com/pdmxdd/expense_tracker" target="_blank"><code>expense-tracker</code> GitHub Repository</a></p>
+                    <h2 id="quick-links">Quick Links</h2>
+<ul>
+<li><a href="https://github.com/pdmxdd/liftoff-assignments" target="_blank">Assignment Repository for Expense Tracker</a></li>
+<li><a href="https://github.com/pdmxdd/expense_tracker" target="_blank">Expense Tracker GitHub Repository</a></li>
+<li><a href="https://www.pivotaltracker.com/n/projects/2158692" target="_blank">Pivotal Tracker Project</a></li>
+<li>Jump to week: <a href="#week-1">1</a> | <a href="#week-2">2</a> | <a href="#week-3">3</a> | <a href="#week-4">4</a> | <a href="#week-5">5</a> | <a href="#week-6">6</a> | <a href="#week-7">7</a> | <a href="#week-8">8</a></li>
+</ul>
 <h2 id="overview">Overview</h2>
 <p>For his Liftoff project, Paul has decided to create a web application that will help him track his expenses. This page will outline the steps that he follows in developing his project, completing each of the Liftoff assignments along with completing user stories and participating in the weekly agile ceremonies like stand-ups and project kickoffs.</p>
-<h2 id="project-outline">Project Outline</h2>
+<h2 id="week-1">Week 1</h2>
+<h3 id="sprint-1-kickoff">Sprint 1 Kickoff</h3>
+<p>Most sprint kickoffs will consist of planning estimating, and committing to user stories to complete during the sprint. Since there are not user stories created yet (we'll do that in week 2) this kickoff is a litle different.</p>
+<p>We discussed our project ideas--Chris' for an event log and Paul's for an expense tracker--and got some feedback on how big each project might be to be doable. We also discussed the particular technologies that we'll be using to build our projects.</p>
+<p>Finally, we discussed the things that we expect to have to learn along the way, beyond what we already know. Paul will be using a new-to-him framework called Rocket (for the Rust programming language), while Chris has some unknowns around how user authentication will work. He also wants to use <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">test-driven development</a> which he hasn't done in Spring and will have to learn about.</p>
+<h3 id="assignment-project-outline">Assignment: Project Outline</h3>
 <p>The <a href="https://github.com/pdmxdd/liftoff-assignments/tree/master/P2-Project_Outline" target="_blank">project outline</a> for Expense Tracker gives an overview of the desired functionality.</p>
+<h2 id="week-2">Week 2</h2>
+<h3 id="sprint-1-standup">Sprint 1 Standup</h3>
+<p>During our sprint 1 standup, we discussed our completed project outlines and upcoming work. Here are Paul's items.</p>
+<p><strong>What was accomplished:</strong>
+The Expense Tracker project outline was completed, and the preliminary features have been set. Concerns about Rocket's non-existant user authentication were discussed, and ultimately it was determined that Paul will build his own User Authentication.</p>
+<p><strong>What is planned next:</strong>
+User stories will be written, prioritized, and wireframes will be created.</p>
+<p><strong>Blockers:</strong>
+No blockers have been identified so far, however user authentication will be hand created, and Diesel, an ORM for Rust and Postgres, will need to be researched.</p>
+<h3 id="assignment-project-planning">Assignment: Project Planning</h3>
+<p>The <a href="https://github.com/pdmxdd/liftoff-assignments/blob/master/P3-Project_Planning/" target="_blank">Project Planning</a> includes 4 wireframes for the Expense Tracking application. A link to the Pivotal Tracker project that contains user stories for the current sprint, and upcoming stories in the icebox.</p>
+<p>Here is a screenshot of the tracker with initial user stories.</p>
+<p><img src="images/sprint_1_stories.png" alt="Sprint 1 Stories" /></p>
+<h2 id="week-3">Week 3</h2>
+<h3 id="sprint-1-review-and-retrospective">Sprint 1 Review and Retrospective</h3>
+<p>For the spring review/retro Chris and Paul discussed the work completed during the first. Both completed initial project planning and setup. Working through some details such as wireframes and user stories helped clarify the initial work to be done, which will begin in earnest this week as the second sprint kicks off.</p>
+<p>During the retrospective portion of the discussion, the discussed how in some ways it didn't feel like much had gotten done since there wasn't much, if any, code written. Paul made the point that while little code was written, the planning that was done should help the initial coding phase of the project go more quickly than it otherwise would. He noted that if a programmer just jumps into a project without designing and planning the work to be done, a lot of time can be wasted in doing things inefficiently, reworking portions of the app, and generally figuring out how it should be structured. Doing this work up front should make things go more smoothly from now on!</p>
+<h3 id="assignment-project-setup">Assignment: Project Setup</h3>
+<p><a href="https://github.com/pdmxdd/liftoff-assignments/tree/master/P4-Project_Setup" target="_blank">Assignment submission in <code>liftoff-assignments</code></a></p>
+<p>The project's <a href="https://github.com/pdmxdd/expense-tracker" target="_blank">GitHub repository</a> was set up. Initial commits created a basic &quot;Hello world&quot; Rocket application via the <a href="https://rocket.rs/guide/quickstart/" target="_blank">Rocket Quickstart</a>.</p>
+<p><img src="images/expense-tracker-initial-commit.png" alt="Initial commits" /></p>
+<h3 id="sprint-2-kickoff">Sprint 2 Kickoff</h3>
+<p>For the second sprint, Paul plans on working through the initial user stories, which are focused on basic user management (registration, login, logout). He couldn't find any good external crates in Rust to help with user authentication. He will be forced to create user authentication on his own, and plans to use the same concpets we learned in Unit 2 -- <a href="https://education.launchcode.org/web-fundamentals/class-prep/13/" target="_blank">Password Hashing &amp; Salting</a>.</p>
+<p><img src="images/sprint_2_stories.png" alt="Sprint 2 user stories" /></p>
+<p>As an overview:</p>
+<ul>
+<li>As a prospective user, I can create an account.</li>
+<li>As a user, I can login to my account.</li>
+<li>As a user, I can logout.</li>
+</ul>
+<p>In order to complete these stories he will have to create a <code>User</code> model, and setup the project's database. He will have to start learning about Diesel (an ORM for Rust, and Postgres) in order to close down this batch of user stories.</p>
+<p>If he completes these three stories, there are more stories planned for future sprints, and stories in the backlog.</p>
+<h2 id="week-4">Week 4</h2>
                                     </section>
 
             </div>
