@@ -60,3 +60,24 @@ During the retrospective portion of the discussion, the discussed how in some wa
 ### Assignment: Project Setup
 
 [Assignment submission in `liftoff-assignments`](https://github.com/pdmxdd/liftoff-assignments/tree/master/P4-Project_Setup)
+
+The project's [GitHub repository](https://github.com/pdmxdd/expense-tracker) was set up. Initial commits created a basic "Hello world" Rocket application via the [Rocket Quickstart](https://rocket.rs/guide/quickstart/).
+
+![Initial commits](images/expense-tracker-initial-commit.png)
+
+### Sprint 2 Kickoff
+
+For the second sprint, Paul plans on working through the initial user stories, which are focused on basic user management (registration, login, logout). He couldn't find any good external crates in Rust to help with user authentication. He will be forced to create user authentication on his own, and plans to use the same concpets we learned in Unit 2 -- [Password Hashing & Salting](https://education.launchcode.org/web-fundamentals/class-prep/13/).
+
+![Sprint 2 user stories](images/sprint_2_stories.png)
+
+As an overview:
+- As a prospective user, I can create an account.
+- As a user, I can login to my account.
+- As a user, I can logout.
+
+In order to complete these stories he will have to create a `User` model, and setup the project's database. He will have to start learning about Diesel (an ORM for Rust, and Postgres) in order to close down this batch of user stories.
+
+If he completes these three stories, there are more stories planned for future sprints, and stories in the backlog.
+
+## Week 4
