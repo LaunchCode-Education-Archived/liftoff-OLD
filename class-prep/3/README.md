@@ -44,3 +44,17 @@ Read | Article | [Technical Resume](../../articles/technical-resume/) | Read thi
 Read | Article | [GitHub Profile](../../articles/github-profile/) | Read this article, which outlines how you can use your Github profile professionally.
 Read | Article | [LinkedIn Profile](../../articles/linkedin-profile/) | Read this article, which talks about the importance of LinkedIn.
 Read | Article | [10 Examples of Highly Impactful LinkedIn Profiles](https://komarketing.com/blog/10-examples-highly-impactful-linkedin-profiles/) | Read this article that goes into greater detail on how you can use LinkedIn.
+
+## Agile: Sprint Retrospective & Review Preparation
+Take inventory of the user stories you have completed so far. Update your Pivotal Tracker to reflect any changes. Be prepared to talk about:
+- User stories you completed during the sprint.
+- User stories you were unable to complete during the sprint.
+- How you can improve for the next sprint.
+
+You will be expected to talk about all three of these things in your Standup with your group during class 3. **We expect you to complete at least one user story every week.**
+
+## Agile: Sprint Kickoff Preparation
+To begin a new sprint you will need to make sure you have enough user stories to keep you moving forward with your project. If you don't have enough user stories, take some time to write new user stories, and estimate them in preparation for your sprint kickoff. Be prepared to talk about:
+- The user stories you plan to complete during this sprint.
+- The prioritization of the user stories planned for this sprint.
+- X number of user stories you would like to have completed in prepartion for the Sprint Standup.

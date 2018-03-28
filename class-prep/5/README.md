@@ -25,3 +25,17 @@ Task | Resource Type | Link
 Read | Article | [How to Prepare for (and Ace) the Technical Interview](https://www.cio.com/article/2383000/careers-staffing/careers-staffing-how-to-prepare-for-and-ace-the-technical-interview.html)
 Read | Article | [10 Tech Interview Errors](https://www.monster.com/career-advice/article/ten-tech-it-interview-errors)
 Read | Article | [LaunchCode's Framework for Answering Interview Questions](../../articles/answering-interview-questions/)
+
+## Agile: Sprint Retrospective & Review Preparation
+Take inventory of the user stories you have completed so far. Update your Pivotal Tracker to reflect any changes. Be prepared to talk about:
+- User stories you completed during the sprint.
+- User stories you were unable to complete during the sprint.
+- How you can improve for the next sprint.
+
+You will be expected to talk about all three of these things in your Standup with your group during class 5. **We expect you to complete at least one user story every week.**
+
+## Agile: Sprint Kickoff Preparation
+To begin a new sprint you will need to make sure you have enough user stories to keep you moving forward with your project. If you don't have enough user stories, take some time to write new user stories, and estimate them in preparation for your sprint kickoff. Be prepared to talk about:
+- The user stories you plan to complete during this sprint.
+- The prioritization of the user stories planned for this sprint.
+- X number of user stories you would like to have completed in prepartion for the Sprint Standup.

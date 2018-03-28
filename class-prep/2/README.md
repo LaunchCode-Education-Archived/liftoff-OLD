@@ -24,3 +24,11 @@ Every class we will be going through at least one agile ceremony. This week we a
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
 Read | Article | [Agile Ceremonies](https://www.atlassian.com/agile/ceremonies) | Read about the basics of the 4 main agile ceremonies.
+
+## Agile: Standup Preparation
+Take inventory of the user stories you have completed so far. Update your Pivotal Tracker to reflect any changes. Be prepared to talk about:
+- User stories you have completed.
+- User stories you are still working on.
+- Any blockers you have encountered so far.
+
+You will be expected to talk about all three of these things in your Standup with your group during class 2. **We expect you to complete at least one user story every week.**
