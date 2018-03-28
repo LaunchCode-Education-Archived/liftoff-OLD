@@ -5,11 +5,16 @@ currentMenu: classes
 
 ## Project Module
 
-During class 6, we'll discuss Agile development in greater depth.
+During class 6, we'll discuss Agile development in greater depth. Outside of this discussion you should try to make as much progress on your project as possible.
+
+## Agile: Standup
 
 Additionally, you'll conduct at [standup meeting](../../articles/agile-ceremonies/#standup) to update your team on your project work mid-sprint.
 
-You will also have access to your mentor, other students, and the staff instructors, so use this time to gain momentum on your project.
+Be prepared to talk about:
+- The user stories you have completed so far this sprint.  **We expect you to complete at least one user story every week.**
+- The user stories you need to focus on to finish the sprint.
+- Anything blocking your progress for a given user story.
 
 ## Career Module
 

@@ -39,6 +39,11 @@ Once you write user stories, you should clarify all stories with the client.
 
 As you talk through these with the client, adjust and improve user stories and wireframes based on feedback.
 
-#### Sprint Kickoff
+## Agile: Sprint Kickoff
 
-Now that we have an understanding of User Stories, and the upcoming assignments we need to have a [Sprint Kickoff](../../articles/agile-ceremonies/#sprint-kickoff) to determine what we will be doing in our sprint. Take some time to consider what you will need to do in order to complete the Project Outline assignment, and the work you may need to complete for your project next week. You will then go around the group and everyone will state what they will be working on.
+Now that we have an understanding of User Stories, and the upcoming assignments we need to have a [Sprint Kickoff](../../articles/agile-ceremonies/#sprint-kickoff) to determine what we will be doing in our sprint. Take some time to consider what you will need to do in order to complete the Project Outline assignment, and the work you may need to complete for your project next week. You will then go around the group and everyone will state what they will be working on. You should leave the meeting knowing which user stories you need to work on.
+
+When you are ready for the Sprint Kickoff be prepared to:
+- Talk about the user stories you are planning on completing this sprint.
+- Discuss the priority of these stories.
+- Set a goal to have X number of stories completed by next week to discuss in the Standup. **We expect you to complete at least one user story every week.**

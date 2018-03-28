@@ -3,11 +3,18 @@ title: 'Class 4'
 currentMenu: classes
 ---
 
-## Project Module: Standup
+## Project Module: Project Progress
 
-Your focus for the project module this week, and going forward, should be on making as much progress on your project as possible each week.
+Your focus for the project module this week, and going forward, should be on making as much progress on your project as possible each week. If you have completed the user stories you planned in a given sprint, pull more stories from your backlog/icebox. If your backlog/icebox is full, write more user stories.
 
-This week, you will participate in your first [standup meeting](../../articles/agile-ceremonies/#standup) with your group. Make the most of the time to communicate your progress and learn about the progress of your peers.
+## Agile: Sprint Standup
+
+We are halfway through our sprint, it is time to have a [standup meeting](../../articles/agile-ceremonies/#standup).
+
+Be prepared to talk about:
+- The user stories you have completed so far.  **We expect you to complete at least one user story every week.**
+- The user stories you need to focus on to finish the sprint.
+- Anything blocking your progress for a given user story.
 
 ## Career Module: Live Coding Two
 
