@@ -3,7 +3,7 @@ title: Project Review
 currentMenu: assignments
 ---
 
-During class 5, you'll spend 15-20 minutes with your mentor reviewing your project work to-date. This will be less of a pair programming exercise, and more of a code review exercise. Your mentor will check in with you on things like:
+During this class, you'll spend 15-20 minutes with your mentor reviewing your project work to-date. This will be less of a pair programming exercise, and more of a code review exercise. Your mentor will check in with you on things like:
 
 - What stories have you been working on recently?
 - What code design decisions did you make, and why? For example, how did you design your model classes and controllers?
