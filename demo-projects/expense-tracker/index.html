@@ -208,6 +208,22 @@ No blockers have been identified so far, however user authentication will be han
 <p>You will notice Paul added a chore to the top of his current iteration. While refactoring is a task that he needs to complete this week, it doesn't change anything from the user's perspective so calling it a story would be incorrect. Since it's not a user story he isn't estimating it. Completing this chore will make his future user stories easier to accomplish! Paul thinks it will take him around 2 hours to complete this task.</p>
 </aside>
 <h2 id="week-6">Week 6</h2>
+<p>There is no project module assignment for Week 6, Paul focused on completing user stories.</p>
+<h3 id="sprint-3-standup">Sprint 3 Standup</h3>
+<p><strong>What was accomplised:</strong> Refactor project to follow MVC. Implemented Request Guards to authorize users for all given paths. User can create, and view categories. User can create and view Expenses.</p>
+<p><img src="images/sprint_3_commits_1.png" alt="Sprint 3 Commits" /></p>
+<p><a href="https://github.com/pdmxdd/expense_tracker/tree/c9eed625271a6e152710b379ce74a11cbcb710fb" target="_blank">View the codebase</a> for <code>expense-tracker</code> as of the middle of sprint 3.</p>
+<p><strong>Screenshots:</strong></p>
+<ul>
+<li><a href="images/expense-tracker-create-category-1.png">Expense Tracker Create Category</a></li>
+<li><a href="images/expense-tracker-view-categories.png">Expense Tracker View Categories</a></li>
+<li><a href="images/expense-tracker-create-expense.png">Expense Tracker Create Expense</a></li>
+<li><a href="images/expense-tracker-view-expenses.png">Expense Tracker View Expenses</a></li>
+</ul>
+<p><strong>What is planned next:</strong> Next, Paul will continue working on Expenses. He is currently using a timestamp in his database, but is having trouble reading the timestamp back in Rust. After he has finished that he will need to build in the edit, and delete functions for both expenses, and categories.</p>
+<p><img src="images/sprint_3_stories_2.png" alt="More Sprint 3 Stories" /></p>
+<p><strong>Blockers:</strong> Currently Paul is blocked by Rust's time library. He can create timestamps, but the time function cannot be converted to a String, so he has no way of displaying the timestamp to the user. He will have to research alternative 3rd party time libraries, or build his own function that will be able to create a timestamp string, from a timestamp object.</p>
+<h2 id="week-7">Week 7</h2>
                                     </section>
 
             </div>
