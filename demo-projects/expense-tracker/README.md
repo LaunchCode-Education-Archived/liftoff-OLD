@@ -173,3 +173,5 @@ There is no project module assignment for Week 6, Paul focused on completing use
 ![More Sprint 3 Stories](images/sprint_3_stories_2.png)
 
 **Blockers:** Currently Paul is blocked by Rust's time library. He can create timestamps, but the time function cannot be converted to a String, so he has no way of displaying the timestamp to the user. He will have to research alternative 3rd party time libraries, or build his own function that will be able to create a timestamp string, from a timestamp object.
+
+## Week 7
