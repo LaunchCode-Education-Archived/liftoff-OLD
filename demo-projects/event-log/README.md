@@ -91,9 +91,10 @@ Since there wasn't a Project Module assignment for week 4, the focus was on comp
 
 ![Sprint 2 Commits](images/sprint_2_commits.png)
 
-[View the codebase](https://github.com/chrisbay/event-log/tree/189caaa1e1e8e8cae0f4a57bec71f41911d486ee) for `event-log` as of the end of sprint 2.
+[View the codebase](https://github.com/chrisbay/event-log/tree/189caaa1e1e8e8cae0f4a57bec71f41911d486ee) for `event-log` as of the sprint 2 standup.
 
 **Screenshots:**
+
 - [Event Log Registration](images/event-log-register.png)
 - [Event Log Login](images/event-log-login.png)
 - [Event Log Welcome](images/event-log-welcome.png)
@@ -107,15 +108,94 @@ Since there wasn't a Project Module assignment for week 4, the focus was on comp
 
 ## Week 5
 
+For week 5, the focus was on continuing to complete user stories, while also getting a code review from a mentor. With a few stories having been completed, and a solid base of code in place, it's a good time to get review the project with a more experienced developer to get some feedback. If there are better ways to approach things, or to structure your code, it will be easier to refactor now than it will be later!
+
 ### Sprint 2 Review and Retrospective
+
+For the second week of sprint 2, Chris was able to compete a couple more user stories:
+
+- As a logged-in user, I can create a new event
+- As a logged-in user, I can view event details on a single page, so I can see full event information
+
+**Screenshots:**
+
+- [Create Event View](images/create_event_form.png)
+- [Event Details View](images/event_details_view.png)
+
+He had estimated another story and moved it to the **Current Iteration** panel ("As a logged-in user, I can view all upcoming events...") but he was unable to get started on it. This story will carry over to the next sprint.
+
+Here are the commits made during the second half of sprint 2:
+
+![Sprint 2 Commits (Week 2)](images/sprint_2_commits_2.png)
+
+There were a few commits that consisted not of new stories, but of small amounts of _refactoring_. It's a common and important task to constantly work to improve a code base via refactoring. Here are some specific types of refactoring tasks carried out this past week on the project:
+
+- Renaming classes or packages to be more reflective of their purpose.
+- Adding overrides to `equals` and `hashCode` where it makes sense to do so.
+- Removing a class property when it becomes clear that it is not currently used or needed.
+
+Looking back at the full sprint, a lot was accomplished on two weeks. User authentication was added, and the first non-user model class was implemented, making the app usable at a basic level. There will be additional model classes to add in future sprints, including some that have relationships with `User` and `Event`, but to have these initial classes in place with working code is a great accomplishment!
+
+### Assignment: Project Review
+
+For the project review, Chris and Paul sat down to discuss and look at the work done to-date. Chris gave Paul a demo of the applications as it stands, and they then began looking at the application code itself.
+
+By working in small units and refactoring as he goes, Chris has kept his code clean and readable. There is no "dead code" (i.e. code no longer being used), commented-out snippets, or messy files.
+
+He had a few comments on things that could be improved:
+
+#### Changing user passwords
+
+Paul noted that there isn't currently a way for users to change or reset their passwords. This will be necessary in the long run (definitely before the app is to be used by the general public), but probably isn't a short-term concern.
+
+#### UI improvements
+
+He also noted that for some of the newer features, while they work well, the UI and template work is sloppy. There is no way to click on a link and go to the Create Event form. The main event listing at `/` shows event titles and dates, but the dates aren't formatted very nicely. Additionally, users should be able to click on an event and go to the details page for that event.
+
+#### Organization support
+
+Paul and Chris also talked about the fact that the app only supports use by a single organization. In other words, the app assumes that only one organization is using it, and so events don't "belong to" any type of organization. This is somewhat limiting.
+
+Chris commented that he'd like to add support for multiple organizations in the future, but for he wants to focus on building out core functionality for working with events. Paul agreed that this is a good short-term strategy, and the app could always be modified in the future to support use by multiple organizations. Trying to add that functionality now would certainly slow down the addition of core event functionality.
+
+Based on the code review, Chris added a couple of tasks to Pivotal tracker to improve aspects of the user interface. He estimated these as 0 points, since they aren't user stories that add specific functionality.
 
 ### Sprint 3 Kickoff
 
-### Assignment: Project Review
+The focus of sprint 3 will be adding additional functionality around viewing and editing events. The stories for the first week of the spring have been estimated and moved to the **Current Iteration** column:
+
+![Sprint 3 Stories](images/sprint_3_stories_1.png)
+
+The first two stories--viewing a listing of events, and adding a user-friendly message for bad event IDs--are medium and small in size. The third story--enabling editing of events after they have been created--is larger and is a stretch goal. Chris may get to it, or he may not, but putting it in the **Current Iteration** column gives him something ambitious to shoot for.
+
+<aside class="aside-pro-tip" markdown="1">
+Note that Chris is adding functionality in very small increments. While he has created the `Event` model class and is working to add CRUD functionality to that object, he has intentionally left off model properties that he knows he will need later. In particular, the ability to add a volunteer to an event does not exist in the current model design. This allows him to focus on solidifying core functionality and working in small increments. <i>Be wary of creating user stories that become too large, or bleed into other functionality!</i>
+</aside>
 
 ## Week 6
 
 ### Sprint 3 Standup
+
+**What was accomplished:** In the first week of sprint 3, Chris completed two user stories:
+
+- As a logged-in user, I can view all upcoming events immediately upon logging in, so I can quickly get a view of upcoming events. ([screenshot](images/event_listing_view.png))
+- As a logged-in user, when I try to view an event with an ID that doesn't exist, I see a helpful error message. ([screenshot](images/event_error_message.png))
+
+He did not meet his stretch goal of implementing event editing. That will be the focus of the rest of the sprint.
+
+Even though only two stories were finished there were several commits, including some refactoring, clean up, and a bug fix:
+
+![Sprint 3 Commits](images/sprint_3_commits_1.png)
+
+[View the codebase](https://github.com/chrisbay/event-log/tree/323240db297918fc5d2053c173186d868b096f34) for `event-log` as of the sprint 3 standup.
+
+**What is planned next:** For the rest of the sprint, Chris will focus on adding the ability to edit events that have already been created. He also hopes to work on some of the UI improvements that he and Paul discussed during last week's code review.
+
+Here's the current status of the **Current Iteration** tasks:
+
+![More Sprint 3 Stories](images/sprint_3_stories_2.png)
+
+**Blockers:** Chris doesn't have any blockers at this point.
 
 ## Week 7
 
