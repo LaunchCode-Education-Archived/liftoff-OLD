@@ -151,3 +151,27 @@ You will notice Paul added a chore to the top of his current iteration. While re
 </aside>
 
 ## Week 6
+
+There is no project module assignment for Week 6, Paul focused on completing user stories.
+
+### Sprint 3 Standup
+
+**What was accomplised:** Refactor project to follow MVC. Implemented Request Guards to authorize users for all given paths. User can create, and view categories. User can create and view Expenses.
+
+![Sprint 3 Commits](images/sprint_3_commits_1.png)
+
+[View the codebase](https://github.com/pdmxdd/expense_tracker/tree/c9eed625271a6e152710b379ce74a11cbcb710fb) for `expense-tracker` as of the middle of sprint 3.
+
+**Screenshots:**
+- [Expense Tracker Create Category](images/expense-tracker-create-category-1.png)
+- [Expense Tracker View Categories](images/expense-tracker-view-categories.png)
+- [Expense Tracker Create Expense](images/expense-tracker-create-expense.png)
+- [Expense Tracker View Expenses](images/expense-tracker-view-expenses.png)
+
+**What is planned next:** Next, Paul will continue working on Expenses. He is currently using a timestamp in his database, but is having trouble reading the timestamp back in Rust. After he has finished that he will need to build in the edit, and delete functions for both expenses, and categories.
+
+![More Sprint 3 Stories](images/sprint_3_stories_2.png)
+
+**Blockers:** Currently Paul is blocked by Rust's time library. He can create timestamps, but the time function cannot be converted to a String, so he has no way of displaying the timestamp to the user. He will have to research alternative 3rd party time libraries, or build his own function that will be able to create a timestamp string, from a timestamp object.
+
+## Week 7

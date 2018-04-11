@@ -20,3 +20,10 @@ Take inventory of the user stories you have completed so far. Update your Pivota
 - Any blockers you have encountered so far.
 
 You will be expected to talk about all three of these things in your Standup with your group during class 4. **We expect you to complete at least one user story every week.**
+
+## Demo Projects
+
+The final section of your assigned prep work each week will be links to demo projects created by Chris Bay, and Paul Matthews. They built projects with similar scopes to the project you will be building throughout Liftoff. If you are looking for inspiration, or want to see how Chris, or Paul completed a project assignment you will be able to find that here, or by visiting the [demo-project](../../demo-projects/) page. You will also find writeups of what they discussed in their agile ceremony meetings, it would be to your benefit to read what they discussed as you prepare for your weekly agile ceremnonies.
+
+- [Event Log Week 4](../../demo-projects/event-log/#week-4)
+- [Expense Tracker Week 4](../../demo-projects/expense-tracker/#week-4)
