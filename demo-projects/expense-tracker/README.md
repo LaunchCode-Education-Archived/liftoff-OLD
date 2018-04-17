@@ -175,3 +175,33 @@ There is no project module assignment for Week 6, Paul focused on completing use
 **Blockers:** Currently Paul is blocked by Rust's time library. He can create timestamps, but the time function cannot be converted to a String, so he has no way of displaying the timestamp to the user. He will have to research alternative 3rd party time libraries, or build his own function that will be able to create a timestamp string, from a timestamp object.
 
 ## Week 7
+
+### Sprint 3 Review and Retrospective
+
+For the sprint review/retro Chris and Paul discussed the work they copmleted during the third sprint. Paul completed creating & viewing categories, creating & viewing expenses, refactored his project into an MVC format, and refactored his main method into lib/utils that contain his contexts, form, and utility functions.
+
+During the retrospective portion of the disucssion, Paul mentioned he had technical difficulties, and was unable to complete some of his user stories. The power adapter for his laptop was misplaced, and he had to wait four days to get a replacement. In that time, he didn't make any progress on his project, but was able to plan his project presentation so it wasn't completely wasted time. Outside of his techncial issues, he struggled with dates in Rust. Rust's standard time library had no option for printing out a human readable statement, which makes displaying it to a user problematic. He was able to overcome this issue by finding and implementing the Chrono crate in Rust. Chrono uses the underlying time library from the standard library, but adds additional functionality for readability purposes. He can now display dates, and times to his users. He was unable to complete editing, and deletion of categories, and expenses, so he plans on completing that in his final sprint.
+
+#### Sprint 3 Commit Log
+
+![Sprint 3 final commits](images/sprint_3_commits_final.png)
+
+[View the codebase](https://github.com/pdmxdd/expense_tracker/tree/c47e467935f58fd0cb62073f9504591d813a60eb)
+
+### Sprint 4 Kickoff
+
+For the fourth, and final sprint of Liftoff, Paul plans on building in the the edit, and delete functionality for categories, and expenses. If he completes that he wants to build a password, and email reset feature to assist with user management, and finally after completing that he wants to build a reporting feature into the Expense-Tracker, so a user can view their stored information in a more benefical way.
+
+![Sprint four user stories](images/sprint_4_stories.png)
+
+It may appear that Paul has bitten off more than he can chew in this sprint. That's ok, writing additional user stories only gives Paul more clarity into what to work on after Liftoff ends. He can continue using Agile on his own to stay on track with his project.
+
+### Assignment: Project Presentation
+
+Although Paul's project isn't completely done yet he still needs to complete his Project Presentation assignment.
+
+[Expense Tracker Presentation](images/Expense_Tracker_Presentation.pdf)
+
+Paul found that in working on this assignment he completed much more than he was giving himself credit for! He has mutliple screens to show, everything is writing to the database correctly, and his project is organized in a format that makes it easy to talk about his code. He has learned a tremendous amount about programming, web development, Rust, Rocket, Diesel, and Postgres while building this project. He's not an expert in Rust, or Rocket at this point in time, but feels comfortable solving issues as they arise as he continues to work on projects in this tech stack.
+
+## Week 8
