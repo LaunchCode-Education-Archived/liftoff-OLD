@@ -205,3 +205,47 @@ Although Paul's project isn't completely done yet he still needs to complete his
 Paul found that in working on this assignment he completed much more than he was giving himself credit for! He has mutliple screens to show, everything is writing to the database correctly, and his project is organized in a format that makes it easy to talk about his code. He has learned a tremendous amount about programming, web development, Rust, Rocket, Diesel, and Postgres while building this project. He's not an expert in Rust, or Rocket at this point in time, but feels comfortable solving issues as they arise as he continues to work on projects in this tech stack.
 
 ## Week 8
+
+### Sprint 4 Standup
+
+**What was accomplished:** Users can edit, and delete expenses. Users can edit, archive, and unarchive categories. Users can change their email address. Users can change their passwords. Users can view a report of all of their expenses.
+
+![Sprint 4 commits](images/sprint_4_commits_1.png)
+
+[View the codebase](https://github.com/pdmxdd/expense_tracker/tree/3f9cc99656c3ad2a55fd3f3684e32e11b61cc436)
+
+**Screenshots:**
+- [Expense Tracker Edit Expense 1](images/expense-tracker-edit-expense1.png)
+- [Expense Tracker Edit Expense 2](images/expense-tracker-edit-expense2.png)
+- [Expense Tracker Delete Expense 1](images/expense-tracker-delete-expense-1.png)
+- [Expense Tracker Delete Expense 2](images/expense-tracker-delete-expense-2.png)
+- [Expense Tracker Archive Category](images/expense-tracker-archive-category.png)
+- [Expense Tracker Unarchive Category](images/expense-tracker-unarchive-category.png)
+- [Expense Tracker Change Email 1](images/expense-tracker-change-email-1.png)
+- [Expense Tracker Change Email 2](images/expense-tracker-change-email-2.png)
+- [Expense Tracker Change Password 1](images/expense-tracker-change-password-1.png)
+- [Expense Tracker Change Password 2](images/expense-tracker-change-password-2.png)
+
+**What is planned next:** This is the last class of Liftoff, and Paul has made significant progress on his project. He now has a web app built with Rust/Rocket, Tera, Diesel, and Postgres that allows users to:
+- Create Accounts
+- Manage Accounts
+- Create Categories
+- Edit Categories
+- Archive & Unarchive Categories
+- Create Expenses
+- Edit Expenses
+- Delete Expenses
+- Generate Basic Reports
+
+He is proud of what he has accomplished so far, however being a programmer, and working in technology means always learning. Paul is at an endpasse, he can continue working on this project -- Expense Tracker by outling bugs, chores, or new features defined by user stories. Or, Paul can start working on a new project. 
+
+At this point in time he has a large enough project to talk about in interviews. He can talk about **what he learned** (Rust, Rocket, Diesel, Request Guards etc), what **challenges he overcame** (Rust's standard time library doesn't support string representations of time, Rust doesn't have anything in the standard library for encrpyting and decrypting passwords, etc), what **mistakes he made** (not using R2D2 to manage DB calls, not using MVC from the beginning, etc).
+
+Continuing with this project Paul would:
+- Deploy his project
+- Build out more reports
+- Allow multiple categories be tagged to an expense
+- Email funcitonality -- reports can be emailed, users can reset password via email
+- Redesigning the front end
+
+**Blockers:** Paul's project is currently complete he has a working version that contains all the features he orginally wanted to include. His next step would be to deploy his project, he looked into multiple services to host and deploy his project, however he is currently blocked by Rocket. In order for Rocket to run it uses a nightly build of Rust! You could deploy a nightly build of rust to a server, however it would take Paul a large amount of time to figure everything out. So he is putting deploying his project on hold.
