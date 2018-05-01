@@ -22,7 +22,7 @@ Most sprint kickoffs will consist of planning estimating, and committing to user
 
 We discussed our project ideas--Chris' for an event log and Paul's for an expense tracker--and got some feedback on how big each project might be to be doable. We also discussed the particular technologies that we'll be using to build our projects.
 
-Finally, we discussed the things that we expect to have to learn along the way, beyond what we already know. Paul will be using a new-to-him framework called Rocket (for the Rust programming language), while Chris has some unknowns around how user authentication will work. He also wants to use [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) which he hasn't done in Spring and will have to learn about.
+Finally, we discussed the things that we expect to have to learn along the way, beyond what we already know. Paul will be using a new-to-him framework called Rocket (for the Rust programming language), while Chris has some unknowns around how user authentication will work. 
 
 ### Assignment: Project Outline
 
@@ -61,7 +61,7 @@ During the retrospective portion of the discussion, the discussed how in some wa
 
 [Assignment submission in `liftoff-assignments`](https://github.com/chrisbay/liftoff-assignments/tree/master/P4-Project_Setup)
 
-The project's [GitHub repository](https://github.com/chrisbay/event-log) was set up. Initial commits created a basic "Hello world" Spring Boot app obtained via [start.spring.io](http://start.spring.io/). They also add some basic dependencies in the [`build.gradle`](https://github.com/chrisbay/event-log/blob/3f91742a0527a65e64678c477d50f26a98b87f3e/build.gradle) file for jQuery and Bootstrap (from the `org.webjars` group, as well as a testing database engine, H2.
+The project's [GitHub repository](https://github.com/chrisbay/event-log) was set up. Initial commits created a basic "Hello world" Spring Boot app obtained via [start.spring.io](http://start.spring.io/). They also add some basic dependencies in the [`build.gradle`](https://github.com/chrisbay/event-log/blob/3f91742a0527a65e64678c477d50f26a98b87f3e/build.gradle) file for jQuery and Bootstrap (from the `org.webjars` group).
 
 ![Initial commits](images/initial-commits.png)
 
@@ -87,7 +87,7 @@ Since there wasn't a Project Module assignment for week 4, the focus was on comp
 
 ### Sprint 2 Standup
 
-**What was accomplished:** All of the user registration and login stories are complete! (See associated commits and screenshots below.) Chris didn't expect to get as much done, but he was able to get all of the desired features implemented, including the associated tests (recall that he's using the test-driven develpment practice).
+**What was accomplished:** All of the user registration and login stories are complete! (See associated commits and screenshots below.) Chris didn't expect to get as much done, but he was able to get all of the desired features implemented.
 
 ![Sprint 2 Commits](images/sprint_2_commits.png)
 
@@ -201,14 +201,79 @@ Here's the current status of the **Current Iteration** tasks:
 
 ### Sprint 3 Review and Retrospective
 
+In the final week of spring 3, Chris completed the following stories:
+
+- As a logged-in user, I can edit event details so I can fix mistakes and add information after the event has been created.
+- As a logged-in user, when when viewing the main listing of events, I can click on an event row to see the event details.
+- Improve event listing view.
+- Improve event details view.
+
+The last two "stories" aren't actually written as user stories, as you likely noticed. They also were given 0-point estimates. This is because they are refactoring tasks which don't add any new features to the application.
+
+The stories completed include one additional story beyond what was planned as of the last standup. Chris finished the planned tasks and decided to tackle the story: "As a logged-in user, when when viewing the main listing of events..."
+
+As part of the work improving views, he added a Bootstrap theme from the [Bootswatch](https://bootswatch.com/) project to give the site some additional character.
+
+Check out some screenshots of the new work, as well as the refactored views with the new theme:
+
+- [Event Listing View](images/event_listing_view_new.png)
+- [Event Details View](images/event_details_view_new.png)
+- [Create Event Form](images/create_event_form_new.png)
+
+There were quite a few commits for this week's work, since many of the changes were small, atomic refactoring tasks:
+
+![More Sprint 3 Commits](images/sprint_3_commits_2.png)
+
+[View the codebase](https://github.com/chrisbay/event-log/tree/38256230b30e5bb7f0d9325e69f41c8bf68c3e2b) for `event-log` as of the end of sprint 3.
+
 ### Sprint 4 Kickoff
 
-### Assignment: Project Presentation
+To start spring 4, Chris will focus on adding volunteer tracking to the system. The goal is to allow users to create volunteers, and add multiple volunteers to an event. He'll also make events deletable.
+
+Here's the current status of the **Current Iteration** tasks:
+
+![Sprint 4 Stories](images/sprint_4_stories.png)
 
 ## Week 8
 
 ### Sprint 4 Standup
 
+**What was accomplished:** Chris completed the following stories:
+
+- As a logged-in user, I can delete an event
+- As a logged-in user, I can add a new volunteer to the system
+- As a logged-in user, I can add a volunteer to an event
+- As a logged-in user, I can remove a volunteer from an event
+
+The final story listed wasn't estimated, but in the course of implementing the ability to add volunteers to events, it made sense at the time to also make sure that removing volunteers (via the update event view) worked as well. In other words, based on the code being written it was just as easy to do those two stories at the same time.
+
+![Sprint 4 Commits](images/sprint_4_commits_1.png)
+
+[View the codebase](https://github.com/chrisbay/event-log/tree/edd52171e49ea49fb8c2812698b2e10ed5ed5275) for `event-log` as of the sprint 4 standup.
+
+**What is planned next:** For the next sprint, Chris will focus on some stories that were discussed with Paul during his project review that are focused on navigating event listings.
+
+Here's the current status of the **Current Iteration** tasks:
+
+![More Sprint 4 Stories](images/sprint_4_stories_2.png)
+
+While Liftoff is over, Chris will continue to work on his project on a regular basis and will continue to plan his work using user stories and sprints.
+
+**Blockers:** Chris hasn't used the `PagingAndSortingRepository` before, so he'll need to learn about that before starting the stories for this sprint. He's already identified [an article](http://www.baeldung.com/spring-data-repositories) that gives a nice overview of the repository interface.
+
+
 ### Project review
 
-### Optional Assignment: Project Deployment
+For the last week of Liftoff, Paul and Chris conducted another project review of the Event Log project. Since the last project review, Chris has done a lot of work to tighten up the look and functionality of the app.
+
+While all of that work was good, it has also made it apparent that there are a few basic behaviors that most users would expect the app to support. In particular, events are not sorted in the main listing. Most people would expect them to be sorted by date.
+
+On the same note, Chris and Paul discussed use cases around upcoming and past events. Some users might prefer to see one or the other. After discussing options, Chris decided to show _both_ upcoming and recent events on the main listing, but in separate sections, and to create new views that display only recent events and only upcoming events. These will be linked from the main navigation as well as from the main event listing.
+
+Finally, Paul brought up the fact that while the event listing looks good now, if there was a large number of events in the system (as would eventually happen in actual use) then it would be hard for the user to navigate the page. And each time that the user displayed the page a large number of records would be returned from the database even if most wouldn't be relevant to what the user wanted to see.
+
+Paul suggested that Chris implement paging for his event listing views, displaying a fixed number of events per pages along with links to view next/previous pages. He mentioned that he knew Spring Data has a repository interface, [`PagingAndSortingRepository`](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html), made just for this purpose.
+
+### Assignment: Project Presentation
+
+[View Chris' Project Presentation](project-presentation.pdf)
