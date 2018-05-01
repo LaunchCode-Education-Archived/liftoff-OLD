@@ -201,7 +201,7 @@ Here's the current status of the **Current Iteration** tasks:
 
 ### Sprint 3 Review and Retrospective
 
-In the final week of spring 3, Chris completed the following stories:
+In the final week of sprint 3, Chris completed the following stories:
 
 - As a logged-in user, I can edit event details so I can fix mistakes and add information after the event has been created.
 - As a logged-in user, when when viewing the main listing of events, I can click on an event row to see the event details.
@@ -245,7 +245,7 @@ Here's the current status of the **Current Iteration** tasks:
 - As a logged-in user, I can add a volunteer to an event
 - As a logged-in user, I can remove a volunteer from an event
 
-The final story listed wasn't estimated, but in the course of implementing the ability to add volunteers to events, it made sense at the time to also make sure that removing volunteers (via the update event view) worked as well. In other words, based on the code being written it was just as easy to do those two stories at the same time.
+The final story listed wasn't planned at the beginning of the sprint, but in the course of implementing the ability to add volunteers to events, it made sense at the time to also make sure that removing volunteers (via the update event view) worked as well. In other words, based on the code being written it was just as easy to do those two stories at the same time.
 
 ![Sprint 4 Commits](images/sprint_4_commits_1.png)
 
