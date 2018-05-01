@@ -133,7 +133,7 @@
 <h3 id="sprint-1-kickoff">Sprint 1 Kickoff</h3>
 <p>Most sprint kickoffs will consist of planning estimating, and committing to user stories to complete during the sprint. Since there are not user stories created yet (we'll do that in week 2) this kickoff is a litle different.</p>
 <p>We discussed our project ideas--Chris' for an event log and Paul's for an expense tracker--and got some feedback on how big each project might be to be doable. We also discussed the particular technologies that we'll be using to build our projects.</p>
-<p>Finally, we discussed the things that we expect to have to learn along the way, beyond what we already know. Paul will be using a new-to-him framework called Rocket (for the Rust programming language), while Chris has some unknowns around how user authentication will work. He also wants to use <a href="https://en.wikipedia.org/wiki/Test-driven_development" target="_blank">test-driven development</a> which he hasn't done in Spring and will have to learn about.</p>
+<p>Finally, we discussed the things that we expect to have to learn along the way, beyond what we already know. Paul will be using a new-to-him framework called Rocket (for the Rust programming language), while Chris has some unknowns around how user authentication will work. </p>
 <h3 id="assignment-project-outline">Assignment: Project Outline</h3>
 <p>The <a href="https://github.com/chrisbay/liftoff-assignments/blob/master/P2-Project_Outline/" target="_blank">project outline</a> for Event Log gives an overview of the desired functionality.</p>
 <h2 id="week-2">Week 2</h2>
@@ -153,7 +153,7 @@ There aren't any significant blockers, though there are some unknowns that were 
 <p>During the retrospective portion of the discussion, the discussed how in some ways it didn't feel like much had gotten done since there wasn't much, if any, code written. Paul made the point that while little code was written, the planning that was done should help the initial coding phase of the project go more quickly than it otherwise would. He noted that if a programmer just jumps into a project without designing and planning the work to be done, a lot of time can be wasted in doing things inefficiently, reworking portions of the app, and generally figuring out how it should be structured. Doing this work up front should make things go more smoothly from now on!</p>
 <h3 id="assignment-project-setup">Assignment: Project Setup</h3>
 <p><a href="https://github.com/chrisbay/liftoff-assignments/tree/master/P4-Project_Setup" target="_blank">Assignment submission in <code>liftoff-assignments</code></a></p>
-<p>The project's <a href="https://github.com/chrisbay/event-log" target="_blank">GitHub repository</a> was set up. Initial commits created a basic &quot;Hello world&quot; Spring Boot app obtained via <a href="http://start.spring.io/" target="_blank">start.spring.io</a>. They also add some basic dependencies in the <a href="https://github.com/chrisbay/event-log/blob/3f91742a0527a65e64678c477d50f26a98b87f3e/build.gradle" target="_blank"><code>build.gradle</code></a> file for jQuery and Bootstrap (from the <code>org.webjars</code> group, as well as a testing database engine, H2.</p>
+<p>The project's <a href="https://github.com/chrisbay/event-log" target="_blank">GitHub repository</a> was set up. Initial commits created a basic &quot;Hello world&quot; Spring Boot app obtained via <a href="http://start.spring.io/" target="_blank">start.spring.io</a>. They also add some basic dependencies in the <a href="https://github.com/chrisbay/event-log/blob/3f91742a0527a65e64678c477d50f26a98b87f3e/build.gradle" target="_blank"><code>build.gradle</code></a> file for jQuery and Bootstrap (from the <code>org.webjars</code> group).</p>
 <p><img src="images/initial-commits.png" alt="Initial commits" /></p>
 <h3 id="sprint-2-kickoff">Sprint 2 Kickoff</h3>
 <p>For the second sprint, Chris plans on working through the initial user stories, which are each focused on one aspect of user registration and authentication. He has reviewed the <a href="https://github.com/LaunchCodeEducation/spring-filter-based-auth" target="_blank"><code>spring-filter-based-auth</code> example</a> provided by LaunchCode, and may use that approach. However, he has been learning about Spring Security and wants to see if he can use that framework for setting up registration and login.</p>
@@ -166,7 +166,7 @@ There aren't any significant blockers, though there are some unknowns that were 
 <h2 id="week-4">Week 4</h2>
 <p>Since there wasn't a Project Module assignment for week 4, the focus was on completing user stories and gaining momentum.</p>
 <h3 id="sprint-2-standup">Sprint 2 Standup</h3>
-<p><strong>What was accomplished:</strong> All of the user registration and login stories are complete! (See associated commits and screenshots below.) Chris didn't expect to get as much done, but he was able to get all of the desired features implemented, including the associated tests (recall that he's using the test-driven develpment practice).</p>
+<p><strong>What was accomplished:</strong> All of the user registration and login stories are complete! (See associated commits and screenshots below.) Chris didn't expect to get as much done, but he was able to get all of the desired features implemented.</p>
 <p><img src="images/sprint_2_commits.png" alt="Sprint 2 Commits" /></p>
 <p><a href="https://github.com/chrisbay/event-log/tree/189caaa1e1e8e8cae0f4a57bec71f41911d486ee" target="_blank">View the codebase</a> for <code>event-log</code> as of the sprint 2 standup.</p>
 <p><strong>Screenshots:</strong></p>
@@ -238,12 +238,54 @@ There aren't any significant blockers, though there are some unknowns that were 
 <p><strong>Blockers:</strong> Chris doesn't have any blockers at this point.</p>
 <h2 id="week-7">Week 7</h2>
 <h3 id="sprint-3-review-and-retrospective">Sprint 3 Review and Retrospective</h3>
+<p>In the final week of spring 3, Chris completed the following stories:</p>
+<ul>
+<li>As a logged-in user, I can edit event details so I can fix mistakes and add information after the event has been created.</li>
+<li>As a logged-in user, when when viewing the main listing of events, I can click on an event row to see the event details.</li>
+<li>Improve event listing view.</li>
+<li>Improve event details view.</li>
+</ul>
+<p>The last two &quot;stories&quot; aren't actually written as user stories, as you likely noticed. They also were given 0-point estimates. This is because they are refactoring tasks which don't add any new features to the application.</p>
+<p>The stories completed include one additional story beyond what was planned as of the last standup. Chris finished the planned tasks and decided to tackle the story: &quot;As a logged-in user, when when viewing the main listing of events...&quot;</p>
+<p>As part of the work improving views, he added a Bootstrap theme from the <a href="https://bootswatch.com/" target="_blank">Bootswatch</a> project to give the site some additional character.</p>
+<p>Check out some screenshots of the new work, as well as the refactored views with the new theme:</p>
+<ul>
+<li><a href="images/event_listing_view_new.png">Event Listing View</a></li>
+<li><a href="images/event_details_view_new.png">Event Details View</a></li>
+<li><a href="images/create_event_form_new.png">Create Event Form</a></li>
+</ul>
+<p>There were quite a few commits for this week's work, since many of the changes were small, atomic refactoring tasks:</p>
+<p><img src="images/sprint_3_commits_2.png" alt="More Sprint 3 Commits" /></p>
+<p><a href="https://github.com/chrisbay/event-log/tree/38256230b30e5bb7f0d9325e69f41c8bf68c3e2b" target="_blank">View the codebase</a> for <code>event-log</code> as of the end of sprint 3.</p>
 <h3 id="sprint-4-kickoff">Sprint 4 Kickoff</h3>
-<h3 id="assignment-project-presentation">Assignment: Project Presentation</h3>
+<p>To start spring 4, Chris will focus on adding volunteer tracking to the system. The goal is to allow users to create volunteers, and add multiple volunteers to an event. He'll also make events deletable.</p>
+<p>Here's the current status of the <strong>Current Iteration</strong> tasks:</p>
+<p><img src="images/sprint_4_stories.png" alt="Sprint 4 Stories" /></p>
 <h2 id="week-8">Week 8</h2>
 <h3 id="sprint-4-standup">Sprint 4 Standup</h3>
+<p><strong>What was accomplished:</strong> Chris completed the following stories:</p>
+<ul>
+<li>As a logged-in user, I can delete an event</li>
+<li>As a logged-in user, I can add a new volunteer to the system</li>
+<li>As a logged-in user, I can add a volunteer to an event</li>
+<li>As a logged-in user, I can remove a volunteer from an event</li>
+</ul>
+<p>The final story listed wasn't estimated, but in the course of implementing the ability to add volunteers to events, it made sense at the time to also make sure that removing volunteers (via the update event view) worked as well. In other words, based on the code being written it was just as easy to do those two stories at the same time.</p>
+<p><img src="images/sprint_4_commits_1.png" alt="Sprint 4 Commits" /></p>
+<p><a href="https://github.com/chrisbay/event-log/tree/edd52171e49ea49fb8c2812698b2e10ed5ed5275" target="_blank">View the codebase</a> for <code>event-log</code> as of the sprint 4 standup.</p>
+<p><strong>What is planned next:</strong> For the next sprint, Chris will focus on some stories that were discussed with Paul during his project review that are focused on navigating event listings.</p>
+<p>Here's the current status of the <strong>Current Iteration</strong> tasks:</p>
+<p><img src="images/sprint_4_stories_2.png" alt="More Sprint 4 Stories" /></p>
+<p>While Liftoff is over, Chris will continue to work on his project on a regular basis and will continue to plan his work using user stories and sprints.</p>
+<p><strong>Blockers:</strong> Chris hasn't used the <code>PagingAndSortingRepository</code> before, so he'll need to learn about that before starting the stories for this sprint. He's already identified <a href="http://www.baeldung.com/spring-data-repositories" target="_blank">an article</a> that gives a nice overview of the repository interface.</p>
 <h3 id="project-review">Project review</h3>
-<h3 id="optional-assignment-project-deployment">Optional Assignment: Project Deployment</h3>
+<p>For the last week of Liftoff, Paul and Chris conducted another project review of the Event Log project. Since the last project review, Chris has done a lot of work to tighten up the look and functionality of the app.</p>
+<p>While all of that work was good, it has also made it apparent that there are a few basic behaviors that most users would expect the app to support. In particular, events are not sorted in the main listing. Most people would expect them to be sorted by date.</p>
+<p>On the same note, Chris and Paul discussed use cases around upcoming and past events. Some users might prefer to see one or the other. After discussing options, Chris decided to show <em>both</em> upcoming and recent events on the main listing, but in separate sections, and to create new views that display only recent events and only upcoming events. These will be linked from the main navigation as well as from the main event listing.</p>
+<p>Finally, Paul brought up the fact that while the event listing looks good now, if there was a large number of events in the system (as would eventually happen in actual use) then it would be hard for the user to navigate the page. And each time that the user displayed the page a large number of records would be returned from the database even if most wouldn't be relevant to what the user wanted to see.</p>
+<p>Paul suggested that Chris implement paging for his event listing views, displaying a fixed number of events per pages along with links to view next/previous pages. He mentioned that he knew Spring Data has a repository interface, <a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html" target="_blank"><code>PagingAndSortingRepository</code></a>, made just for this purpose.</p>
+<h3 id="assignment-project-presentation">Assignment: Project Presentation</h3>
+<p><a href="project-presentation.pdf">View Chris' Project Presentation</a></p>
                                     </section>
 
             </div>
