@@ -35,6 +35,7 @@ title: 'Mentor Playbook: Week 3'
         * See the CEM if you can't find it
     * *This assignment needs to be graded before week 4!*
     * You will have to grade their LinkedIn, Resume, and GitHub profiles, and they all have to be successful for them to pass this assignment.
+    * *Students are not required to upload their resume to a public GitHub repository!* If students don't want their information shared publicly they may request to submit their resume in a different way. You can ask them to email/slack you a digital copy, or you can request them to print out a physical copy for you to grade.
 
 ## Possible Class Outline
 * Git Presentation and Questions
