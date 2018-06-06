@@ -24,11 +24,7 @@ This would be a great GitHub profile picture for Alan Turing:
 
 <img src="../../images/alan_turing_profile_picture.jpg" />
 
-This would be an awful GitHub profile picture for Alan Turing:
-
-<img src="../../images/manchester_united.png" />
-
-Even if Alan Turing is the biggest Manchester United Fan in the world, he should still use a professional photo of himself while he is looking for a job.
+Take note that *your GitHub profile is public facing!* If you do not wish to upload a picture of yourself to GitHub you can still pass the assignment. Notify your mentor if you are not comfortable uploading a picture of yourself to your GitHub profile.
 
 #### GitHub Profile Bio
 You should include a bio for your GitHub profile. It should quickly state who you are and what you are looking for.
@@ -39,14 +35,6 @@ A great GitHub bio might look like this:
 Bio:
 I recently completed LC101 and am currently learning more about Java, Spring, and Hibernate. I am actively looking for development positions.
 ```
-
-A poor github bio might look like this:
-
-```nomarkdown
-Bio:
-Go Manchester United! I bleed Red, White, and Black!
-```
-
 
 #### Pinned Repositories
 An awesome feature of GitHub is that it allows you to pin repositories! If you have linked a repo to your resume or simply want to highlight a repository, you can mark the repository as a pinned repository and it will be highlighted to anyone that visits your GitHub profile.
@@ -73,3 +61,7 @@ The readme gives me an ability to explain to the interviewer what my project doe
 You can add in a requirements section that shows what dependencies and environment they will need to use to run the project.
 
 You can also include images in your markdown file that may include screenshots of wireframes, actual views, or model diagrams of your project. That way, you can show more than the actual project itself.
+
+#### GitHub is public
+
+As a final reminder your GitHub profile is public. Anyone can search for it, and view any of the information on your profile. If you have any issues with uploading personal information to your GitHub profile please talk with your Mentor about acceptable usernames, pictures, and bios. You will still be required to use GitHub, but we do not want you sharing any information you are not comfortable with sharing.
