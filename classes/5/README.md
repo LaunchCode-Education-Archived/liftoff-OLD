@@ -3,35 +3,26 @@ title: 'Class 5'
 currentMenu: classes
 ---
 
-## Career Module: Interview Presentation
+## Project Module: Project Progress
 
-We will be learning about the technical interview today, and have a presentation that covers many topics.
+Your focus for the project module this week, and going forward, should be on making as much progress on your project as possible each week. If you reach a point where you have finished all of your pending user stories you should write more.
 
-### Career Module: Interview Groupwork
+### Activity: Standup
 
-For today's group work we will be breaking into pairs and taking turns asking each other [interview questions](../../articles/interview-questions/). 
+Before jumping into the Live Coding assignment we have scheduled for class today. Have your standup meeting. Everyone go around state what you completed last week, and what you are working on this coming week.
 
-## Project Module
+Remember that to be marked present on attendance you must be able to show *at least one user task you completed* this previous week
 
-Your focus for the project module this week, and going forward, should be on making as much progress on your project as possible each week. If you have completed the user stories you planned in a given sprint, pull more stories from your backlog/icebox. If your backlog/icebox is full, write more user stories.
+### Regroup: Live Coding Setup
 
-## Agile: Sprint Retrospective
-To finish the current sprint you'll participate in a [sprint review and retrospective](../../articles/agile-ceremonies/#retrospective-and-sprint-review) facilitated by your mentor.
+For our live coding assignment you have been randomly assigned to a different mentor, instructor, or volunteer who will administer your live coding assignment.
 
-Be prepared to talk about:
-- The user stories you completed this sprint.  **We expect you to complete at least one user story every week.**
-- The user stories you were unable to complete this sprint.
-- What you learned about your own work flow.
+The instructor will introduce the activity, tell you where everyone is working, and share the list of live coding evaluators and students.
 
-## Project Review
+### Activity: Live Coding Assignment
 
-During class, you'll complete the [Project Review assignment](../../assignments/project-review/) by discussing your project status with your mentor.
+After the instructor introduction the evaluators will begin calling names of people they are working with. Keep an ear out for your name to keep things moving along smoothly.
 
-## Agile: Sprint Kickoff
+This assignment will take the majority of class time, however you will only spend 10-15 minutes performing your indiviudal live coding assignment. Use the rest of your class time to work on your project, or other assignments.
 
-To get started on your next sprint, go through the [sprint kickoff](../../articles/agile-ceremonies/#sprint-kickoff) activities of prioritization and estimation. If you have user stories in your icebox, begin prioritizing the ones that need to be completed this sprint. If you don't have user stories in your icebox take some time to write new user stories.
-
-You'll then get together with your group. Be prepared to talk about:
-- The user stories you are planning on completing this sprint.
-- The prioritization of the user stories you selected this sprint.
-- X user stories you plan on having completed before the standup next week.
+You will have a chance to make up this assignment if you don't pass today. We want to make sure you are comfortable with this process so you can retake this assignment as many times as you need. Remember practice makes perfect!

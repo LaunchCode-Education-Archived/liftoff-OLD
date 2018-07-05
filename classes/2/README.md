@@ -6,30 +6,27 @@ currentMenu: classes
 ## Sections
 
 - [Project Module: Project Process and Tools](#project-module-project-process)
-- [Career Module: Live Coding One](#career-module-live-coding-one)
 
 ## Project Module: Project Process and Tools
 
-We will continue with planning work for the [attendance app](../1/) introduced in class 1.
+### Lecture: How do you visualize a user story?
 
-The instructor will present some user stories, and you will use these to generate some wireframes within your groups.
+In class today we will have a lecture and discussion on how to visualize a user story. The intended user for application will more than likely be expecting something on their screen to interact with. How can we plan/design what their screens will look like?
 
-Additionally, you will conduct a [Sprint standup meeting](../../articles/agile-ceremonies/#standup) this will give everyone to discuss what they were able to accomplish in the first half of their sprint, and what they aim to complete in the remainder of the sprint.
+Before lecture today please take a few minutes to think about what your project looks like to an end user. What do they need to see to use your application?
 
-## Career Module: Live Coding One
+### Activity: Design your wireframes!
 
-Today's career module in class activity has two parts.
+Take this time to draw wireframes for your project check in with your mentor, talk about your wireframes with other people in your group, you might find that some of your wireframes look similar!
 
-1. Your group will walk through a live coding problem together under the supervision of your mentor. You will need to go through all the steps, and find a solution to the problem. This is a chance for you to ask questions, and learn from your fellow classmates.
+### Lecture: How do you take a user story, and wireframe and turn it into code?
 
-2. You will be paired with someone in a different group that worked on a different problem. In your pair you will take turns practicing a live coding session. One of you will act as the interviewer, and one of you will attempt to solve the problem as the interviewee. After working through the problem, you will switch roles.
+The Instructor will give a brief presentation on a Most Viable Product (MVP), and will give a live demonstration of completing a user story and wireframe.
 
-## Agile: Sprint Standup
+### Activity: Plan you MVP and check in with your Mentor!
 
-Now that our first sprint is halfway over it is time to have a [Sprint Standup](../../articles/agile-ceremonies/#standup) to quickly review what we have done so far, and focus on what we need to accomplish to finish this sprint. 
+Use this time in class to polish your user stories, and wireframes so you have an MVP. Share your plans with your Mentor. You should be able to walk them through how a user interacts with your application by talking through the user stories, and showing the wireframes.
 
-Be prepared to talk about:
-- The user stories you have completed so far.  **We expect you to complete at least one user story every week.**
-- The user stories you will be working on for the remainder of the sprint.
-- Anything blocking your progress.
-- What you have learned so far this sprint.
+### Regroup: Instructor Demo, and Questions
+
+The Instructor has an MVP for the example Attendance application let's watch them work through a user story, wireframe to creating the code and seeing the final results.

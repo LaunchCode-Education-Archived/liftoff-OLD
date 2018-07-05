@@ -8,42 +8,32 @@ currentMenu: classes
 
 ## Project Module
 
-### Writing Good User Stories
+### Lecture: How do you ideate, and build a project?
 
-Let's get some practice writing user stories and creating wireframes so that you're ready to go when you are creating them for your own project. We'll consider a fictional company, with a fictional project, and work through the process together.
+In class today we will have a lecture and discussion on how to ideate, and build a project. Most people struggle to build projects, especially their first project. In this class we are going to learn some concepts that aren't necessairly programming skills, but should help manage the building of your project.
 
-#### An Attendance App
+Before lecture today please take a few minutes to think about how you would build a projecte. What steps would need to take to build a project?
 
-In this fictional scenario, your team has been contracted to build a new app for LaunchCode. As part of the planning process, you will write the first set up user stories and wireframes. These will guide your team's work, and will serve to communicate to developers what the project's requirements are in a way that aligns with the business requirements.
+### Activity: Get to know your group!
 
-The project is to build a system that allows LaunchCode course staff to easily take attendance during classes. The current system involves a less-than-desirable work-around in Canvas, and LaunchCode wants a better tool.
+Each class will have you check in with your group, since we don't have much work to talk about yet let's take some time to get to know each other.
 
-#### Gathering Requirements
+Circle up, and go around the group starting with the group's Mentor. Introduce yourself, state what you want to get out of this class, and finally state at least one idea you have for a project for this class.
 
-As a class, you need to determine from the client (i.e. LaunchCode Education staff) what they need. Begin by asking questions. In particular, you should determine:
+### Lecture: Story mapping, user stories, and epics
 
-- What are the personnas, or user types, that will be using the app?
-- What actions should each user type be able to carry out?
+In a brief lecture let's talk about some of the key ways companies plan and organize their work while working on technical products. Then let's see an example of how to use these tools!
 
-#### Drafting Some Stories
+### Example: Attendance App User Stories
 
-Now that you've gotten input from the client, write 5 user stories that you would use to begin development.
+Watch the instructor take the example idea and write some user stories.
 
-#### Coordinating With the Client
+### Activity: Write user stories
 
-Once you write user stories, you should clarify all stories with the client. 
+Write some user stories for your idea, consider what you need to do as the developer, what the end user needs, what other users might there be for this application.
 
-- As you were writing them, did any questions arise that you didn't consider when initially gathering requirements?
-- Do the stories that you drafted align with the client's actual desired features?
-- Are your user stories too big? Are they "epics" that need to be broken down into smaller stories?
+You must have your Mentor approve at least one of your user stories to count towards your attendance today!
 
-As you talk through these with the client, adjust and improve user stories and wireframes based on feedback.
+### Regroup: Instructor Overview, and Questions
 
-## Agile: Sprint Kickoff
-
-Now that we have an understanding of User Stories, and the upcoming assignments we need to have a [Sprint Kickoff](../../articles/agile-ceremonies/#sprint-kickoff) to determine what we will be doing in our sprint. Take some time to consider what you will need to do in order to complete the Project Outline assignment, and the work you may need to complete for your project next week. You will then go around the group and everyone will state what they will be working on. You should leave the meeting knowing which user stories you need to work on.
-
-When you are ready for the Sprint Kickoff be prepared to:
-- Talk about the user stories you are planning on completing this sprint.
-- Discuss the priority of these stories.
-- Set a goal to have X number of stories completed by next week to discuss in the Standup. **We expect you to complete at least one user story every week.**
+The Instructor should have a few additional user stories for the example Attendance Application idea, and will show you what they have to do to complete the user story!
