@@ -11,6 +11,10 @@ Your focus for the project module this week, and going forward, should be on mak
 
 In class today we will discuss how you work with others, via version control, and code reviews.
 
+### Activity: Standup
+
+Before having your one on one project review, you should conduct your standup. Each person should go around and state what tasks they got done this week, and what they are working on next week.
+
 ### Activity: Project Review
 
 You will sit down with your mentor one on one and demo what progress you have made so far. You might not feel like you've made much progress so far, but you still need to show your mentor what you've done, and what you plan on doing next.
