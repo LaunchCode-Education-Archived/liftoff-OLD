@@ -15,14 +15,15 @@ Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
 Setup | Assignment | [Assignment Repository Setup](../../assignments/setup/) | Set up the repository that you will use to submit most assignments for this course
 
-## Project Module: Capstone Overview
+## Project Module: Capstone Overview & Liftoff Expectations
 
 We will spend time in class talking about project ideas in small groups. Come to class with 2 or 3 ideas for projects you might want to work on. If you are struggling to come up with ideas check out the [demo project write-ups](../../demo-projects) or [project demo videos](https://www.youtube.com/watch?v=_8LRJHkTqsg&list=PLs5n5nYB22fIdV_HMkekxx7Yt06lXUptT)
 
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
-Read | Article | [Capstone Overview](../../articles/capstone-overview/) | Get an overview of what LaunchCode expects to see in a good capstone project, and how you should go about coming up with a killer project idea.
+Read | Article | [Liftoff Expectations](../../articles/liftoff-expectations/) | Read this very short article about the objectives of Liftoff, and what we expect from you!
+Read | Article | [Capstone Overview](../../articles/capstone-overview/) | Get an overview of what LaunchCode expects to see in a good capstone project, and how you should go about coming up with a killer project idea. | 
 
 ## Demo Projects
 
@@ -31,10 +32,11 @@ Your assigned prep work each week will include links to demo projects created by
 - [Event Log Week 1](../../demo-projects/event-log/#week-1)
 - [Expense Tracker Week 1](../../demo-projects/expense-tracker/#week-1)
 
-## Project Module: User Stories
+## Project Module: User Story Mapping
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
+Read | Article | [User Story Mapping](https://manifesto.co.uk/user-story-mapping/) | Read this article that will explain User Story Mapping and how it is benefical to project organization. | 
 Read | Article | [What Is A User Story?](https://www.leadingagile.com/2012/07/user-story/) | Read this brief introduction to the concept of user stories. User stories are a technique of defining work items. They are often discussed in the content of "Agile development", but are not the same as Agile. We'll learn more about Agile in a future lesson, but for now, focus on the concept of a user story as a stand-alone tool.
 Read | Article | [10 Tips for Writing Good User Stories](http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/) | Read about writing great user stories for your project
 Setup | Tool | [Pivotal Tracker](http://pivotaltracker.com/) | Create a free account for the Pivotal Tracker tool. We'll use this to track our user stories. Once you have an account, create a public project for your capstone project.

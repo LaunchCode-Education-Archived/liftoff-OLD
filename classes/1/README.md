@@ -28,9 +28,11 @@ In a brief lecture let's talk about some of the key ways companies plan and orga
 
 Watch the instructor take the example idea and write some user stories.
 
-### Activity: Write user stories
+### Activity: Solidify Project Idea & Write user stories
 
-Write some user stories for your idea, consider what you need to do as the developer, what the end user needs, what other users might there be for this application.
+If you didn't come to an aggrement with your Mentor about which project you will be working on, now is the time to do so! If you need a few extra minutes to decide on a project let your Mentor know and you can talk it out together. Remember that this is just the first project of many projects to come! If you've got a killer idea that might be slightly out of the scope of this class you can always put it on hold until after this class ends.
+
+After choosing a project, and having it confirmed by your mentor write some user stories for your idea, consider what you need to do as the developer, what the end user needs, what other users might there be for this application.
 
 You must have your Mentor approve at least one of your user stories to count towards your attendance today!
 
