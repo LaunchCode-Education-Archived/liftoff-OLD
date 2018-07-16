@@ -20,4 +20,4 @@ This class varies from LC101 in the fact that you will be required to perform a 
 - Completion of all assignments
 - Visible progress on your project every week
 
-Making a project, especially your first independant project, can be a daunting task. You will have to work on your project multiple times a week outside of class, in addition to the prep work, and assignments. We estimate that you will need to work at least **20 hours each week** to make it through this course successfully.
+Making a project, especially your first independent project, can be a daunting task. You will have to work on your project multiple times a week outside of class, in addition to the prep work, and assignments. We estimate that you will need to work at least **20 hours each week** to make it through this course successfully.
