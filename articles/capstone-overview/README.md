@@ -3,7 +3,7 @@ title: Capstone Project Overview
 currentMenu: articles
 ---
 
-The capstone project is one of the most important pieces of landing the perfect LaunchCode apprenticeship. Your project is one of the primary ways that the LaunchCode and potential employers will verify that you are job-ready, and it should be something that you're proud to show off. So don't skimp on the time, energy, and thought that you put into this!
+The capstone project is one of the most important pieces of landing the perfect LaunchCode apprenticeship. Your project is one of the primary ways that LaunchCode and potential employers will verify that you are job-ready, and it should be something that you're proud to show off. So don't skimp on the time, energy, and thought that you put into this!
 
 Be unique, innovative and creative. Your project should demonstrate meaningful thought and planning, and that you can build software from the ground up.
 
@@ -13,7 +13,7 @@ Your project should:
 2. __Demonstrate your ability to learn new things__: In your project, you will go beyond your initial learning to teach yourself something new. Maybe you learned Angular.js for your front-end web project, or connected to an API in your back-end Java application.
 3. __Solve a problem__: When employed as a programmer, you'll be asked to implement solutions to problems. Your capstone project should demonstrate that you are capable of identifying a problem and coming up with a software-based solution to the problem. For example, creating an app that allows a nonprofit to organize and communicate with volunteers solves a meaningful problem. Creating a Sudoku app doesn't.
 
-You will put your project up in GitHub. This will make it accessible for others to view, and will show off all of hard work you put into it as you rack up commits!
+You will put your project up in GitHub. This will make it accessible for others to view, and will show off all of the hard work you put into it as you rack up commits!
 
 Regardless of the project you tackle, you should:
 * Build an application entirely yourself, or nearly so. If you use “starter code", you need to go well beyond what was provided or worked on by others. You should be able to clearly articulate what you built yourself versus what was built by others.
