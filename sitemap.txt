@@ -17,6 +17,7 @@ https://education.launchcode.org/liftoff/articles/linkedin-profile/index.html
 https://education.launchcode.org/liftoff/articles/live-coding/index.html
 https://education.launchcode.org/liftoff/articles/logging-java/index.html
 https://education.launchcode.org/liftoff/articles/mars-exploration/index.html
+https://education.launchcode.org/liftoff/articles/regular-git-commits/index.html
 https://education.launchcode.org/liftoff/articles/staircase/index.html
 https://education.launchcode.org/liftoff/articles/technical-resume/index.html
 https://education.launchcode.org/liftoff/articles/ux-resources/index.html
