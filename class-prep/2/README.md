@@ -15,10 +15,6 @@ UX is short for "user experience", and is the design discipline focused on makin
 
 This isn't a design class, and most developers work with designers to create the best products possible. While you won't be expected to be an expert at UX and design, it is important to have an appreciation for the elements of design and have a user focus when working on your project.
 
-UX is short for "user experience", and is the design discipline focused on making products that place primary importance on a user's experiences and interactions. A critical part of the UX design process is wireframing, which is a technique used to sketch out web pages and views in a rough way that focuses on how elements are arranged and how users are likely to interact with them.
-
-This isn't a design class, and most developers work with designers to create the best products possible. While you won't be expected to be an expert at UX and design, it is important to have an appreciation for the elements of design and have a user focus when working on your project.
-
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
 Watch | Video | [Wireframing for UX](https://www.youtube.com/watch?v=8-vTd7GRk-w) | Get an overview of wireframes.
