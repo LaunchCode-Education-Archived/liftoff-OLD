@@ -3,21 +3,22 @@ title: 'Mentor Playbook: Week 2'
 ---
 
 ## Topics
-* Live Coding
-* Agile: Sprint Standup
-* Refreshers on User Stories, Wireframes, Pivotal, and Agile
+* User Experience (UX)
+* Wireframing
+* User Stories Continued
+* Agile Ceremonies
 
 ## Your Responsibilities
 * Take attendance in Canvas
     * All students should be marked present (check mark), not present (x), or excused (EX)
     * Report any unexcused absences to the CEM!
-* Check out the [Live Coding problems](https://github.com/LaunchCodeEducation/liftoff-live-coding) before class
-    * Students will have an in-class activity that requires them to work through a problem with you first, and then they will pair off with a student in a different group to work on a different problem.
-    * You will need to walk around your group make sure they are working on the problem and provide them with any thing they may need help with.
-* Run a Sprint Standup
+* Facilitate Wireframing Activity (After UX/Wireframe Lecture, before Agile Lecture)
+    * Part 1 - Crazy 8's Exercise Facilitated by Instructor. Each student will take one sheet of paper, divide into 8 sections, and spend 1 minute per square sketching their app, starting with their landing page, adding others if exhausted.
+    * Part 2 - Students will select ~3 of their favorites to share with a partner, who will provided feedback, and share theirs.
+    * Part 3 - Students will work on "full page" wireframes for each page in their application. You should ask students to walk them through their current wireframes
+* Run a Sprint Standup (End of class)
     * Remind them what a Sprint Standup is, and how it fits into the Agile ceremonies we are using in this course.
     * Standups are meant to be short. If a student is taking too much time, or is using the standup as a time to get unblocked, move on and loop back to them in free project work time.
-* Assist students with projects
 
 ## Student Assignments
 * Project Planning
@@ -27,12 +28,14 @@ title: 'Mentor Playbook: Week 2'
     * *This assignment needs to be graded before week 3!*
 
 ## Possible Class Outline
-* Live Coding Presentation
-* Live Coding Group Activity
-* Live Coding Pair Activity
-* Standup
-* Project Work Time
-* Instructor/Mentor Standup
+* Objectives
+* Timeline Review 
+* UX & Wireframing Lecture
+* Activity - Wireframes
+* Agile Continued Lecture
+* Assignment Review
+* Q&A
+* Activity - Agile Standup
 
 ## Student Struggles
 * Students might not make much progress towards their user stories.
@@ -44,10 +47,5 @@ title: 'Mentor Playbook: Week 2'
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
         * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code or debugging with them.
-* Students will be anxious about live coding.
-    * Encourage them to talk out loud, ask questions, and follow the steps.
-    * Encourage them to continue practicing on their own and with others outside of class.
-* Students won't talk much during live coding.
-    * Encourage them to ask questions.
-    * Have them talk through their logic, or why they decided to do something.
-    * Have them talk through a possible test case and what's happening line by line.
+* Students may not be confident wireframing
+    * Work with them in getting started. Ask questions from a user's perspective. "What will I see when I first open your web app?", "How will I create a new cheese?", "Where can I see all of my cheeses?"
