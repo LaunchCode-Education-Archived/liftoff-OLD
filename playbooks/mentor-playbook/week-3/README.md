@@ -30,7 +30,7 @@ title: 'Mentor Playbook: Week 3'
 
 ## Student Assignments
 * Online Profiles
-    * [Description](../../assignments/online-profiles/)
+    * [Description](../../../assignments/online-profiles/)
     * Grading Rubrics found on Canvas under the Pages section
         * See the CEM if you can't find it
     * *This assignment needs to be graded before week 4!*
