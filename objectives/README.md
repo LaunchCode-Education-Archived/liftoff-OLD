@@ -37,20 +37,12 @@ Listed below are the competencies you should demonstrate by the time you've comp
 ### Class 3
 
 #### Project Module
-- Utilize project management tools to document and plan project work
-- Describe the basic components of a sprint: planning, kickoff, retrospective
-- Estimate user stories as a means of predicting the work that can be carried out in a sprint
-- Utilize wireframes to plan the structure of views and user interactions
-- Use `reset` and `revert` git commands to back out committed changes that are no longer desired
-- Use branches to separate work initiatives
-- Describe common branch use cases and workflows
-- Use `diff` to view changes between commits and branches
-- Properly explain and use the git commands `fetch`, `pull`, `merge`, `stash`, `pop`
+- Understand intellectual property & software licensing
+- Know how to include a license
 
 #### Career Module
 - Know what makes a good technical resume
-- Have an understanding of online profiles
-- Utilize LinkedIn to network with other programming professionals
+- Utilize LinkedIn to network with other professionals
 - Know how to use your GitHub account to showcase projects
 
 ### Class 4
