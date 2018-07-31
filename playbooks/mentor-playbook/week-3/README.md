@@ -3,29 +3,24 @@ title: 'Mentor Playbook: Week 3'
 ---
 
 ## Topics
-* Git
-    * Branching
-    * Merging
-    * Collaborating with others
 * Intellectual Property
     * Open Licenses
 * Online Profiles
     * Tech Resume
     * GitHub
     * LinkedIn
-* Agile Sprint Retro
-* Agile Sprint Kickoff
+* Stand-up
 
 ## Your Responsibilities
 * Take attendance in Canvas
     * All students should be marked present (check mark), not present (x), or excused (EX)
     * Report any unexcused absences to the CEM!
-* Run a Sprint Retro
-    * Remind students what a retro is and how it fits into the Agile ceremonies we are using for this class.
-* Run a Sprint Kickoff
-    * Remind students what a kickoff is and how it fits into the Agile ceremonies we are using for this class.
-* Answer student questions about Online Profiles.
+* Run a group stand-up
+    * Hopefully students understand the cadence, but feel free to gently nudge students dragging out their updates
+* Facilitate a Resume Workshop
+    * Nothing in particular is needed, let students work through their resume and provide feedback
     * Be willing to share your experiences with resumes, GitHub profiles, and LinkedIn.
+    * Give priority to students seeking resume/profile feedback, project work is secondary
 * Assist students with projects
 
 ## Student Assignments
@@ -39,14 +34,16 @@ title: 'Mentor Playbook: Week 3'
     * Similarily students are not required to upload any personal information about themselves to their public facing GitHub profile. If a student has a problem with uploading personal information you need to respect their wishes, but ensure they are still using GitHub appropriately!
 
 ## Possible Class Outline
-* Git Presentation and Questions
-* Intellectual Property Presentation and Questions
-* Online Profiles Presentation
-* Online Profiles Activity
-* Agile Retro
-* Agile Kickoff
-* Free time for projects
-* Instructor/Mentors Standup
+* Objectives
+* Timeline Review
+* Prep Work & Assignment Q&A
+* Intellectual Property Lecture
+* Personal Branding Lecture
+* Assignments Preview
+* Objectives Recap
+* Lecture Q&A
+* Activity - Stand-up
+* Activity - Resume Workshopping
 
 ## Student Struggles
 * Students might not make much progress towards their user stories.
@@ -68,3 +65,4 @@ title: 'Mentor Playbook: Week 3'
     * Give specific feedback.
 * Students will have questions about Licenses.
     * Answer their questions to the best of your abilities; if you don't know how, pass them to the instructor.
+    * MIT is always a safe choice.
