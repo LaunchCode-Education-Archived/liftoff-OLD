@@ -9,7 +9,13 @@ Class 4 is an important class. We will start shifting our in class focus from yo
 You will have a project review with your mentor. They will be checking in on the progress of your project. Your mentor knows it's a work in progress, and doesn't expect everything to be perfect, or even completed. Your mentor wants to see what you have completed so far. *If you haven't written any code and have nothing to show you will be dropped from the course.*
 
 ### Project Review
-You will have a brief one on one meeting with your mentor in class. Be prepared to show them what your project can do! We would recommend showing off what your project currently looks like from the user's perspective, you can show them the login system, or the CRUD functionality, or how it draws in data from an API, etc.
+The Project Review is very important, you need to make constant progress on your project to show employers you are ready for a job. We want to ensure you are making progress, and will do so with a Project Review.
+
+In your class 4 Project Review *your application should have the following in order to remain enrolled in the class*:
+1. A working landing page
+2. At least one functioning and complete user story
+
+You are more than welcome to show off multiple completed user stories, and multiple pages, but you must have at least a working landing page, and one function and complete user story to pass this assignment, and to stay enrolled in the class.
 
 *The best way to prepare for this meeting is to spend a lot of time working on your project*, so you will have no extra prep work outside of the Live Coding prep work listed below.
 
