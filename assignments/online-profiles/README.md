@@ -13,7 +13,7 @@ Within your `liftoff-assignments` repository, open up `C1-Online_Profiles/README
 * a link to your GitHub profile
 * A link to your LinkedIn profile.
 
-Your Mentor will then be able to provide you with feedback via GitHub issues.
+Commit your changes and push them to your GitHub repository. Your Mentor will then be able to provide you with feedback via GitHub issues.
 
 ## Alternate Submissions
 
