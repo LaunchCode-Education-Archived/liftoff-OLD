@@ -5,29 +5,28 @@ title: 'Mentor Playbook: Week 4'
 ## Topics
 * Agile Standup
 * Live Coding
+* Code Review
 
 ## Your Responsibilities
 * Take attendance in Canvas
     * All students should be marked present (check mark), not present (x), or excused (EX)
     * Report any unexcused absences to the CEM!
 * Run a Sprint Standup
-* Conduct Live Coding Assignment with students
-    * For the Live Coding Assignment, you will be given a list of students from another group. You will go through the assignment with them and grade them based on their performance.
+* Encourage your Students to practice live coding with one another
+    * Stress that practice is the best way to be successful at live coding
 * Assist students with their projects.
 
 ## Student Assignments
 * Live Coding
-    * [Description](../../../assignments/live-coding/)
-    * Grading Rubric is found on Canvas under the Pages section
-        * See the CEM if you can't find it
-    * *This assignment needs to be graded by the end of class*
-    * If a student fails mark them as a 0 and send their name to the CEM.
+    * Nothing to grade, but encourage students to practice
 
 ## Possible Class Outline
+* Lecture: Live Coding
+* Demo: Live Coding
+* Lecture: Code Review
 * Agile Standup
-* Live Coding Assignment
-    * This will take at least 90 minutes
-* Free time to work on projects
+* Live Coding Practice
+* Project Review
 * Instructor/Mentors standup
 
 ## Student Struggles
@@ -40,12 +39,29 @@ title: 'Mentor Playbook: Week 4'
         * Give them some advice on learning tools, and notify the CEM.
     * They are blocked and need assistance before moving forward.
         * If they are blocked you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code or debugging with them.
-* Students might fail the Live Coding Assignment.
-    * Students sometimes forget it's all about practice
-        * Remind them they can attempt the assignment again, and to keep practicing. Give them lots of positive feedback.
-    * Students are overly anxious. Sometimes they will completely blank on programming.
-        * Don't be afraid of giving them a little assistance. Talk through what you would do for part of the problem to get them talking. If you solve the whole problem for them they should be failed, but if they get going on their own eventually you can pass them.
-    * Students struggle with syntax.
-        * This isn't a huge issue. Give them some starting syntax, or talk through their logic and mention some ways of doing things correctly. If they don't know *any* syntax, fail them and let the CEM know.
-    * Students struggle with programming fundamentals.
-        * This is the biggest red flag. If students can't explain what a loop, conditional, variable, or array is they are significantly behind for the Liftoff program. Give them some positive feedback, and report them to the CEM.
+* Students might not want to practice live coding, but work on their projects
+    * Remind them that in-person practice is more valuable then trying to fix whatever it is for code review
+* Code Review
+  * Student doesn't know what to expect.
+      * Most students won't know what to expect from a project review. Guide them through it. Ask them to see their project, see their code, ask them about the biggest challenge, their favorite part of their project, and what they have had to learn.
+    * Student may not have made much progress, or have enough code to provide constructive feedback
+        * Remind them everyone works at a different speed. They should have made some progress by now, if they have user stories but aren't making progress towards the stories, help them identify why they aren't making progress.
+        * If they have only completed a landing page (or less), stress the importance of forward progress and set an action plan with them.
+        * If you do not believe that they have given the time and effort to be successful, then mark them as a 0 noting and follow up with the CEM.
+        * Provide candid feedback based on your mentoring style and relationship with the student. This can be an especially difficult task for mentors, but students need to understand why you can't give them full points for a code review, and generally understand why you can't give them credit for the code review.
+    * Student's work may be sloppy, incomplete, or buggy.
+        * Some of these students may just be generally disorganized, explain to them the importance of consistency and clarity. If this is the case, you may ask that they spend some time cleaning up their code as their next "story".
+        * If it's clear that they do not understand the code they have, then you should be blunt with them, and see if there's any help you can provide them to help them understand the code they have.
+    * Student has made progress, but you're unsure of what feedback to provide.
+        * Certainly celebrate how far they've come in 4 weeks, and highlight what you do identify as needing improvement.
+        * Ensure they have a clear picture of their next steps and have a groomed and prioritized backlog
+    * Student is "finished" with their project
+        * Celebrate them for having so much done!
+        * Inquire about what other features they'd like to add, and help them brainstorm if need be
+        * If they have completed their project already, reach out to the CEM for early placement
+    * Students are afraid they haven't made enough progress.
+        * Some students will make good progress, but think it's not enough. Remind them everyone works at different speeds, and help them take pride in what they have accomplished so far.
+    * Students have completed work but don't know where to go next.
+        * Talk through their project with them. Ask them about their end goal, look over their feature list with them again, and give them the best advice you can for continuing. It sometimes is helping them break a big feature down into smaller steps.
+    * Student has not been using their project tracker
+        * Some students can be successful without a project tracker, if this is the case, you may only mention the importance of building good habits so they can be even better in the future.
