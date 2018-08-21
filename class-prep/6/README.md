@@ -5,13 +5,18 @@ currentMenu: class-prep
 
 There is no new prep for class 6. Be prepared for your mock interview during class 6, and continue working hard on your project!
 
-## Agile: Standup Preparation
-Take inventory of the user stories you have completed so far. Update your Pivotal Tracker to reflect any changes. Be prepared to talk about:
-- User stories you have completed.
-- User stories you are still working on.
-- Any blockers you have encountered so far.
+## Interviews
 
-You will be expected to talk about all three of these things in your Standup with your group during class 6. **We expect you to complete at least one user story every week.**
+Interviewing is crucial to actually land a job as a developer. In class we will discuss the different aspects of the interview process and how to prepare for each part of the interview.
+
+For prep-work, you simply need to start thinking about interviews you've had in the past and read the following articles.
+
+Task | Resource Type | Link
+|----|---------------|------|
+Read | Article | [How to Prepare for (and Ace) the Technical Interview](https://www.cio.com/article/2383000/careers-staffing/careers-staffing-how-to-prepare-for-and-ace-the-technical-interview.html)
+Read | Article | [10 Tech Interview Errors](https://www.monster.com/career-advice/article/ten-tech-it-interview-errors)
+Read | Article | [LaunchCode's Framework for Answering Interview Questions](../../articles/answering-interview-questions/)
+
 
 ## Demo Projects
 
