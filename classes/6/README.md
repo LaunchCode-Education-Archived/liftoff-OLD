@@ -3,21 +3,18 @@ title: 'Class 6'
 currentMenu: classes
 ---
 
-## Project Module
+### Activity: Standup
 
-During class 6, we'll discuss Agile development in greater depth. Outside of this discussion you should try to make as much progress on your project as possible.
+Before the instructor begins their lesson take time to have your standup meeting. Go around and talk about the user stories you completed this previous week, and the user stories you will work on this coming week.
 
-## Agile: Standup
+### Lecture: Technical Interviews
 
-Additionally, you'll conduct at [standup meeting](../../articles/agile-ceremonies/#standup) to update your team on your project work mid-sprint.
+In class today we will see a presentation by the instructor. They will be sharing their experiences with interviewing for technical roles. We will also go over how to answer questions effectively, and how to prepare for an interview.
 
-Be prepared to talk about:
-- The user stories you have completed so far this sprint.  **We expect you to complete at least one user story every week.**
-- The user stories you need to focus on to finish the sprint.
-- Anything blocking your progress for a given user story.
+### Activity: Technical Interview Practice
 
-## Career Module
+For our activity today you will be paired with another student. You will take turns asking each other example interview questions, and giving each other feedback.
 
-Finally, you'll participate in a [mock interview](../../assignments/mock-interview/) that is also an assignment. You must successfully complete the mock interview in order to pass the class.
+### Project work time
 
-This is an assignment, and you will be marked as pass or fail. If you fail the assignment, you will need to make up the mock interview with a LaunchCode staff member in one of the final classes.
+There will probably be some time at the end of class today for you to work on your project. If you are stuck on something, or need help from a mentor don't hesitate using this time to make progress on your project.

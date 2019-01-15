@@ -5,27 +5,32 @@ currentMenu: classes
 
 ## Project Module: Project Progress
 
-Your focus for the project module this week, and going forward, should be on making as much progress on your project as possible each week. If you have completed the user stories you planned in a given sprint, pull more stories from your backlog/icebox. If your backlog/icebox is full, write more user stories.
+Your focus for the project module this week, and going forward, should be on making as much progress on your project as possible each week. If you reach a point where you have finished all of your pending user stories you should write more.
 
-## Agile: Sprint Standup
+### Lecture: How do I work with other developers?
 
-We are halfway through our sprint, it is time to have a [standup meeting](../../articles/agile-ceremonies/#standup).
+In class today we will discuss how you work with others, via version control, and code reviews.
 
-Be prepared to talk about:
-- The user stories you have completed so far.  **We expect you to complete at least one user story every week.**
-- The user stories you need to focus on to finish the sprint.
-- Anything blocking your progress for a given user story.
+### Activity: Standup
 
-## Career Module: Live Coding Two
+Before having your one on one project review, you should conduct your standup. Each person should go around and state what tasks they got done this week, and what they are working on next week.
 
-Live Coding Overview:
+### Activity: Project Review
 
-1. Gather Requirements/Clarify the Problem
-2. Break Complex Problems into Smaller Simple Problems
-3. Pseudocode, Talk Through the Logic
-4. Code
-5. Test & Make Changes
+You will sit down with your mentor one on one and demo what progress you have made so far. You might not feel like you've made much progress so far, but you still need to show your mentor what you've done, and what you plan on doing next.
 
-Today for live coding, we are going to split into pairs. Again you will be taking the role of interviewer and interviewee. Continue practicing live coding with one another, going over the steps, communicating effectively, and working towards a solution to the problem.
+To pass this assignment you must have:
+1. A workign landing page
+2. At least one functioning and complete user story
 
-This time can also be used to complete the Live Coding Assignment. If you have scheduled a time with your mentor or a LaunchCode staff member, we can give you a chance to complete the assignment.
+### Lecture: How do I show my technical skills in a live coding setting?
+
+Live coding has been used in technciagl interviews for years. We will have a brief lecture, and example of what a Live Coding instance is like.
+
+### Activity: Live Coding
+
+#### Part One:
+In your group you will solve a problem together led by your mentor. Be sure to ask questions, because after the group work you will be paired with another student where you will practice giving, and taking a Live Coding assesment.
+
+#### Part Two:
+Pair up with a student in a group that worked on a different problem than your group. Take turns playing the interviewer and interviewee. This is your chance to practice before the assignment next week. If you have questions feel free to talk the problem over with your partner, or pull in one of your mentors.

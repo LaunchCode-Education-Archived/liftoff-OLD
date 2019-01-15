@@ -5,14 +5,14 @@ currentMenu: class-prep
 
 ## Sections
 
-- [Project Module: Collaboration](#collaboration)
+- [Project Module: Git](#git)
 - [Career Module: Online Profiles](#online-profiles)
 
 ## Collaboration
 
 This week's project module is really about two different topics, both of which loosely fall under the guise of collaborating on project work. We'll look at some intermediate Git and GitHub topics and we'll learn a bit about licensing.
 
-### Intermediate Git
+### Git
 
 You've become comfortable with using Git for version control on your projects and assignments; however, you likely haven't used the same Git repository to collaborate with others. It should come as no surprise to you that in the professional tech world, developers are working in the same code base all the time!
 
@@ -22,6 +22,7 @@ Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
 Read | Article | [Branching and Merging](https://www.git-tower.com/learn/git/ebook/en/command-line/branching-merging/branching-can-change-your-life#start) | Read articles on branching and merging. Be sure to page through, as the lesson is spread across several pages.
 Read | Article | [Sharing Work Via Remote Repositories](https://www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/introduction#start) | Read this article on remote repositories. Be sure to page through, as the lesson is spread across several pages.
+Read | Article | [Regular Git Commits](../../articles/regular-git-commits/) | Read this article on using git regularly for your project
 
 ### Licensing
 
@@ -44,20 +45,6 @@ Read | Article | [Technical Resume](../../articles/technical-resume/) | Read thi
 Read | Article | [GitHub Profile](../../articles/github-profile/) | Read this article, which outlines how you can use your Github profile professionally.
 Read | Article | [LinkedIn Profile](../../articles/linkedin-profile/) | Read this article, which talks about the importance of LinkedIn.
 Read | Article | [10 Examples of Highly Impactful LinkedIn Profiles](https://komarketing.com/blog/10-examples-highly-impactful-linkedin-profiles/) | Read this article that goes into greater detail on how you can use LinkedIn.
-
-## Agile: Sprint Retrospective & Review Preparation
-Take inventory of the user stories you have completed so far. Update your Pivotal Tracker to reflect any changes. Be prepared to talk about:
-- User stories you completed during the sprint.
-- User stories you were unable to complete during the sprint.
-- How you can improve for the next sprint.
-
-You will be expected to talk about all three of these things in your Standup with your group during class 3. **We expect you to complete at least one user story every week.**
-
-## Agile: Sprint Kickoff Preparation
-To begin a new sprint you will need to make sure you have enough user stories to keep you moving forward with your project. If you don't have enough user stories, take some time to write new user stories, and estimate them in preparation for your sprint kickoff. Be prepared to talk about:
-- The user stories you plan to complete during this sprint.
-- The prioritization of the user stories planned for this sprint.
-- X number of user stories you would like to have completed in prepartion for the Sprint Standup.
 
 ## Demo Projects
 

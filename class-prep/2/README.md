@@ -5,37 +5,44 @@ currentMenu: class-prep
 
 ## Sections
 
-- [Career Module: Live Coding One](#career-module-live-coding-one)
-- [Project Module: Agile Refresher](#project-module-agile-refresher)
+- [Wireframing](#wireframing)
+- [Minimum Viable Product](#most-viable-product)
+- [User Stories & Wireframes to Code](#user-stories-and-wireframes-to-code)
 
-## Career Module: Live Coding
-### Live Coding
-Live coding is a part of the interview process. The best way to prepare for live coding is to practice, practice, practice. Today we will see a strategy for solving live coding problems, we will get more practice in class.
+### UX
 
-Task | Resource Type | Link | Instructions
-|----|---------------|------|-------------|
-Watch | Video | [Live Coding Example](../../videos/live-coding/) | This video demonstrates the steps you should go through as you work through a live coding problem.
-Read | Article | [Whiteboarding Tips](https://writing.pupius.co.uk/whiteboarding-4df873dbba2e) | Read this article in which a seasoned developer gives tips on improving your live coding experience.
+UX is short for "user experience", and is the design discipline focused on making products that place primary importance on a user's experiences and interactions. A critical part of the UX design process is wireframing, which is a technique used to sketch out web pages and views in a rough way that focuses on how elements are arranged and how users are likely to interact with them.
 
-## Project Module: Agile Refresher
-### Agile Standup
-Every class we will be going through at least one agile ceremony. This week we are going through a *Standup*. This is the mid-sprint meeting. Traditionally you would have a standup meeting every day, and it would be very brief. Each developer would go around the circle and state what they accomplished the day before, what they are working on that day, and anything that is blocking their work from happening. We will be doing the same thing, but talking about our entire week. This will give you a chance to evaluate how much you have accomplished over the first half of the sprint, what you need to focus on for the second half of the sprint, and to share ideas with the other developers in your group. If you have solved a problem someone else is having, offer to help them out by showing them how you got it done! This meeting will also give your mentor a chance to check in on your progress.
+This isn't a design class, and most developers work with designers to create the best products possible. While you won't be expected to be an expert at UX and design, it is important to have an appreciation for the elements of design and have a user focus when working on your project.
 
 Task | Resource Type | Link | Instructions
 |----|---------------|------|-------------|
-Read | Article | [Agile Ceremonies](https://www.atlassian.com/agile/ceremonies) | Read about the basics of the 4 main agile ceremonies.
+Watch | Video | [Wireframing for UX](https://www.youtube.com/watch?v=8-vTd7GRk-w) | Get an overview of wireframes.
+Read | Article | [Getting Started With Wireframes](https://www.codementor.io/nicolesaidy/getting-started-with-wireframes-du107vuh7) | Now that you have a high-level idea of what wireframes are, dig a bit deeper and learn how and why they are useful.
+Read | Article | [UX Resources](../../articles/ux-resources/) | Review this list of great UX resources, which is also linked from the [Articles page](../../articles/).
 
-## Agile: Standup Preparation
-Take inventory of the user stories you have completed so far. Update your Pivotal Tracker to reflect any changes. Be prepared to talk about:
-- User stories you have completed.
-- User stories you are still working on.
-- Any blockers you have encountered so far.
+### Minimum Viable Product (MVP)
 
-You will be expected to talk about all three of these things in your Standup with your group during class 2. **We expect you to complete at least one user story every week.**
+MVP is short for Minimum Viable Product which is a product with just enough features to satisfy early customers, and to provide feedback for future product development. This should be your goal throughout Liftoff. You will not have a fully fleshed out project that is completly polished. What you will have is a great start, and the ability to continue working on your project.
 
-## Demo Projects
+Last class we talked a bit about what you should build for your personal project. In our next class we will talk more about creating an MVP.
 
-The final section of your assigned prep work each week will be links to demo projects created by Chris Bay, and Paul Matthews. They built projects with similar scopes to the project you will be building throughout Liftoff. If you are looking for inspiration, or want to see how Chris, or Paul completed a project assignment you will be able to find that here, or by visiting the [demo-project](../../demo-projects/) page. You will also find writeups of what they discussed in their agile ceremony meetings, it would be to your benefit to read what they discussed as you prepare for your weekly agile ceremnonies.
+Task | Resource Type | Link | Instructions
+|----|---------------|------|-------------|
+Read | Article | [What is a Minimum Viable Product](https://blog.leanstack.com/minimum-viable-product-mvp-7e280b0b9418) | Read this brief article explaining an MVP.
 
-- [Event Log Week 2](../../demo-projects/event-log/#week-2)
-- [Expense Tracker Week 2](../../demo-projects/expense-tracker/#week-2)
+
+### Turning User Stories & Wireframes into Code
+
+In order to be successful in Liftoff you will be required to turn your ideas, and skills into an actual project. This is a difficult task. In class we will not be writing code, but instead focusing on concepts that will help you work on your project. *You will be required to create your project outside of class!*
+
+There are no secrets or shortcuts to completing a project. It takes lots of time, hard work, and working through frustrating bugs. You should commit to working on your project as much as possible. One night a week will likely not be enough to finish your project. We believe one of the best ways to hold yourself accountable is by using User Stories, Wireframes, and having regular meetings with your mentor where you update them on what you have done.
+
+In class we will talk about taking our user stories and wireframes and turning them into actual code.
+
+To get a head start review the demo projects created by Chris, and Paul. Pay attention to the user stories they wrote, and then look at their GitHub profiles to see the code they had to create.
+
+Task | Resource Type | Link | Instructions
+|----|---------------|------|-------------|
+Review | Demo Project | [Event Log](../../demo-projects/event-log) | Review Chris' Event Log
+Review | Demo Project | [Expense Tracker](../../demo-projects/expense-tracker) | Review Paul's Expense Tracker

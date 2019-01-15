@@ -9,13 +9,9 @@ currentMenu: assignments
 
 [Project Outline](project-outline/)
 
-[Attend a Meetup](meetup/)
-
 ## Week 2
 
 [Project Planning](planning/)
-
-[Live Coding](live-coding/)
 
 ## Week 3
 
@@ -25,14 +21,20 @@ currentMenu: assignments
 
 ## Week 4
 
-[Live Coding](live-coding/)
+[Project Review](project-review/)
 
 ## Week 5
 
-[Project Review](project-review/)
+[Live Coding](live-coding/)
 
 ## Week 6
 
+[Project Presentation](project-presentation/)
+
+## Week 7
+
 [Mock Interview](mock-interview/)
 
-[Project Presentation](project-presentation/)
+## Week 8
+
+[Optional: Deployment](deployment/)

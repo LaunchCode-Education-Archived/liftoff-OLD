@@ -25,6 +25,10 @@ Within your `liftoff-assignments` repository, open up `P2-Project_Outline/README
 
 4. **What you'll have to learn**: In the course of building your project, you'll have to learn something new. Perhaps you want to use data from a public API, or add a bit of JavaScript to make your front-end more interactive. If you can't name the exact technology or technique that you'll have to learn, you should still be able to describe a problem that you have identified that you don't currently know how to solve.
 
+5. **Project Tracker**: We talked about various project tracking tools Pivotal, Trello, and GitHub Projects. Whichever you commit to using link here.
+
+6. **Enable GitHub Issues**: If you haven't already enabled [GitHub Issues](../../articles/github-issues/) do so before submitting this assignment. If you haven't enabled GitHub Issues yet your mentor will not be able to give you feedback on your project!
+
 ## Submitting Your Outline
 
 Once you have finished your project outline, commit and push your changes to your repository and submit the assignment on Canvas by submitting the URL to your outline. Your mentor will provide feedback after the assignment deadline.

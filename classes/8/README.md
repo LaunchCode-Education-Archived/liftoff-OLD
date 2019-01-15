@@ -3,21 +3,26 @@ title: 'Class 8'
 currentMenu: classes
 ---
 
-## Project Module
+### Activity: Standup
 
-In class 8, we'll discuss Project Deployment. You will not be responsbile for deploying your project in this course, but you will need to know about the concept.
+Before we get started take a minute to have your standup meeting.
 
-## Agile: Sprint Standup
+### Regroup: Instructor to introduce Continued Education Activity
 
-We are halfway through our sprint, it is time to have a [standup meeting](../../articles/agile-ceremonies/#standup).
+For our final class today we want to talk about continued education. You must continue learning on your own after this class, and you must continue learning on the job. We will talk about how to do this.
 
-Be prepared to talk about:
-- The user stories you have completed so far.  **We expect you to complete at least one user story every week.**
-- The user stories you need to focus on to finish the sprint.
-- Anything blocking your progress for a given user story.
+### Activity: Continued Education
 
-## Career Module
+We have done multiple things for this in the past, we have had panels of speakers, we have compiled lists of learning resources together, we have had space to work with our mentors to develop learning plans, etc.
 
-As a final topic we will be discussing Continued Education. We will address topics like learning in the apprenticehsip, learning outside of a structured class, and joining additional coding communities.
+### Regroup: Project Review
 
-Time will be provided to make up previous assignments like Mock Interviews, Live Coding, and Project Reviews. Check your grades on Canvas, if you are missing any of these assignments talk to your mentor about making them up in class.
+As a final activity for LaunchCode you will be having a final project review. Your instructor will introduce this activity, and give you instructions on how to proceed.
+
+### Activity: Project Review
+
+You will meet with your mentor one on one. They will be reviewing your project. They want to see that you have made significant progress from your first project review 4 weeks ago.
+
+### Free time
+
+With remaining class time make up live coding, or mock interview assignments.
