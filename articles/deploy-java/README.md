@@ -45,7 +45,7 @@ Once an account has been created, you will want to create a space. Developers ty
 
 We’ll be using a tool called Cloud Foundry to manage our deployment. Cloud Foundry is widely used in the industry to manage applications and services. It provides tools to package and deploy our code to production with minimal configuration.
 
-If you haven't already, install the [Cloud Foundry CLI](https://pivotal.io/platform/pcf-articles/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli). This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.
+If you haven't already, install the [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html). This tool will connect our computer to our Pivotal account, and allow us to deploy and manage our apps.
 
 In a terminal, log into your Pivotal account:
 
