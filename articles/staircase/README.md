@@ -10,7 +10,7 @@ n represents the height, and width of our desired output.
 
 Our desired output is a staircase drawn with the pound symbol (#). If a pound symbol is not represented it will be replaced by a space (" ").
 
-So this means there will be n number of elements in each print statment, and there will be some combination of spaces and pounds.
+So this means there will be n number of elements in each print statement, and there will be some combination of spaces and pounds.
 
 Test case:
 ```nohighlight
@@ -20,7 +20,7 @@ output:    #
          ###
         ####
 ```
-        
+
 ## Break Down Complex Pieces into Smaller Pieces
 I know we will have to print n number of new lines. I can do this with a for loop.
 
@@ -28,7 +28,7 @@ Within that for loop I can create a blank string, and concatenate either spaces 
 
 I can then print the new string before the original loop iterates.
 
-## Psuedocode
+## Pseudocode
 
 I will need a for loop, and within that loop I will need to nest 2 additional for loops. My plan is to create a blank string that will have spaces added to it first, then pound signs added second. The loops for spaces and pounds will depend on where we are in the original loop.
 
@@ -39,10 +39,9 @@ for loop -> goes from 0 to n
     for loop -> adds the appropriate number of pounds to print_string
     print(print_string)
 ```
-    
 
 ## Code
-Following the psuedocode above, this is what I have:
+Following the pseudocode above, this is what I have:
 
 ```python
 for i in range(0,n):
@@ -51,7 +50,7 @@ for i in range(0,n):
         print_str += " "
     for k in range(i):
         print_str += "#"
-    
+
     print(print_str)
 ```
 
@@ -94,7 +93,7 @@ print(print_str)
 for j in range ((4 - 1))
     Iteration 1:
     print_str = " "
-    
+
     Iteration 2:
     print_str = "  "
 
@@ -124,7 +123,7 @@ Output for 2nd Iteration:
 for j in range ((4 - 2))
     Iteration 1:
     print_str = " "
-    
+
     Iteration 2:
     print_str = "  "
 
@@ -194,7 +193,7 @@ for i in range(1,n+1):
         print_str += " "
     for k in range(i):
         print_str += "#"
-    
+
     print(print_str)
 ```
 
@@ -235,7 +234,7 @@ print(print_str)
 for j in range ((4 - 2))
     Iteration 1:
     print_str = " "
-    
+
     Iteration 2:
     print_str = "  "
 

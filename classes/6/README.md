@@ -3,17 +3,18 @@ title: 'Class 6'
 currentMenu: classes
 ---
 
-## Project Module
+### Activity: Standup
 
-During class 6, we'll discuss Agile development in greater depth.
+Before the instructor begins their lesson take time to have your standup meeting. Go around and talk about the user stories you completed this previous week, and the user stories you will work on this coming week.
 
-Additionally, you'll conduct at [standup meeting](../../articles/agile-ceremonies/#standup) to update your team on your project work mid-sprint.
+### Lecture: Technical Interviews
 
-You will also have access to your mentor, other students, and the staff instructors, so use this time to gain momentum on your project.
+In class today we will see a presentation by the instructor. They will be sharing their experiences with interviewing for technical roles. We will also go over how to answer questions effectively, and how to prepare for an interview.
 
-## Career Module
+### Activity: Technical Interview Practice
 
-Finally, you'll participate in a [mock interview](../../assignments/mock-interview/) that is also an assignment. You must successfully complete the mock interview in order to pass the class.
+For our activity today you will be paired with another student. You will take turns asking each other example interview questions, and giving each other feedback.
 
-This is an assignment, and you will be marked as pass or fail. If you fail the assignment you will need to make up the mock interview with a LaunchCode staff member in one of the final classes.
+### Project work time
 
+There will probably be some time at the end of class today for you to work on your project. If you are stuck on something, or need help from a mentor don't hesitate using this time to make progress on your project.

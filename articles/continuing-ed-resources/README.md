@@ -3,7 +3,7 @@ title: Great Programming Blogs, Podcasts, and More
 currentMenu: articles
 ---
 
-As you transfer from the cozy confines of a highly-structured course, to the real world of being a software developer, one of the most important things to do is be intentional about your own continued learning.
+As you transfer from the cozy confines of a highly-structured course to the real world of being a software developer, one of the most important things to do is be intentional about your own continued learning.
 
 All good programmers find ways to keep learning new things, stay up-to-date with new technologies and trends, and interact with programmers outside of their day-to-day jobs. There are lots of ways to do this, which means you get to choose how you seek out and use content from various sources. Some folks like podcasts, while others like having tech info sprinkled into their Twitter feeds.
 
@@ -50,7 +50,7 @@ _Jump to:_
 
 ## Non-coding Tech Podcasts
 
-These podcasts are really great, but are not explicitely about programming. If you enjoy thinking about how the Internet is evolving, how apps and devices affect people's everyday lifes, and similar topics, you'll find these interesting.
+These podcasts are really great, but are not explicitly about programming. If you enjoy thinking about how the Internet is evolving, how apps and devices affect people's everyday lives, and similar topics, you'll find these interesting.
 
 [Reply All](https://gimletmedia.com/reply-all/)
 

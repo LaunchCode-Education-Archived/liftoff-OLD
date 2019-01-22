@@ -5,68 +5,37 @@ currentMenu: classes
 ## Sections
 
 - [Project Module](#project-module)
-- [Career Module](#career-module)
 
 ## Project Module
 
-### Writing Good User Stories
+### Lecture: How do you ideate, and build a project?
 
-Let's get some practice writing user stories, so that you're ready to go when you start writing them for your own project. We'll consider a fictional company, with a fictional project, and work through the process together.
+In class today we will have a lecture and discussion on how to ideate, and build a project. Most people struggle to build projects, especially their first project. In this class we are going to learn some concepts that aren't necessairly programming skills, but should help manage the building of your project.
 
-#### An Attendance App
+Before lecture today please take a few minutes to think about how you would build a projecte. What steps would need to take to build a project?
 
-In this fictional scenario, your team has been contract to build a new app for LaunchCode. As part of the planning process, you will write the first set up user stories. These will guide your team's work, and will serve to communicate to developers what the project's requirements are in a way that aligns with the business requirements.
+### Activity: Get to know your group!
 
-The project is to build a system that allows LaunchCode course staff to easily take attendance during classes. The current system involves a less-than-desireable work-around in Canvas, and LaunchCode wants a better tool.
+Each class will have you check in with your group, since we don't have much work to talk about yet let's take some time to get to know each other.
 
-#### Gathering Requirements
+Circle up, and go around the group starting with the group's Mentor. Introduce yourself, state what you want to get out of this class, and finally state at least one idea you have for a project for this class.
 
-As a class, you need to determine from the client (i.e. LaunchCode Education staff) what they need. Begin by asking questions. In particular, you should determine:
+### Lecture: Story mapping, user stories, and epics
 
-- What are the personnas, or user types, that will be using the app?
-- What actions should each user type be able to carry out?
+In a brief lecture let's talk about some of the key ways companies plan and organize their work while working on technical products. Then let's see an example of how to use these tools!
 
-#### Drafting Some Stories
+### Example: Attendance App User Stories
 
-Now that you've gotten input from the client, write 5 user stories that you would use to begin development.
+Watch the instructor take the example idea and write some user stories.
 
-#### Coordinating With the Client
+### Activity: Solidify Project Idea & Write user stories
 
-Once you write user stories, you should clarify all stories with the client. 
+If you didn't come to an aggrement with your Mentor about which project you will be working on, now is the time to do so! If you need a few extra minutes to decide on a project let your Mentor know and you can talk it out together. Remember that this is just the first project of many projects to come! If you've got a killer idea that might be slightly out of the scope of this class you can always put it on hold until after this class ends.
 
-- As you were writing them, did any questions arise that you didn't consider when initially gathering requirements? 
-- Do the stories that you drafted align with the client's actual desired features? 
-- Are your user stories too big? Are they "epics" that need to be broken down into smaller stories?
+After choosing a project, and having it confirmed by your mentor write some user stories for your idea, consider what you need to do as the developer, what the end user needs, what other users might there be for this application.
 
-As you talk through these with the client, adjust and improve user stories based on feedback.
+You must have your Mentor approve at least one of your user stories to count towards your attendance today!
 
-## Career Module
+### Regroup: Instructor Overview, and Questions
 
-### Continued Education
-
-#### Gathering Resources
-Moving forward you are responsible for your own learning journey. This has pros and cons. No one is going to tell you what to learn, or provide you with any resources on how to learn. However, you get to choose what you want to learn, and can get to choose your own resources!
-
-If you haven't already it's time to begin creating a list of topics, programming langauges, and technologies you want to learn, and resources to learn them from.
-
-We discussed multiple ways of continuing to learn as a developer including:
-- Using Online Resources
-- Reading Books
-- Building Projects
-- Attending Conferences
-- Attending Meetups
-
-#### Using Meetup.com
-
-As an assignment in class today we are going to sign up for Meetup.com, and RSVP for a meetup.
-
-If you do not already have a Meetup.com account you can create one on their [website](https://secure.meetup.com/register/).
-
-After creating your account:
-1. Search for technical meetups
-2. Select a meetup that matches a skill you have, or are trying to learn
-3. Find the next event in the Meetup series
-4. RSVP for the event
-5. Mark your personal calendar
-
-Meetups are a great place to learn new concepts, and to meet new programming professionals. Often times the people you meet at meetups will help you identify great resources for learning more about any given topic!
+The Instructor should have a few additional user stories for the example Attendance Application idea, and will show you what they have to do to complete the user story!

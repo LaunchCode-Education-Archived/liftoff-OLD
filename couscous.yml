@@ -39,6 +39,9 @@ menu:
         objectives:
             text: Objectives
             relativeUrl: objectives/
+        demo-projects:
+            text: Demo Projects
+            relativeUrl: demo-projects/
         issues:
             text: Issues
             relativeUrl: issues/

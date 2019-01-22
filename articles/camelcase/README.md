@@ -13,7 +13,7 @@ For example:
 the_string = 'thisIsAnExample'
 ```
 
-Our goal is to determine how many words are in the string, and then print that number out.
+Our goal is to determine how many words are in the string, then print that number out.
 
 For example:
 ```nohighlight
@@ -31,7 +31,7 @@ I should be able to loop through the string by each individual character. I can 
 
 Finally I should be able to return the length of the list. This will represent the number of words in the original string.
 
-## Psuedocode
+## Pseudocode
 ```nohighlight
 variable the_words = []
 variable temp_word = ""
@@ -140,7 +140,7 @@ Another Successful Live Coding session! We employed all the steps and came up wi
 <aside class="aside-hint" markdown="1">
 There might be a better way of doing this problem!
 
-We aren't asked to do anything with the words that we have stored in our list the_words. It might be more appropriate to just keep track of an integer, and add to the integer everytime we encounter an uppercase letter.
+We aren't asked to do anything with the words that we have stored in our list the_words. It might be more appropriate to just keep track of an integer, and add to the integer every time we encounter an uppercase letter.
 
-Many of you may have done this on your attempt with this problem. That's great! If you didn't and are looking for another challenge try it this way.
+Many of you may have done this on your attempt with this problem. That's great! If you didn't and are looking for another challenge, try it this way.
 </aside>
