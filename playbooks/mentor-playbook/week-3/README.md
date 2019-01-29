@@ -3,8 +3,9 @@ title: 'Mentor Playbook: Week 3'
 ---
 
 ## Topics
+* Git Workflows
 * Intellectual Property
-    * Open Licenses
+* Open Source Licenses
 * Online Profiles
     * Tech Resume
     * GitHub
@@ -16,12 +17,19 @@ title: 'Mentor Playbook: Week 3'
     * All students should be marked present (check mark), not present (x), or excused (EX)
     * Report any unexcused absences to the CEM!
 * Run a group stand-up
-    * Hopefully students understand the cadence, but feel free to gently nudge students dragging out their updates
+    * Remind students to keep updates brief and focused on what they did, what they're working on, and any blockers
+    * Note if student has any blockers or hasn't made any progress to follow up with later
 * Facilitate a Resume Workshop
-    * Nothing in particular is needed, let students work through their resume and provide feedback
-    * Be willing to share your experiences with resumes, GitHub profiles, and LinkedIn.
-    * Give priority to students seeking resume/profile feedback, project work is secondary
+    * If students do not have a resume, encourage them to start based on the Liftoff provided example.
+    * Be willing to share your experiences and feedback on resumes, GitHub profiles, and LinkedIn.
+    * Give priority to students seeking resume/profile feedback, project work is secondary.
+    * If you'd like a second look at a resume, or if you're busy, feel free to send students to the CEM or Instructor
 * Assist students with projects
+    * Touch base with any students with blockers or who haven't made progress
+    * Talk about next steps, encouraging students to update their trackers and groom user stories
+* Group Project Mentors
+    * Use your best judgement if your group's time would be better spent on group work
+    * If in doubt, ask your group what would be more valuable to them
 
 ## Student Assignments
 * Online Profiles
@@ -31,19 +39,26 @@ title: 'Mentor Playbook: Week 3'
     * *This assignment needs to be graded before week 4!*
     * You will have to grade their LinkedIn, Resume, and GitHub profiles, and they all have to be successful for them to pass this assignment.
     * *Students are not required to upload their resume to a public GitHub repository!* If students don't want their information shared publicly they may request to submit their resume in a different way. You can ask them to email/slack you a digital copy, or you can request them to print out a physical copy for you to grade.
-    * Similarily students are not required to upload any personal information about themselves to their public facing GitHub profile. If a student has a problem with uploading personal information you need to respect their wishes, but ensure they are still using GitHub appropriately!
+    * Similarily students are not required to upload any personal information about themselves to their public facing GitHub or LinkedIn profile. If a student has a problem with uploading personal information you need to respect their wishes. For GitHub, ensure they are still using it appropriately!
+* Project Setup
+    * [Description](../../../assignments/project-setup/)
+    * Grading Rubrics found on Canvas under the Pages section
+        * See the CEM if you can't find it
+    * *This assignment needs to be graded before week 4!*
 
 ## Possible Class Outline
-* Objectives
-* Timeline Review
-* Prep Work & Assignment Q&A
-* Intellectual Property Lecture
-* Personal Branding Lecture
-* Assignments Preview
-* Objectives Recap
-* Lecture Q&A
-* Activity - Stand-up
-* Activity - Resume Workshopping
+* Objectives and Timeline
+* Lecture
+    * Git Workflows
+    * Licensing
+    * Open Source
+    * Personal Branding
+* Introduce Assignments
+* Review Objectives
+* Q&A
+* Activity
+    * Stand-up
+    * Resume Workshop
 
 ## Student Struggles
 * Students might not make much progress towards their user stories.
@@ -57,12 +72,14 @@ title: 'Mentor Playbook: Week 3'
         * If they are blocked, you can help them! However, try to make sure they aren't reliant on your help to make progress. Try pointing them in the correct direction over writing code or debugging with them.
 * Students will gripe and complain about Resumes, LinkedIn, or GitHub.
     * Gently remind them it's part of the required work to find a job especially through LaunchCode.
+    * Encourage students to use this time with mentors available to get resume feedback
 * Students will not know how to change things on GitHub.
     * Help them out or point them in the right direction; GitHub has tons of tutorials.
 * Students will not have LinkedIn profiles.
     * Help them set one up, or point them in the right direction.
 * Students will have poor resumes.
     * Give specific feedback.
+    * Help students uncover any specific strengths or unique perspectives they have, and help them highlight their accomplishments
 * Students will have questions about Licenses.
     * Answer their questions to the best of your abilities; if you don't know how, pass them to the instructor.
-    * MIT is always a safe choice.
+    * MIT is fairly safe choice.
