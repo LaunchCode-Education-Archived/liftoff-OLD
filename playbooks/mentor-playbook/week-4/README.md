@@ -3,31 +3,59 @@ title: 'Mentor Playbook: Week 4'
 ---
 
 ## Topics
-* Agile Standup
 * Live Coding
 * Code Review
+* Project Review
 
 ## Your Responsibilities
 * Take attendance in Canvas
-    * All students should be marked present (check mark), not present (x), or excused (EX)
-    * Report any unexcused absences to the CEM!
+  * All students should be marked present (check mark), not present (x), or excused (EX)
+  * Report any unexcused absences to the CEM!
 * Run a Sprint Standup
-* Encourage your Students to practice live coding with one another
-    * Stress that practice is the best way to be successful at live coding
-* Assist students with their projects.
+  * Keep it simple, sweet! If a student is taking too long, remind them "we can chat more during code review"
+* Live Coding
+  * Share any experiences, tips, or online resources
+  * Encourage your Students to practice live coding with one another
+  * Remind them that mock live coding interviews will be next class 
+* Code Review (Individual)
+  * Share any experiences or tips during lecture
+  * Review the grading rubric, found in Canvas under 'Pages'
+  * Don't let anyone monopolize your time - Set a timer and follow up later if you run out of time!
+  * Review current student's code
+    * Highlight any areas for improvement or refactoring
+    * Discuss possible patterns they might implement or leverage
+    * Ask questions about what they plan on working on next and check scope of their upcoming work
+    * Encourage them to use their project tracker, and have them update statuses and enter bugs
+* Code Review (Group)
+  * Share any experiences or tips during lecture
+  * Review the grading rubric, found in Canvas under 'Pages'
+  * Some suggestions on how to do a project review:
+    * Do a group code review, have each student 'drive' a section of code through a group discussion/review
+    * Have students open PRs, you can even have them assign them to one another for a review 
+  * Review current code base
+    * Highlight any areas for improvement or refactoring
+    * Discuss possible patterns they might implement or leverage
+    * Ask questions about what they plan on working on next and check scope of their upcoming work
+    * Create bugs or refactoring suggestions as stories in your project tracker
+  * Grade the Project Review assignment in Canvas on an individual basis
 
 ## Student Assignments
-* Live Coding
-    * Nothing to grade, but encourage students to practice
+* [Project Review](https://education.launchcode.org/liftoff/assignments/project-review/)
+  * Find the Grading Rubric in Canvas under 'Pages'
 
 ## Possible Class Outline
-* Lecture: Live Coding
-* Demo: Live Coding
-* Lecture: Code Review
-* Agile Standup
-* Live Coding Practice
-* Project Review
-* Instructor/Mentors standup
+* Introduction
+* Lecture
+  * Live Coding Introduction 
+  * Live Coding Demo (Time permitting)
+  * Code Review
+* Assignment - Code Review
+* Review Objectives and Q&A
+* Activity
+  * Stand-up
+  * Paired Live Coding Practice
+  * Project Reviews
+* Mentor Stand-up
 
 ## Student Struggles
 * Students might not make much progress towards their user stories.
