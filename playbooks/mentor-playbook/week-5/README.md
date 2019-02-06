@@ -51,3 +51,7 @@ title: 'Mentor Playbook: Week 5'
         * Some students will make good progress, but think it's not enough. Remind them everyone works at different speeds, and help them take pride in what they have accomplished so far.
     * Students have completed work but don't know where to go next.
         * Talk through their project with them. Ask them about their end goal, look over their feature list with them again, and give them the best advice you can for continuing. It sometimes is helping them break a big feature down into smaller steps.
+    * Other areas for feedback
+        * Are they utilizing their project trackers well? Do they have enough well defined stories?
+        * Is their UI clear and usable? Better yet, good looking? (provided they've made significant progress otherwise)
+        * Do they have a clear README that explains what the project is, and how to run it?

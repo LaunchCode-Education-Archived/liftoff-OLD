@@ -31,7 +31,7 @@ title: 'Mentor Playbook: Week 4'
   * Review the grading rubric, found in Canvas under 'Pages'
   * Some suggestions on how to do a project review:
     * Do a group code review, have each student 'drive' a section of code through a group discussion/review
-    * Have students open PRs, you can even have them assign them to one another for a review 
+    * Have students open PRs, you can even have them assign them to one another for a review
   * Review current code base
     * Highlight any areas for improvement or refactoring
     * Discuss possible patterns they might implement or leverage
@@ -46,7 +46,7 @@ title: 'Mentor Playbook: Week 4'
 ## Possible Class Outline
 * Introduction
 * Lecture
-  * Live Coding Introduction 
+  * Live Coding Introduction
   * Live Coding Demo (Time permitting)
   * Code Review
 * Assignment - Code Review
