@@ -9,7 +9,6 @@ title: 'Mentor Playbook: Week 5'
 * Introduction
 * Lecture
     * Live Coding Review
-* Assignment - Live Coding Interview
 * Q&A
 * Activity
     * Stand-up
@@ -30,7 +29,6 @@ title: 'Mentor Playbook: Week 5'
 * One on One Project Feedback
     * Once you've completed your interviews, follow up with your group to uncover blockers and clarify next steps.
 * Mentor Stand-Up
-    * Please join us after class to share group progress, what's working, and what's not.
     * If you need to leave earlier, feel free to share when you can.
 
 ## Student Assignments
@@ -44,12 +42,10 @@ title: 'Mentor Playbook: Week 5'
 ## Student Struggles
 * Live Coding
     * Students struggle to communicate their thought process
-        * While we are evaluating them for apprentiship, we also want to get them comfortable with talking it out, encouragement is encouraged!
         * Ask questions like "What's that you're doing there?" or "Can you show me how that works?"
     * Students get stuck finding a solution
         * Encourage them to revisit their pseudocode.
     * Students are stuck on syntax
-        * Clarify their understanding of what they're trying to do and nudge them in the right direction if it's clear they _know_ what to do, they just don't remember the syntax.
         * Don't let them get hung up on confusing method names like `length` vs `size`, have them move on.
     * Student's code has a bug
         * Give them ample time to self-identify any bugs.
