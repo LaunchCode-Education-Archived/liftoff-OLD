@@ -9,17 +9,17 @@ title: 'Mentor Playbook: Week 6'
     * Behavioral
   
 ## Possible Class Outline
-    * Introduction
-    * Lecture
-        * Interview Process & Tips
-        * Technical Interview Continued
-        * Behavioral Interview
-    * Q&A
-    * Activity
-        * Stand-Up
-        * Paired Interview Practice
-        * Open Work Time
-    * Mentor Stand-Up
+ * Introduction
+ * Lecture
+     * Interview Process & Tips
+     * Technical Interview Continued
+     * Behavioral Interview
+ * Q&A
+ * Activity
+     * Stand-Up
+     * Paired Interview Practice
+     * Open Work Time
+ * Mentor Stand-Up
   
 ## Your Responsibilities
 * Take attendance in Canvas
