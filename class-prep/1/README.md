@@ -27,7 +27,7 @@ Read | Article | [Capstone Overview](../../articles/capstone-overview/) | Get an
 
 ## Demo Projects
 
-Your assigned prep work each week will include links to demo projects created by Chris Bay, and Paul Matthews. They built projects with similar scopes to the project you will be building throughout Liftoff. If you are looking for inspiration, or want to see how Chris, or Paul completed a project assignment you will be able to find that here, or by visiting the [demo-project](../../demo-projects/) page. You will also find writeups of what they discussed in their agile ceremony meetings, it would be to your benefit to read what they discussed as you prepare for your weekly agile ceremnonies.
+Your assigned prep work each week will include links to demo projects created by Chris Bay, and Paul Matthews. They built projects with similar scopes to the project you will be building throughout Liftoff. If you are looking for inspiration, or want to see how Chris, or Paul completed a project assignment you will be able to find that here, or by visiting the [demo-project](../../demo-projects/) page. You will also find writeups of what they discussed in their agile ceremony meetings, it would be to your benefit to read what they discussed as you prepare for your weekly agile ceremonies.
 
 - [Event Log Week 1](../../demo-projects/event-log/#week-1)
 - [Expense Tracker Week 1](../../demo-projects/expense-tracker/#week-1)
